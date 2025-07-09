@@ -2,7 +2,7 @@ import { places } from "@/lib/data"
 import type { Place } from "@/lib/types"
 import { notFound } from "next/navigation"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { PlaceCard } from "@/components/place-card"
+import { PlaceListItem } from "@/components/place-list-item"
 
 export async function generateStaticParams() {
   const countries = [...new Set(places.map((p) => p.country.toLowerCase()))]
@@ -28,9 +28,9 @@ export default function DestinationPage({ params }: { params: { country: string 
       return <p className="text-muted-foreground mt-8 text-center">No {type.toLowerCase()} found for {countryName}.</p>
     }
     return (
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="flex flex-col gap-6">
         {list.map(place => (
-          <PlaceCard key={place.id} place={place} />
+          <PlaceListItem key={place.id} place={place} />
         ))}
       </div>
     )
