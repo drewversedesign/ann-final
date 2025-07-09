@@ -326,6 +326,207 @@ The best time to visit is during the dry seasons, from June to September and Dec
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
     rating: 4.7,
   },
+  {
+    id: 'ug-13',
+    name: 'Source of the Nile - Speke Monument',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'Historic site where British explorer John Hanning Speke identified the source of the River Nile in 1858.',
+    longDescription: `Location: Jinja, eastern Uganda, on the shores of Lake Victoria.
+What It Is: This is the historic site where British explorer John Hanning Speke identified the source of the River Nile in 1858. A stone monument marks the exact spot on the banks of Lake Victoria, just above Ripon Falls (now submerged).
+What to Do:
+- Visit the Speke Monument for its historical significance.
+- Take a boat ride to the actual point where the Nile starts its northward flow.
+- Shop for souvenirs and crafts from local vendors nearby.
+- Enjoy views of Lake Victoria and birdlife along the riverbanks.
+- Combine with nearby attractions like Itanda Falls or Jinja city tours.
+Why Visit:
+- It’s one of Africa’s legendary geographical sites.
+- Easy access from Jinja town (about 10 minutes away).
+- A quiet, scenic place with a mix of history and nature.`,
+    images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
+    location: { lat: 0.4479, lng: 33.2041 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6,
+  },
+  {
+    id: 'ug-14',
+    name: 'Bigodi Wetlands Sanctuary',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'A community-run conservation area protecting a rich wetland ecosystem near Kibale National Park.',
+    longDescription: `Location: Near Kibale National Park, in western Uganda, about 6 km from the park’s Kanyanchu Visitor Center.
+What It Is: A community-run conservation area protecting a rich wetland ecosystem. It's a model for ecotourism in Uganda, balancing environmental protection with local involvement.
+What to See and Do:
+- Guided nature walks (usually 2–3 hours) on wooden boardwalks and trails.
+- Spot over 200 bird species, including the Great Blue Turaco and Papyrus Gonolek.
+- See up to 8 species of primates, including red colobus, black-and-white colobus, vervet, and L’Hoest’s monkeys.
+- Visit the local community projects, craft shops, and cultural centers.
+Why Visit:
+- Ideal for birdwatchers and nature lovers.
+- Supports local conservation and livelihoods.
+- A calm, immersive experience that contrasts with traditional safari drives.`,
+    images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
+    location: { lat: 0.552, lng: 30.407 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7,
+  },
+  {
+    id: 'ug-15',
+    name: 'Kidepo Valley National Park',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'One of Uganda’s most remote and breathtaking national parks.',
+    longDescription: `Kidepo Valley National Park is one of Uganda’s most remote and breathtaking national parks. Located in the far northeastern corner of the country, near the borders with South Sudan and Kenya, it’s often called Uganda’s “hidden gem” due to its untouched beauty and unique wildlife.
+Key Highlights
+Scenic Landscapes: The park is surrounded by rugged mountains and expansive savannah plains, offering dramatic views you won’t find anywhere else in Uganda.
+Wildlife: Kidepo is home to over 75 mammal species, including lions, leopards, cheetahs, elephants, giraffes, zebras, and large herds of buffalo. It’s also one of the few places in Uganda where you can spot ostriches and the rare bat-eared fox.
+Birding Paradise: With over 470 bird species, it’s a dream for birdwatchers—look out for the Kori bustard, Karamoja apalis, and secretary bird.
+Cultural Encounters: The nearby Karamojong communities offer a rich cultural experience. You can visit traditional homesteads and learn about their nomadic pastoralist lifestyle.
+Low Visitor Numbers: Because it’s so remote, Kidepo sees fewer tourists, which means more intimate game drives and an authentic wilderness experience.
+How to Get There
+By Road: It’s a long drive (around 10-12 hours) from Kampala, but it’s scenic and great for an adventurous road trip.
+By Air: There are scheduled and chartered flights from Entebbe or Kajjansi to Kidepo’s airstrip.
+Best Time to Visit
+Dry Season (June–September and December–February): Best for wildlife viewing as animals gather near water sources.
+Wet Season (March–May and October–November): The park is lush and green, but some roads may become impassable.`,
+    images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
+    location: { lat: 3.84, lng: 33.85 },
+    contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
+    rating: 4.8,
+  },
+  {
+    id: 'ug-16',
+    name: 'Uganda Martyrs Shrine',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'One of Uganda’s most sacred Christian pilgrimage sites in Namugongo.',
+    longDescription: `The Uganda Martyrs Shrine, also known as the Basilica of the Uganda Martyrs in Namugongo, is one of Uganda’s most sacred Christian pilgrimage sites. It is located about 15 kilometers northeast of Kampala, along the road to Jinja.
+Why It Matters
+Historic Site of Martyrdom: Between 1885 and 1887, young Christian converts—both Catholic and Anglican—were executed under the orders of King Mwanga II for refusing to renounce their faith. On June 3, 1886, a group of them was burned alive in Namugongo.
+Martyrs Commemorated: Twenty-two Catholic martyrs were canonized in 1964 by Pope Paul VI. Every year on June 3, millions of pilgrims travel from across Uganda and other countries to honor their legacy.
+The Basilica
+Design and Symbolism: The basilica is circular, designed to resemble a traditional African hut. It features 22 tall copper pillars, each representing one of the Catholic martyrs.
+Construction: The church was built between 1965 and 1968, and officially opened in 1975.
+Basilica Status: It was elevated to the status of a minor basilica in 1993 by Pope John Paul II during his visit to Uganda.
+Visiting and Events
+Annual Pilgrimage: June 3 is Martyrs Day, a public holiday in Uganda. The shrine hosts one of the largest religious gatherings in Africa, including Mass, processions, and baptisms.
+Other Site Features: The grounds include a Martyrs Lake, the Anglican Shrine nearby, the “Torture Tree” where some martyrs were killed, and a museum.
+Facilities: The shrine area also includes a retreat center, medical clinic, schools, and paths for quiet reflection.
+Getting There
+By Road: Easily accessible from Kampala, about a 30 to 45-minute drive depending on traffic. Public taxis and boda bodas can also take you there.
+Visitor Support: Guides are available onsite, and the area is well marked with visitor-friendly information.`,
+    images: ['https://placehold.co/800x600.png'],
+    location: { lat: 0.395, lng: 32.651 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7,
+  },
+  {
+    id: 'ug-17',
+    name: 'Igongo Cultural Centre',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'A lively cultural hub offering a rich and immersive experience in western Uganda.',
+    longDescription: `Igongo Cultural Centre (and Country Hotel) is a lively cultural hub located about 12 kilometers north of Mbarara along the Mbarara–Masaka highway. It’s a popular stop for travelers exploring western Uganda, offering a rich and immersive experience.
+What You’ll Experience
+Eriijukiro Museum The largest cultural museum in western Uganda, displaying artifacts like tools, royal regalia, household items, and traditional clothing from the Ankole region and neighboring kingdoms.
+Itaramiro Cultural Village A walk-through replica of traditional Nyankole/Bahima homesteads with thatched huts, cattle kraals, milk gourds, calabashes, and grinding stones that bring Ankole life to life.
+Biharwe Eclipse Monument A short trek to a monument commemorating a famous solar eclipse from 1520 AD, which is part of local history and lore.
+Cultural Performances & Workshops Enjoy traditional music, dance, storytelling, and hands-on activities like basket weaving, pottery, beadwork, and cooking demonstrations.
+Nkwanzi Crafts Shop & Bookstore Browse handmade crafts including jewelry, baskets, cowhorn items, fabrics, and find books on Ankole and regional history.
+Restaurant with Ankole Cuisine Sample local dishes such as millet bread (karo), matooke, eshabwe (ghee sauce), Ankole beef, bushera (millet/sorghum beverage), and smoked Ankole milk, all served in a traditional style.
+Accommodation & Amenities The Igongo Country Hotel has about 50 culturally styled rooms along with a spa, swimming pool, gym, conference hall, and even camping options for nature lovers.
+Why Visit
+Get authentic insight into Ankole heritage and traditions.
+Convenient stopover for travelers heading to Lake Mburo, Queen Elizabeth, Bwindi, or Kampala.
+Interactive learning through stories, crafts, food, and performances.
+Comfortable stay in a serene setting that blends culture and hospitality.`,
+    images: ['https://placehold.co/800x600.png'],
+    location: { lat: -0.528, lng: 30.697 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6,
+  },
+  {
+    id: 'ug-18',
+    name: 'Green Equator Masaka Rd (Kayabwe)',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'A popular and symbolic stop along the Kampala–Masaka highway, marking the equator line.',
+    longDescription: `The Green Equator site in Kayabwe is a popular and symbolic stop along the Kampala–Masaka highway, about 70 kilometers southwest of Kampala. It’s one of Uganda’s most photographed landmarks and a fun, educational spot for travelers heading west or south.
+What Makes It Special
+Equator Line Landmark The site is marked by a bold equator monument where you can stand with one foot in the Northern Hemisphere and the other in the Southern. Simple water experiments are demonstrated here to illustrate the Coriolis effect—showing the different water swirl directions north and south of the equator.
+Photo Opportunity & Cultural Stop The iconic circular Equator arch makes for a perfect photo backdrop. There are craft stalls and souvenir shops run by local artisans, offering handmade jewelry, wood carvings, and batik fabrics.
+Rest Stop Amenities A small café on site serves coffee, snacks, and light meals. It’s a good place to stretch your legs, refresh, and take a short break from your journey.
+Visitor Tips
+- Best Time: Visit in the morning for softer light and fewer crowds.
+- Getting There: About 70 km from Kampala; you can drive, take a matatu, or hire a boda boda from nearby towns.
+- Experience: You can join a guided demo of how the Coriolis effect works. It's interactive, educational, and a fun learning moment for all ages.
+Why It’s Worth a Stop
+- A hands-on way to learn about the equator and basic physics.
+- A colorful cultural experience with local crafts and vendors.
+- A convenient and memorable stop along a major travel route.`,
+    images: ['https://placehold.co/800x600.png'],
+    location: { lat: -0.00078, lng: 32.036 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5,
+  },
+  {
+    id: 'ug-19',
+    name: 'Gallery Antique',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'Specialises in Contemporary Art from Ugandan Artists, and tribal art sculptures.',
+    longDescription: `Gallery Antique Uganda specialises Contemporary Art from mainly Ugandana Artists, and tribal art sculptures, masks, old bead work and pottery. The collections accumulated after 25 yrs contemporary art gallery – selling to reputable collectors and international dealers. For those who are curious enthusiasts, collecting or dealers, you are welcome to view the gallery and showroom on Lubowa terrace, 500 metres from International school of uganda, eight miles from the city centre of Kampala Along Entebbe road.`,
+    images: ['https://placehold.co/800x600.png'],
+    location: { lat: 0.233, lng: 32.570 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4,
+  },
+  {
+    id: 'ug-20',
+    name: 'Social Innovation Museum',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'A unique place that will inspire you to want to change the world.',
+    longDescription: `The Social Innovation Museum is a unique place that will inspire you to want to change the world. Social Innovations are dynamic and living; thereby, you will see how they happen and be able to interact with our Social Innovators from the Social Innovation Academy (SINA). Scholars will give you a tour and tell you their story and what they are working on. You will see over 70 social enterprises and innovations. Some highlights are our upcycled buildings from plastic bottles and the beautiful hill where we are located just 35km outside of Kampala. Contact us for specific workshops (e.g. upcycling plastic bottle construction) and training in social innovation with our facilitators from the Social Innovation Academy (SINA).`,
+    images: ['https://placehold.co/800x600.png'],
+    location: { lat: 0.312, lng: 32.327 },
+    contact: { phone: 'N/A', website: 'https://www.socialinnovationacademy.org/museum' },
+    rating: 4.6,
+  },
+  {
+    id: 'ug-21',
+    name: 'Waterfall Cruises - Murchison Falls',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'Iconic safari experience on the Victoria Nile leading to the base of the falls.',
+    longDescription: `Murchison Falls National Park offers one of Uganda’s most iconic safari experiences: a boat cruise on the Victoria Nile leading to the base of the falls, or further down toward the Nile Delta. These cruises offer close encounters with wildlife and incredible views of the falls.
+1. Bottom of the Falls Cruise
+Route & Duration: Starts at Paraa dock and heads upstream approximately 17 km to the base of Murchison Falls and back. The trip takes about 2 to 3 hours.
+Wildlife & Scenery: Expect to see hippos, crocodiles, elephants, buffaloes, antelopes, and a variety of birds like kingfishers, African fish eagles, bee-eaters, and occasionally the rare shoebill.
+Highlight: Reaching the bottom of the falls, where the Nile squeezes through a 7-meter-wide gorge with thunderous force, creating mist and rainbows.
+Schedule: Typically departs at 9:00 AM and 2:00 PM. Cruises are often arranged through Uganda Wildlife Authority or nearby lodges.
+Cost: Around $30 USD per person for foreign tourists. Ugandan residents usually pay about UGX 30,000.
+2. Delta or Sundowner Cruise
+Route & Duration: Heads downstream from Paraa toward the Nile Delta at Lake Albert, covering around 28 km in 4 to 5 hours.
+Highlight: Excellent for birdwatching. The delta is known for its diversity of waterbirds and is one of the best places to spot the elusive shoebill.
+Best Time: Late afternoon or sunset cruises are especially popular for their golden lighting and tranquil ambiance.
+Private Options: Private charters are available and can include snacks or drinks. These typically cost around $270 per boat.
+Why Go on a Waterfall Cruise?
+- Up-close Wildlife: It’s one of the few places in Uganda where you can get this close to big aquatic animals safely.
+- Birdwatching: A paradise for birders, including the chance to see a shoebill.
+- Scenic Views: The cruise offers some of the best photo opportunities in the park.
+- Great Add-on: Pairs well with game drives, hiking to the top of the falls, or chimpanzee trekking in Budongo Forest.
+Tips for Your Trip
+- Best Time to Visit: The dry seasons (December–February and June–September) are ideal for clear skies and better wildlife visibility.
+- Booking: Book in advance, especially in high season, to secure your spot on morning or afternoon cruises.
+- What to Bring: Binoculars, a camera with a zoom lens, sun protection, and a light jacket for early or late cruises.
+- Best Seats: Sit at the sides or front of the boat for the clearest views and photo angles.`,
+    images: ['https://placehold.co/800x600.png'],
+    location: { lat: 2.273, lng: 31.792 },
+    contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
+    rating: 4.8,
+  },
   // Kenya
   {
     id: 'ke-1',
