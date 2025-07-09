@@ -22,6 +22,7 @@ export default function Navbar() {
     { href: "/hotels", label: "Hotels", icon: Hotel },
     { href: "/restaurants", label: "Restaurants", icon: Utensils },
     { href: "/attractions", label: "Attractions", icon: Ticket },
+    { href: "/map", label: "Map", icon: MapPin },
   ]
 
   return (
