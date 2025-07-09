@@ -14,8 +14,8 @@ export default function ToStay() {
     <section className="w-full py-16 lg:py-24 bg-secondary">
        <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">Where to Stay</h2>
-            <p className="mt-2 text-lg text-muted-foreground">Find the perfect accommodation for your trip.</p>
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Places to Stay</h2>
+            <p className="mt-2 text-lg text-muted-foreground">These are some places you might want to visit.</p>
         </div>
         <Carousel 
           opts={{
