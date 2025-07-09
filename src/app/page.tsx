@@ -3,7 +3,8 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Star } from "lucide-react";
-import { COUNTRIES, places } from "@/lib/data";
+import { places } from "@/lib/data";
+import { COUNTRIES } from "@/lib/types";
 
 export default function Home() {
   const featuredDestinations = COUNTRIES.slice(0, 5).map(country => ({
