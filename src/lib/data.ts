@@ -282,6 +282,50 @@ Boat cruises depart from the Mweya Peninsula, about 20 kilometers west of the Ka
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
     rating: 4.8,
   },
+  {
+    id: 'ug-12',
+    name: 'Lake Mburo National Park',
+    country: 'Uganda',
+    type: 'Attraction',
+    description: 'Uganda’s smallest savanna national park, offering diverse landscapes and rich wildlife including zebras, impalas, and over 300 bird species.',
+    longDescription: `Lake Mburo National Park is located about 240 kilometers west of Kampala and is Uganda’s smallest savanna national park. Despite its size, it offers diverse landscapes including rolling hills, grassy valleys, wetlands, and acacia woodlands, making it a unique destination for nature lovers.
+
+Wildlife & Biodiversity
+The park is home to 68 mammal species, such as:
+Burchell’s zebra
+Impala
+Topi
+Eland
+Defassa waterbuck
+Buffalo
+Hippo
+Crocodile
+Leopard
+Hyena
+It is also a great spot for birdwatching, with over 315 bird species recorded, including the rare shoebill stork, African finfoot, and papyrus yellow warbler.
+
+Activities & Experiences
+Game Drives: Early morning and late afternoon drives offer chances to see wildlife. Night drives with armed rangers allow spotting nocturnal animals like leopards and bush babies.
+Boat Cruises: Explore Lake Mburo by boat to see hippos, crocodiles, and various birds. Best done mid-morning or evening.
+Horseback Safaris: Unique safaris on horseback provide close encounters with animals such as zebras and impalas. Suitable for all skill levels.
+Cycling Safaris: Guided bike tours give a different perspective on the park’s trails and wildlife.
+Nature Walks: Guided walks let you observe smaller wildlife and plants up close.
+Fishing: Sport fishing is available at certain spots, with species like tilapia and catfish.
+Cultural Visits: Nearby Ankole Cultural Centre offers insights into local traditions and lifestyle.
+
+Accommodation Options
+Lake Mburo offers a variety of places to stay, including:
+Luxury lodges such as Mihingo Lodge and Arcadia Cottages
+Mid-range options like Rwakobo Rock and Eagles Nest Lodge
+Budget campsites including Rwonyo Rest Camp and Mantana Tented Camp
+
+Best Time to Visit
+The best time to visit is during the dry seasons, from June to September and December to February, when wildlife gathers around water sources making it easier to spot animals.`,
+    images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
+    location: { lat: -0.595, lng: 30.948 },
+    contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
+    rating: 4.7,
+  },
   // Kenya
   {
     id: 'ke-1',
