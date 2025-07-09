@@ -5,11 +5,9 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { Button } from "@/components/ui/button";
 import { AttractionsListLoader } from "@/components/loaders";
-import React, from "react";
+import React from "react";
 import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
-import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel"
-import Autoplay from "embla-carousel-autoplay"
 
 
 const WhereTo = dynamic(() => import('@/components/WhereTo'));
@@ -37,41 +35,17 @@ export default function Home() {
     }
   };
   
-  const heroImages = [
-    { src: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/71/49/6b.jpg", alt: "Safari animals", hint: "safari animals" },
-    { src: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/49/d5/a1.jpg", alt: "African landscape", hint: "african landscape" },
-    { src: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/71/4d/b7.jpg", alt: "Maasai people", hint: "maasai people" },
-  ];
-
-  const plugin = React.useRef(
-    Autoplay({ delay: 5000, stopOnInteraction: true })
-  )
-
   return (
     <div className="flex flex-col min-h-dvh">
       <section className="relative h-[80vh] md:h-[90vh] flex items-center justify-center text-center text-white">
-        <Carousel
-          plugins={[plugin.current]}
-          className="absolute inset-0 w-full h-full"
-          opts={{ loop: true }}
-          onMouseEnter={plugin.current.stop}
-          onMouseLeave={plugin.current.reset}
-        >
-          <CarouselContent>
-            {heroImages.map((image, index) => (
-              <CarouselItem key={index}>
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  fill
-                  className="object-cover z-0"
-                  data-ai-hint={image.hint}
-                  priority={index === 0}
-                />
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-        </Carousel>
+        <Image
+          src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/71/49/6b.jpg"
+          alt="Safari animals"
+          fill
+          className="object-cover z-0"
+          data-ai-hint="safari animals"
+          priority
+        />
         
         <div className="absolute inset-0 bg-black/50 z-10" />
         <div className="relative z-20 container mx-auto px-4">
