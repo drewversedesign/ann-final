@@ -2,15 +2,21 @@
 "use client"
 
 import React, { useEffect, useState } from 'react'
-import { useSearchParams } from 'next/navigation'
+import { useSearchParams, useRouter } from 'next/navigation'
 import { places } from '@/lib/data'
 import type { Place } from '@/lib/types'
 import SearchResultCard from '@/components/SearchResultCard'
 import { SearchResultLoader } from '@/components/loaders'
+import { Input } from '@/components/ui/input'
+import { Button } from '@/components/ui/button'
+import { Search } from 'lucide-react'
 
 export default function SearchResult() {
+  const router = useRouter()
   const searchParams = useSearchParams()
-  const query = searchParams.get('q')
+  const query = searchParams.get('q') || ''
+
+  const [term, setTerm] = useState(query)
   const [results, setResults] = useState<Place[]>([])
   const [loading, setLoading] = useState(true)
 
@@ -27,8 +33,16 @@ export default function SearchResult() {
     } else {
       setResults([])
     }
+    setTerm(query)
     setLoading(false)
   }, [query])
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    if (term.trim()) {
+      router.push(`/search?q=${term.trim()}`)
+    }
+  }
 
   if (loading) {
     return <SearchResultLoader />
@@ -36,6 +50,20 @@ export default function SearchResult() {
 
   return (
     <div className="container mx-auto px-4 py-8">
+        <form className="mb-8 flex gap-2" onSubmit={handleSubmit}>
+            <div className="relative w-full">
+                <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                <Input
+                    type="text"
+                    value={term}
+                    onChange={(e) => setTerm(e.target.value)}
+                    placeholder="Search again..."
+                    className="pl-9"
+                />
+            </div>
+            <Button type="submit">Search</Button>
+        </form>
+
       <div className="mb-8">
         {query ? (
           <>
