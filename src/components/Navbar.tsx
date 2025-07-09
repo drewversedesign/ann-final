@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Menu, Palmtree, Search } from "lucide-react"
+import { Menu, Palmtree, Search, Home, Info, Mail, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   NavigationMenu,
@@ -84,15 +84,25 @@ export default function Navbar() {
                 <SearchBar onResultClick={() => setIsOpen(false)}/>
               </div>
               <nav className="flex flex-col gap-4 p-4">
-                <Link href="/" className="font-medium" onClick={() => setIsOpen(false)}>Home</Link>
+                <Link href="/" className="font-medium flex items-center gap-2" onClick={() => setIsOpen(false)}>
+                  <Home className="h-5 w-5" />
+                  <span>Home</span>
+                </Link>
                 <h4 className="font-medium text-muted-foreground">Destinations</h4>
                 {COUNTRIES.map((country) => (
-                  <Link key={country} href={`/destinations/${country.toLowerCase()}`} className="pl-4 text-muted-foreground hover:text-foreground" onClick={() => setIsOpen(false)}>
-                    {country}
+                  <Link key={country} href={`/destinations/${country.toLowerCase()}`} className="pl-4 text-muted-foreground hover:text-foreground flex items-center gap-2" onClick={() => setIsOpen(false)}>
+                    <MapPin className="h-5 w-5" />
+                    <span>{country}</span>
                   </Link>
                 ))}
-                <Link href="/about" className="font-medium" onClick={() => setIsOpen(false)}>About Us</Link>
-                <Link href="/contact" className="font-medium" onClick={() => setIsOpen(false)}>Contact</Link>
+                <Link href="/about" className="font-medium flex items-center gap-2" onClick={() => setIsOpen(false)}>
+                  <Info className="h-5 w-5" />
+                  <span>About Us</span>
+                </Link>
+                <Link href="/contact" className="font-medium flex items-center gap-2" onClick={() => setIsOpen(false)}>
+                  <Mail className="h-5 w-5" />
+                  <span>Contact</span>
+                </Link>
               </nav>
             </SheetContent>
           </Sheet>
