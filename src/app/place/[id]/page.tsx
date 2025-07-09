@@ -1,0 +1,93 @@
+import { places } from "@/lib/data"
+import { notFound } from "next/navigation"
+import Image from "next/image"
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
+import { Card } from "@/components/ui/card"
+import { Star, MapPin, Phone, Globe } from "lucide-react"
+import { MapComponent } from "@/components/map"
+
+export async function generateStaticParams() {
+  return places.map((place) => ({
+    id: place.id,
+  }))
+}
+
+export default function PlaceDetailsPage({ params }: { params: { id: string } }) {
+  const place = places.find(p => p.id === params.id)
+
+  if (!place) {
+    notFound()
+  }
+
+  return (
+    <div className="container mx-auto px-4 py-16">
+      <div className="grid lg:grid-cols-3 gap-12">
+        <div className="lg:col-span-2">
+          <h1 className="font-headline text-4xl md:text-5xl font-bold tracking-tight">{place.name}</h1>
+          <div className="flex items-center gap-4 mt-4 text-muted-foreground">
+            <div className="flex items-center gap-1">
+              <MapPin className="w-4 h-4" />
+              <span>{place.country}</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
+              <span className="font-medium">{place.rating.toFixed(1)}</span>
+            </div>
+          </div>
+          
+          <Carousel className="w-full mt-8 rounded-lg overflow-hidden shadow-lg">
+            <CarouselContent>
+              {place.images.map((img, index) => (
+                <CarouselItem key={index}>
+                    <Image
+                      src={img}
+                      alt={`${place.name} image ${index + 1}`}
+                      width={1200}
+                      height={800}
+                      className="w-full h-[50vh] object-cover"
+                      data-ai-hint={`${place.country} ${place.type}`}
+                    />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-4" />
+            <CarouselNext className="right-4" />
+          </Carousel>
+
+          <div className="prose prose-lg max-w-none mt-8 text-muted-foreground">
+            <h2 className="font-headline text-2xl font-semibold text-foreground">About {place.name}</h2>
+            <p>{place.longDescription}</p>
+          </div>
+        </div>
+
+        <div className="lg:col-span-1 space-y-8">
+            <Card className="p-6">
+                <h3 className="font-headline text-xl font-semibold mb-4">Location</h3>
+                <div className="w-full h-64 rounded-lg overflow-hidden">
+                    <MapComponent lat={place.location.lat} lng={place.location.lng} />
+                </div>
+            </Card>
+            <Card className="p-6">
+                <h3 className="font-headline text-xl font-semibold mb-4">Contact Information</h3>
+                <div className="space-y-4 text-muted-foreground">
+                    {place.contact.phone !== 'N/A' && (
+                        <div className="flex items-center gap-3">
+                            <Phone className="w-5 h-5 text-primary" />
+                            <a href={`tel:${place.contact.phone}`} className="hover:underline">{place.contact.phone}</a>
+                        </div>
+                    )}
+                    {place.contact.website.includes('http') && (
+                         <div className="flex items-center gap-3">
+                            <Globe className="w-5 h-5 text-primary" />
+                            <a href={place.contact.website} target="_blank" rel="noopener noreferrer" className="hover:underline truncate">
+                                Visit Website
+                            </a>
+                        </div>
+                    )}
+                </div>
+            </Card>
+        </div>
+      </div>
+    </div>
+  )
+}
