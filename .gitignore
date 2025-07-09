@@ -21,3 +21,4 @@
 
 # Local Environment Variables
 .env*.local
+.env
