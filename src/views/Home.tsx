@@ -1,8 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 import { Button } from "@/components/ui/button";
-import { COUNTRIES } from "@/lib/types";
-import { WhereTo, ToVisit, ToStay, ToEat, TravelersChoice, Trending } from "@/components";
+import { AttractionsListLoader } from "@/components/loaders";
+
+const WhereTo = dynamic(() => import('@/components/WhereTo'));
+const ToVisit = dynamic(() => import('@/components/ToVisit'), { 
+    loading: () => <div className="py-16 lg:py-24"><AttractionsListLoader count={3} /></div> 
+});
+const ToStay = dynamic(() => import('@/components/ToStay'), { 
+    loading: () => <div className="py-16 lg:py-24 bg-secondary"><AttractionsListLoader count={3} /></div> 
+});
+const ToEat = dynamic(() => import('@/components/ToEat'), { 
+    loading: () => <div className="py-16 lg:py-24"><AttractionsListLoader count={3} /></div> 
+});
+const TravelersChoice = dynamic(() => import('@/components/TravelersChoice'));
+const Trending = dynamic(() => import('@/components/Trending'));
+
 
 export default function Home() {
   return (
@@ -15,6 +29,7 @@ export default function Home() {
           objectFit="cover"
           className="z-0"
           data-ai-hint="safari sunset"
+          priority
         />
         <div className="absolute inset-0 bg-black/50 z-10" />
         <div className="relative z-20 container mx-auto px-4">
@@ -23,7 +38,7 @@ export default function Home() {
             Ann Tours and Travel offers curated safari experiences across the heart of Africa. Unforgettable journeys await.
           </p>
           <Button asChild size="lg" className="mt-8 font-bold text-lg">
-            <Link href={`/destinations/${COUNTRIES[0].toLowerCase()}`}>Explore Tours</Link>
+            <Link href="/attractions">Explore Tours</Link>
           </Button>
         </div>
       </section>

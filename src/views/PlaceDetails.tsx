@@ -1,9 +1,17 @@
+"use client"
+
 import Image from "next/image"
+import dynamic from "next/dynamic"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 import { Card } from "@/components/ui/card"
 import { Star, MapPin, Phone, Globe } from "lucide-react"
-import { MapComponent } from "@/components/map"
+import { Skeleton } from "@/components/ui/skeleton"
 import type { Place } from "@/lib/types"
+
+const MapComponent = dynamic(() => import("@/components/map").then(mod => mod.MapComponent), {
+    ssr: false,
+    loading: () => <Skeleton className="w-full h-full" />
+})
 
 interface PlaceDetailsProps {
     place: Place
