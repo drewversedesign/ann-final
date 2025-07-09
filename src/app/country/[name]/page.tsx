@@ -11,6 +11,7 @@ export async function generateStaticParams() {
 }
 
 export default function CountryPage({ params }: { params: { name: string } }) {
+export default async function CountryPage({ params }: { params: { name: string } }) {
   const countryName = COUNTRIES.find(c => c.toLowerCase() === params.name);
 
   if (!countryName) {
