@@ -23,12 +23,12 @@ export default function Home() {
     <div className="flex flex-col min-h-dvh">
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white">
         <Image
-          src="https://placehold.co/1920x1080.png"
-          alt="Safari sunset"
+          src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3b/73/32/africa-is-for-us-the.jpg?w=700&h=400&s=1"
+          alt="Safari sunset at Murchison Falls"
           layout="fill"
           objectFit="cover"
           className="z-0"
-          data-ai-hint="safari sunset"
+          data-ai-hint="safari murchison falls"
           priority
         />
         <div className="absolute inset-0 bg-black/50 z-10" />
