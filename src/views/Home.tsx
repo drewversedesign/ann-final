@@ -1,9 +1,16 @@
 
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { Button } from "@/components/ui/button";
 import { AttractionsListLoader } from "@/components/loaders";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { Input } from "@/components/ui/input";
+import { Search } from "lucide-react";
+
 
 const WhereTo = dynamic(() => import('@/components/WhereTo'));
 const ToVisit = dynamic(() => import('@/components/ToVisit'), { 
@@ -20,6 +27,16 @@ const Trending = dynamic(() => import('@/components/Trending'));
 
 
 export default function Home() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const router = useRouter();
+
+  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (searchTerm.trim()) {
+      router.push(`/search?q=${searchTerm.trim()}`);
+    }
+  };
+
   return (
     <div className="flex flex-col min-h-dvh">
       <section className="relative h-[80vh] md:h-[90vh] flex items-center justify-center text-center text-white">
@@ -38,9 +55,22 @@ export default function Home() {
           <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
             Ann Tours and Travel offers curated safari experiences across the heart of Africa. Unforgettable journeys await.
           </p>
-          <Button asChild size="lg" className="mt-8 font-bold text-lg">
-            <Link href="/attractions">Explore Tours</Link>
-          </Button>
+          
+          <div className="mt-8 max-w-2xl mx-auto">
+            <form onSubmit={handleSearch} className="flex gap-2 bg-white rounded-full p-2 shadow-lg">
+                <div className="relative w-full">
+                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+                    <Input
+                        type="search"
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        placeholder="Search destinations, hotels, or attractions..."
+                        className="pl-12 w-full bg-transparent border-none focus-visible:ring-0 text-foreground h-12 text-base"
+                    />
+                </div>
+                <Button type="submit" size="lg" className="rounded-full font-bold">Search</Button>
+            </form>
+          </div>
         </div>
       </section>
 
