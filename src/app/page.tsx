@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { places } from "@/lib/data";
 import { COUNTRIES } from "@/lib/types";
 import { PlaceCard } from "@/components/place-card";
+import WhereTo from "@/components/WhereTo";
 
 export default function Home() {
   const featuredDestinations = COUNTRIES.slice(0, 5).map(country => ({
@@ -38,6 +39,8 @@ export default function Home() {
           </Button>
         </div>
       </section>
+
+      <WhereTo />
 
       <section id="destinations" className="py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4">
