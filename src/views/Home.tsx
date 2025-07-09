@@ -5,11 +5,11 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import { Button } from "@/components/ui/button";
 import { AttractionsListLoader } from "@/components/loaders";
-import React, { useState } from "react";
+import React, from "react";
 import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel"
-import Autoplay from "embla-carousel-react"
+import Autoplay from "embla-carousel-autoplay"
 
 
 const WhereTo = dynamic(() => import('@/components/WhereTo'));
@@ -27,7 +27,7 @@ const Trending = dynamic(() => import('@/components/Trending'));
 
 
 export default function Home() {
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = React.useState('');
   const router = useRouter();
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
@@ -54,8 +54,8 @@ export default function Home() {
           plugins={[plugin.current]}
           className="absolute inset-0 w-full h-full"
           opts={{ loop: true }}
-          onMouseEnter={() => plugin.current?.stop()}
-          onMouseLeave={() => plugin.current?.reset()}
+          onMouseEnter={plugin.current.stop}
+          onMouseLeave={plugin.current.reset}
         >
           <CarouselContent>
             {heroImages.map((image, index) => (
