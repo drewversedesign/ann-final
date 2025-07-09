@@ -1,22 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { places } from "@/lib/data";
 import { COUNTRIES } from "@/lib/types";
-import { PlaceCard } from "@/components/place-card";
-import WhereTo from "@/components/WhereTo";
+import { WhereTo, ToVisit, ToStay, ToEat, TravelersChoice, Trending } from "@/components";
 
 export default function Home() {
-  const featuredDestinations = COUNTRIES.slice(0, 5).map(country => ({
-    name: country,
-    image: `https://placehold.co/600x400.png`,
-    description: `Explore the wonders of ${country}.`,
-    href: `/destinations/${country.toLowerCase()}`
-  }));
-
-  const popularTours = places.filter(p => p.rating >= 4.5).slice(0, 3);
-
   return (
     <div className="flex flex-col min-h-dvh">
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white">
@@ -41,44 +29,11 @@ export default function Home() {
       </section>
 
       <WhereTo />
-
-      <section id="destinations" className="py-16 lg:py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">Featured Destinations</h2>
-            <p className="mt-2 text-lg text-muted-foreground">Find your wild side in one of our stunning locations.</p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-            {featuredDestinations.map((dest) => (
-              <Link href={dest.href} key={dest.name} className="group block">
-                <Card className="overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2 h-full flex flex-col">
-                  <Image src={dest.image} alt={dest.name} width={600} height={400} className="w-full h-48 object-cover" data-ai-hint={`${dest.name} landscape`} />
-                  <CardHeader>
-                    <CardTitle className="font-headline text-xl">{dest.name}</CardTitle>
-                  </CardHeader>
-                  <CardContent className="flex-grow">
-                    <p className="text-muted-foreground">{dest.description}</p>
-                  </CardContent>
-                </Card>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-      
-      <section className="py-16 lg:py-24 bg-secondary">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">Popular Tour Packages</h2>
-            <p className="mt-2 text-lg text-muted-foreground">Handpicked experiences loved by our travelers.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {popularTours.map((tour) => (
-              <PlaceCard key={tour.id} place={tour} />
-            ))}
-          </div>
-        </div>
-      </section>
+      <ToVisit />
+      <ToStay />
+      <ToEat />
+      <TravelersChoice />
+      <Trending />
     </div>
   );
 }

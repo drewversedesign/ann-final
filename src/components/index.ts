@@ -7,3 +7,5 @@ export { default as Review } from './Review';
 export { default as HotelCard } from './HotelCard';
 export { default as Footer } from './Footer';
 export { default as SearchResultCard } from './SearchResultCard';
+export { default as TravelersChoice } from './TravelersChoice';
+export { default as Trending } from './Trending';
