@@ -9,4 +9,3 @@ export { default as Footer } from './Footer';
 export { default as SearchResultCard } from './SearchResultCard';
 export { default as TravelersChoice } from './TravelersChoice';
 export { default as Trending } from './Trending';
-export { default as CompactGrid } from './CompactGrid';
