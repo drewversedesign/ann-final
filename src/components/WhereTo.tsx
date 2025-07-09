@@ -5,10 +5,10 @@ import { Card } from '@/components/ui/card';
 
 const destinationImages: Record<string, {img: string, hint: string}> = {
   Uganda: { img: 'https://images.unsplash.com/photo-1594555249959-8c072a2772e6?q=80&w=2070&auto=format&fit=crop', hint: 'Uganda safari' },
-  Kenya: { img: 'https://images.unsplash.com/photo-1516426122078-c23e763199c5?q=80&w=2070&auto=format&fit=crop', hint: 'Kenya safari' },
-  Tanzania: { img: 'https://images.unsplash.com/photo-1534794426548-2a8370935016?q=80&w=1950&auto=format&fit=crop', hint: 'Tanzania kilimanjaro' },
-  Zanzibar: { img: 'https://images.unsplash.com/photo-1601752874558-419442e3919a?q=80&w=1974&auto=format&fit=crop', hint: 'Zanzibar beach' },
-  Rwanda: { img: 'https://images.unsplash.com/photo-1543152294-71a7b455b850?q=80&w=2070&auto=format&fit=crop', hint: 'Rwanda hills' },
+  Kenya: { img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/4e/5d/93/kenya.jpg?w=900&h=500&s=1', hint: 'Kenya safari' },
+  Tanzania: { img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/a1/50/14/tanzania-safari.jpg?w=900&h=500&s=1', hint: 'Tanzania kilimanjaro' },
+  Zanzibar: { img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/ff/64/zanzibar-island.jpg?w=900&h=500&s=1', hint: 'Zanzibar beach' },
+  Rwanda: { img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/97/00/5f/rwanda.jpg?w=900&h=500&s=1', hint: 'Rwanda hills' },
 };
 
 export default function WhereTo() {
