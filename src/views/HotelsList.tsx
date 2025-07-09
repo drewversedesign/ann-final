@@ -1,21 +1,19 @@
 
 "use client"
 
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { places } from "@/lib/data";
 import type { Place } from "@/lib/types";
-import HotelCard from "@/components/HotelCard";
-import { PlaceListLoader } from "@/components/loaders";
+import { PlaceCard } from "@/components/place-card";
+import { AttractionsListLoader } from "@/components/loaders";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { format } from "date-fns";
-import { MapPin, Users, X } from "lucide-react";
+import { MapPin, Users } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-
 
 export default function HotelsList() {
     const [hotels, setHotels] = useState<Place[]>([]);
@@ -29,8 +27,6 @@ export default function HotelsList() {
         checkin: format(new Date(), "yyyy-MM-dd"),
         checkout: '',
     })
-
-    const router = useRouter();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -130,8 +126,8 @@ export default function HotelsList() {
                 </div>
             </div>
 
-            <div className="container mx-auto px-4 lg:grid lg:grid-cols-12 gap-8">
-                <aside className="lg:col-span-3">
+            <div className="container mx-auto px-4 lg:grid lg:grid-cols-12 gap-8 pb-16">
+                <aside className="hidden lg:block lg:col-span-3">
                     <div className="sticky top-40">
                          <div className="w-full border shadow-sm rounded-lg p-2">
                             <div className="relative h-64">
@@ -148,13 +144,13 @@ export default function HotelsList() {
                     </div>
                 </aside>
 
-                <main className="lg:col-span-9 mt-6 lg:mt-0">
+                <main className="col-span-12 lg:col-span-9 mt-6 lg:mt-0">
                     { isLoading ? (
-                        <PlaceListLoader count={5} />
+                        <AttractionsListLoader count={9} />
                     ) : (
-                        <div className="flex flex-col gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
                             {hotels.map((hotel, i) => (
-                                <HotelCard key={i} place={hotel} />
+                                <PlaceCard key={i} place={hotel} />
                             ))}
                         </div>
                     ) }

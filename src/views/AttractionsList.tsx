@@ -4,8 +4,8 @@
 import { useEffect, useState } from "react";
 import { places } from "@/lib/data";
 import type { Place } from "@/lib/types";
-import HotelCard from "@/components/HotelCard";
-import { PlaceListLoader } from "@/components/loaders";
+import { PlaceCard } from "@/components/place-card";
+import { AttractionsListLoader } from "@/components/loaders";
 
 export default function AttractionsList() {
     const [attractions, setAttractions] = useState<Place[]>([]);
@@ -28,11 +28,11 @@ export default function AttractionsList() {
             
             <main className="container mx-auto px-4 pb-16">
                 { isLoading ? (
-                    <PlaceListLoader count={5} />
+                    <AttractionsListLoader count={12} />
                 ) : (
-                    <div className="flex flex-col gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                         {attractions.map((attraction) => (
-                            <HotelCard key={attraction.id} place={attraction} />
+                            <PlaceCard key={attraction.id} place={attraction} />
                         ))}
                     </div>
                 ) }

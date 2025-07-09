@@ -1,7 +1,7 @@
 "use client"
 
 import type { Place } from "@/lib/types"
-import HotelCard from "@/components/HotelCard"
+import { PlaceCard } from "@/components/place-card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useMemo } from "react"
 
@@ -49,9 +49,9 @@ export default function CountryDetails({ country, places }: CountryDetailsProps)
           
           {placeTypes.map(pt => (
             <TabsContent key={pt.name} value={pt.name.toLowerCase()}>
-              <div className="mt-8 flex flex-col gap-6">
+              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {pt.data.map(place => (
-                  <HotelCard key={place.id} place={place} />
+                  <PlaceCard key={place.id} place={place} />
                 ))}
               </div>
             </TabsContent>
