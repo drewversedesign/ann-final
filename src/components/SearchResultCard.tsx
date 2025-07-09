@@ -15,9 +15,8 @@ export default function SearchResultCard({ place }: SearchResultCardProps) {
           <Image
             src={place.images[0]}
             alt={place.name}
-            layout="fill"
-            objectFit="cover"
-            className="rounded"
+            fill
+            className="object-cover rounded"
             data-ai-hint={`${place.type} ${place.country}`}
           />
         </div>

@@ -130,7 +130,7 @@ export default function HotelsList() {
                     <div className="sticky top-40">
                          <div className="w-full border shadow-sm rounded-lg p-2">
                             <div className="relative h-64">
-                                <Image src="https://placehold.co/400x400.png" data-ai-hint="world map" alt="Map" layout="fill" className="object-cover rounded-md" />
+                                <Image src="https://placehold.co/400x400.png" data-ai-hint="world map" alt="Map" fill className="object-cover rounded-md" />
                                 <div className="absolute w-full h-full top-0 flex items-center justify-center bg-black/30 rounded-md">
                                     <Button asChild>
                                         <Link href="/map">

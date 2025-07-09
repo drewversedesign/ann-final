@@ -20,17 +20,15 @@ export default function TravelersChoice() {
           <Image
             src="https://placehold.co/1000x600.png"
             alt="Traveler's Choice background"
-            layout="fill"
-            objectFit="cover"
-            className="hidden md:block"
+            fill
+            className="object-cover hidden md:block"
             data-ai-hint="travel award"
           />
           <Image
             src="https://placehold.co/600x400.png"
             alt="Traveler's Choice background"
-            layout="fill"
-            objectFit="cover"
-            className="md:hidden"
+            fill
+            className="object-cover md:hidden"
             data-ai-hint="travel award"
           />
         </div>

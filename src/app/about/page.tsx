@@ -27,8 +27,8 @@ export default function AboutPage() {
              <Image 
                 src="https://placehold.co/800x600.png" 
                 alt="Safari guides" 
-                layout="fill"
-                objectFit="cover"
+                fill
+                className="object-cover"
                 data-ai-hint="safari guides"
               />
           </div>

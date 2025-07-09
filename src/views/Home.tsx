@@ -63,9 +63,8 @@ export default function Home() {
                 <Image
                   src={image.src}
                   alt={image.alt}
-                  layout="fill"
-                  objectFit="cover"
-                  className="z-0"
+                  fill
+                  className="object-cover z-0"
                   data-ai-hint={image.hint}
                   priority={index === 0}
                 />

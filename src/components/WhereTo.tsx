@@ -26,9 +26,8 @@ export default function WhereTo() {
                 <Image
                   src={destinationImages[country].img}
                   alt={`Explore ${country}`}
-                  layout="fill"
-                  objectFit="cover"
-                  className="transition-transform duration-500 group-hover:scale-110"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
                   data-ai-hint={destinationImages[country].hint}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
