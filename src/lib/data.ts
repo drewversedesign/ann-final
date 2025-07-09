@@ -11,7 +11,7 @@ export const places: Place[] = [
     longDescription: 'Bwindi Impenetrable National Park is a UNESCO World Heritage site in southwestern Uganda. It is renowned for its exceptional biodiversity, with more than 160 species of trees and over 120 species of mammals. Its main attraction is the gorilla tracking, offering a once-in-a-lifetime opportunity to see these magnificent creatures up close.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -1.087, lng: 29.619 },
-    contact: { phone: '+256-414-346287', website: 'https.www.ugandawildlife.org' },
+    contact: { phone: '+256-414-346287', website: 'https://www.ugandawildlife.org' },
     rating: 4.9,
   },
   {
@@ -23,7 +23,7 @@ export const places: Place[] = [
     longDescription: 'Nestled in the heart of Kampala, the Serena Hotel stands amidst 17 acres of beautifully manicured water gardens. The hotel features an international conference center, a roof-top terrace, and a rock-hewn pool. It provides a tranquil and secure environment for both business and leisure travelers.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: 0.316, lng: 32.589 },
-    contact: { phone: '+256-312-309000', website: 'https.www.serenahotels.com' },
+    contact: { phone: '+256-312-309000', website: 'https://www.serenahotels.com' },
     rating: 4.6,
   },
   {
@@ -35,7 +35,7 @@ export const places: Place[] = [
     longDescription: 'The Lawns offers a serene dining environment with lush gardens and a sophisticated ambiance. The menu is a fusion of international cuisine with a special focus on game meats like crocodile, ostrich, and gnu. It\'s a perfect spot for a romantic dinner or a special celebration.',
     images: ['https://placehold.co/800x600.png'],
     location: { lat: 0.301, lng: 32.587 },
-    contact: { phone: '+256-772-200002', website: 'https.thelawns.co.ug' },
+    contact: { phone: '+256-772-200002', website: 'https://thelawns.co.ug' },
     rating: 4.5,
   },
   // Kenya
@@ -48,7 +48,7 @@ export const places: Place[] = [
     longDescription: 'The Maasai Mara is one of the most famous and important wildlife conservation and wilderness areas in Africa, world-renowned for its exceptional populations of lion, leopard, cheetah and African bush elephant. It also hosts the Great Migration, which secured it as one of the Seven Natural Wonders of Africa, and as one of the ten Wonders of the World.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -1.683, lng: 35.250 },
-    contact: { phone: '+254-20-600800', website: 'https.www.kws.go.ke' },
+    contact: { phone: '+254-20-600800', website: 'https://www.kws.go.ke' },
     rating: 4.8,
   },
   {
@@ -60,7 +60,7 @@ export const places: Place[] = [
     longDescription: 'Giraffe Manor is set in 12 acres of private land within 140 acres of indigenous forest in the Langata suburb of Nairobi. As one of Nairobi\'s most iconic buildings, Giraffe Manor has extraordinary appeal, that harks back to the 1930s when European visitors first flocked to East Africa to enjoy safaris. With its stately façade, elegant interior, verdant green gardens, sunny terraces and delightful courtyards, guests often remark that it’s like walking into the film Out of Africa: indeed, one of its twelve rooms is named after the author Karen Blixen.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -1.369, lng: 36.745 },
-    contact: { phone: '+254-20-5020888', website: 'https.www.thesafaricollection.com' },
+    contact: { phone: '+254-20-5020888', website: 'https://www.thesafaricollection.com' },
     rating: 4.9,
   },
   {
@@ -72,7 +72,7 @@ export const places: Place[] = [
     longDescription: 'Carnivore is a unique dining experience. The restaurant\'s specialty is meat, and features an all-you-can-eat meat buffet. They serve a wide variety of meat, including game meat, roasted on traditional Maasai swords over a huge charcoal pit that dominates the entrance of the restaurant. It is a must-visit for any meat lover visiting Nairobi.',
     images: ['https://placehold.co/800x600.png'],
     location: { lat: -1.321, lng: 36.800 },
-    contact: { phone: '+254-733-611604', website: 'https.tamarind.co.ke/carnivore' },
+    contact: { phone: '+254-733-611604', website: 'https://tamarind.co.ke/carnivore' },
     rating: 4.7,
   },
   // Tanzania
@@ -85,7 +85,7 @@ export const places: Place[] = [
     longDescription: 'The Serengeti National Park is a Tanzanian national park in the Serengeti ecosystem in the Mara and Simiyu regions. It is famous for its annual migration of over 1.5 million white-bearded (or brindled) wildebeest and 250,000 zebra and for its numerous Nile crocodile and honey badger.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -2.333, lng: 34.833 },
-    contact: { phone: '+255-27-250-3471', website: 'https.www.tanzaniaparks.go.tz' },
+    contact: { phone: '+255-27-250-3471', website: 'https://www.tanzaniaparks.go.tz' },
     rating: 4.9,
   },
   {
@@ -97,7 +97,7 @@ export const places: Place[] = [
     longDescription: 'Set on the edge of the mountain forest hugging the Olmoti volcano to the north of Ngorongoro Crater, The Highlands has sweeping views right across the Serengeti. The eight canvas-and-glass domed suites are a clever blend of cutting-edge design and traditional Maasai-inspired furnishings. It offers a range of activities, from crater floor game drives to community and cultural visits and hiking.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -2.859, lng: 35.534 },
-    contact: { phone: '+255-736-500100', website: 'https.www.asiliaafrica.com' },
+    contact: { phone: '+255-736-500100', website: 'https://www.asiliaafrica.com' },
     rating: 4.8,
   },
   // Zanzibar
@@ -110,7 +110,7 @@ export const places: Place[] = [
     longDescription: 'Stone Town is the cultural heart of Zanzibar. It is a city of prominent historical and artistic importance in East Africa. Its winding lanes present a mosaic of carved doorways, mosques, and stone buildings. It is a place to get lost in, exploring the shops, bazaars, and historic sites.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -6.166, lng: 39.199 },
-    contact: { phone: 'N/A', website: 'https.whc.unesco.org/en/list/173' },
+    contact: { phone: 'N/A', website: 'https://whc.unesco.org/en/list/173' },
     rating: 4.7,
   },
   {
@@ -122,7 +122,7 @@ export const places: Place[] = [
     longDescription: 'The Rock Restaurant is a truly unique dining destination. Situated on a rock in the middle of the Indian Ocean, it is accessible by foot during low tide and by boat during high tide. The restaurant specializes in fresh seafood and offers breathtaking views of the ocean and the coastline.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -6.223, lng: 39.510 },
-    contact: { phone: '+255-776-591-360', website: 'https.www.rockrestaurantzanzibar.com' },
+    contact: { phone: '+255-776-591-360', website: 'https://www.rockrestaurantzanzibar.com' },
     rating: 4.6,
   },
   // Rwanda
@@ -135,7 +135,7 @@ export const places: Place[] = [
     longDescription: 'Volcanoes National Park is situated in northwestern Rwanda and is home to the endangered mountain gorilla and a rich mosaic of montane ecosystems, which embrace evergreen and bamboo forest, open grassland, swamp and heath. It is named after the chain of dormant volcanoes making up the Virunga Massif.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -1.463, lng: 29.493 },
-    contact: { phone: '+250-788-319-300', website: 'https.www.rdb.rw' },
+    contact: { phone: '+250-788-319-300', website: 'https://www.rdb.rw' },
     rating: 4.8,
   },
   {
@@ -147,7 +147,7 @@ export const places: Place[] = [
     longDescription: 'The Retreat is a 20-room luxury boutique hotel created by the American owners of Heaven Restaurant. It offers a five-star experience with a focus on Rwandan culture, sustainability and wellness. The hotel features a solar-heated saltwater swimming pool, a full-service spa, and a farm-to-table restaurant.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -1.957, lng: 30.060 },
-    contact: { phone: '+250-788-305-825', website: 'https.www.heavenrwanda.com' },
+    contact: { phone: '+250-788-305-825', website: 'https://www.heavenrwanda.com' },
     rating: 4.7,
   },
 ];
