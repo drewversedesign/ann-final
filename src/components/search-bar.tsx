@@ -2,12 +2,13 @@
 
 import React, { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
-import { Search, Loader2 } from 'lucide-react'
+import { Search } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { places } from '@/lib/data'
 import type { Place } from '@/lib/types'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from '@/components/ui/command'
+import { Loader } from '@/components/loaders'
 
 export function SearchBar({ onResultClick }: { onResultClick?: () => void }) {
   const [query, setQuery] = useState('')
@@ -63,7 +64,7 @@ export function SearchBar({ onResultClick }: { onResultClick?: () => void }) {
       <PopoverContent className="w-[--radix-popover-trigger-width] p-0" align="start">
         <Command>
           <CommandList>
-            {loading && <div className="p-4 flex items-center justify-center"><Loader2 className="h-5 w-5 animate-spin" /></div>}
+            {loading && <div className="p-4 flex items-center justify-center"><Loader className="h-5 w-5" /></div>}
             {!loading && results.length === 0 && query.length > 1 && (
               <CommandEmpty>No results found.</CommandEmpty>
             )}
