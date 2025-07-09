@@ -9,6 +9,7 @@ import { AttractionsListLoader } from "@/components/loaders";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
+import { CompactGrid } from "@/components";
 
 
 const WhereTo = dynamic(() => import('@/components/WhereTo'));
@@ -24,6 +25,13 @@ const ToEat = dynamic(() => import('@/components/ToEat'), {
 const TravelersChoice = dynamic(() => import('@/components/TravelersChoice'));
 const Trending = dynamic(() => import('@/components/Trending'));
 
+// Sample data for the compact grid
+const gridData = [
+  { id: '1', title: 'Safari Tours', content: 'Experience wildlife in their natural habitat' },
+  { id: '2', title: 'Cultural Visits', content: 'Immerse in local traditions and customs' },
+  { id: '3', title: 'Adventure Sports', content: 'Thrilling activities for adrenaline seekers' },
+  { id: '4', title: 'Scenic Views', content: 'Breathtaking landscapes and photography' }
+]
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -69,6 +77,14 @@ export default function Home() {
                 <Button type="submit" size="lg" className="rounded-full font-bold px-8 h-14 text-base md:text-lg">Search</Button>
             </form>
           </div>
+        </div>
+      </section>
+
+      {/* Compact 2x2 Grid Section */}
+      <section className="py-8 bg-background">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="font-headline text-2xl font-bold mb-4">Quick Highlights</h2>
+          <CompactGrid items={gridData} />
         </div>
       </section>
 
