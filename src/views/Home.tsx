@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Image from "next/image";
 import dynamic from "next/dynamic";
@@ -21,7 +22,7 @@ const Trending = dynamic(() => import('@/components/Trending'));
 export default function Home() {
   return (
     <div className="flex flex-col min-h-dvh">
-      <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center text-center text-white">
+      <section className="relative h-[80vh] md:h-[90vh] flex items-center justify-center text-center text-white">
         <Image
           src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3b/73/32/africa-is-for-us-the.jpg?w=700&h=400&s=1"
           alt="Safari sunset at Murchison Falls"
