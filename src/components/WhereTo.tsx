@@ -1,45 +1,45 @@
-"use client"
+import Link from 'next/link';
+import Image from 'next/image';
+import { COUNTRIES } from '@/lib/types';
+import { Card } from '@/components/ui/card';
 
-import { useState } from "react"
-import { useRouter } from "next/navigation"
-import Image from "next/image"
-import { Search } from "lucide-react"
+const destinationImages: Record<string, {img: string, hint: string}> = {
+  Uganda: { img: 'https://images.unsplash.com/photo-1594555249959-8c072a2772e6?q=80&w=2070&auto=format&fit=crop', hint: 'Uganda safari' },
+  Kenya: { img: 'https://images.unsplash.com/photo-1516426122078-c23e763199c5?q=80&w=2070&auto=format&fit=crop', hint: 'Kenya safari' },
+  Tanzania: { img: 'https://images.unsplash.com/photo-1534794426548-2a8370935016?q=80&w=1950&auto=format&fit=crop', hint: 'Tanzania kilimanjaro' },
+  Zanzibar: { img: 'https://images.unsplash.com/photo-1601752874558-419442e3919a?q=80&w=1974&auto=format&fit=crop', hint: 'Zanzibar beach' },
+  Rwanda: { img: 'https://images.unsplash.com/photo-1543152294-71a7b455b850?q=80&w=2070&auto=format&fit=crop', hint: 'Rwanda hills' },
+};
 
 export default function WhereTo() {
-    const [term, setTerm] = useState('')
-    const router = useRouter()
-
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault()
-        if (term.trim()) {
-            router.push(`/search?q=${term.trim()}`)
-        }
-    }
-
-    return ( 
-        <div className="container mx-auto py-16 lg:py-24 relative flex justify-center items-center">
-            <Image 
-                src="https://placehold.co/1200x400.png" 
-                alt="A map with a magnifying glass"
-                data-ai-hint="travel map"
-                width={1200}
-                height={400}
-                className="object-cover w-full h-auto max-h-[22em] rounded-lg shadow-lg" 
-            />
-            <div className="absolute w-[85%] md:w-10/12">
-                <form className="relative" onSubmit={handleSubmit}>
-                    <label htmlFor="where-to-search" className="sr-only">Where to?</label>
-                    <Search className="h-6 w-6 absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
-                    <input 
-                        id="where-to-search"
-                        type="text" 
-                        placeholder="Where to?"
-                        className="bg-background rounded-full w-full pl-14 pr-4 py-4 text-lg shadow-xl focus:outline-none focus:ring-2 focus:ring-primary" 
-                        value={term}
-                        onChange={e => setTerm(e.target.value)}
-                    />
-                </form>
-            </div>
+  return (
+    <section className="w-full py-16 lg:py-24 bg-secondary">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold">Explore Our Destinations</h2>
+          <p className="mt-2 text-lg text-muted-foreground">Select a country to start your adventure.</p>
         </div>
-     );
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+          {COUNTRIES.map((country) => (
+            <Link key={country} href={`/country/${country.toLowerCase()}`} className="group">
+              <Card className="relative overflow-hidden rounded-lg shadow-lg h-64 transform transition-transform duration-300 hover:-translate-y-2">
+                <Image
+                  src={destinationImages[country].img}
+                  alt={`Explore ${country}`}
+                  layout="fill"
+                  objectFit="cover"
+                  className="transition-transform duration-500 group-hover:scale-110"
+                  data-ai-hint={destinationImages[country].hint}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute bottom-0 left-0 p-4 w-full">
+                  <h3 className="font-headline text-2xl font-bold text-white">{country}</h3>
+                </div>
+              </Card>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
