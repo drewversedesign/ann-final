@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from "next/image";
@@ -39,7 +38,7 @@ export default function Home() {
     <div className="flex flex-col min-h-dvh">
       <section className="relative h-[80vh] md:h-[90vh] flex items-center justify-center text-center text-white">
         <Image
-          src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/15/71/49/6b.jpg"
+          src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/49/d5/a1.jpg"
           alt="Safari animals"
           fill
           className="object-cover z-0"
