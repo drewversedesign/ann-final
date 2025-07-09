@@ -65,7 +65,7 @@ Cultural Visits: Meet local Batwa pygmy communities and learn about their tradit
 
 Accommodation
 Options range from luxury lodges like Bwindi Lodge and Buhoma Lodge to community-run guesthouses and campsites around the forest.`,
-    images: ['https://images.unsplash.com/photo-1620118336728-5be2dd3193a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/d4/02/b5/experience-the-beauty.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -1.087, lng: 29.619 },
     contact: { phone: '+256-414-346287', website: 'https://www.ugandawildlife.org' },
     rating: 4.9,
@@ -96,7 +96,7 @@ The best time is during the dry seasons, December to February and June to Septem
 
 Accommodation
 Options range from budget campsites to mid-range lodges like Paraa Safari Lodge and luxury tented camps.`,
-    images: ['https://images.unsplash.com/photo-1747341300103-398bd730d10f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a5/8c/51/the-falls.jpg?w=600&h=400&s=1', 'https://placehold.co/800x600.png'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3b/73/32/africa-is-for-us-the.jpg?w=700&h=400&s=1', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a5/8c/51/the-falls.jpg?w=600&h=400&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: 2.273, lng: 31.792 },
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
     rating: 4.8,
@@ -131,7 +131,7 @@ Eco-lodges and dormitories for overnight stays or volunteers
 
 Location & Access
 UWEC is located about 10–15 minutes from Entebbe International Airport and roughly 40 minutes from Kampala, making it easily accessible for both local and international visitors.`,
-    images: ['https://images.unsplash.com/photo-1594555249959-8c072a2772e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/bd/e4/15/photo0jpg.jpg?w=700&h=-1&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: 0.056, lng: 32.463 },
     contact: { phone: 'N/A', website: 'https://uwec.ug' },
     rating: 4.6,
@@ -163,7 +163,7 @@ Volunteer opportunities in conservation and education
 
 Events
 The gardens host events such as the annual Milege World Music Festival in November, featuring live music, cultural performances, and art exhibitions.`,
-    images: ['https://images.unsplash.com/photo-1747341300103-398bd730d10f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080'],
+    images: ['https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/c3/bf/b7.jpg'],
     location: { lat: 0.065, lng: 32.476 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.5,
@@ -194,7 +194,7 @@ Small plane transfers from Entebbe Airport or Kajjansi Airstrip will take roughl
 Additional Activities
 Guests staying overnight will have access to exclusive sunset cruises on Lake Victoria.
 Volunteering programs lasting one to four weeks will allow participants to assist with chimpanzee care and conservation projects.`,
-    images: ['https://images.unsplash.com/photo-1747341300103-398bd730d10f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/d6/b9/87/20210407-114824-largejpg.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: -0.103, lng: 32.650 },
     contact: { phone: 'N/A', website: 'https://ngambaisland.org' },
     rating: 4.8,
@@ -221,7 +221,7 @@ Visitors can climb the 272 steps of the minaret for panoramic views of Kampala.
 
 Cultural Significance
 The mosque serves as a symbol of religious unity and cultural heritage in Uganda. It plays a central role in the Muslim community and is a notable landmark in Kampala.`,
-    images: ['https://images.unsplash.com/photo-1721796287174-f89eb8f76625?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8QXR0cmFjdGlvbiUyMFVnYW5kYXxlbnwwfHx8fDE3NTIwMjk4NDR8MA&ixlib=rb-4.1.0&q=80&w=1080'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/68/9c/ef/caption.jpg?w=700&h=400&s=1'],
     location: { lat: 0.318, lng: 32.571 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.6,
@@ -259,7 +259,7 @@ Waterproof boots or sandals suitable for wet conditions
 
 Accessibility
 Mabamba Swamp is about an hour’s drive from Entebbe. Visitors can also reach the swamp via boat from Entebbe’s Nakiwogo landing site, offering a scenic trip through the waterways.`,
-    images: ['https://images.unsplash.com/photo-1747341300103-398bd730d10f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/a1/5b/7d/happy-clients.jpg?w=900&h=500&s=1'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e3/47/4d/bird-watching-on-a-locally.jpg?w=700&h=400&s=1', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/a1/5b/7d/happy-clients.jpg?w=900&h=500&s=1'],
     location: { lat: 0.076, lng: 32.348 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.7,
@@ -277,7 +277,7 @@ A boat cruise on Kazinga Channel offers an excellent chance to see wildlife up c
 
 Access and Logistics
 Boat cruises depart from the Mweya Peninsula, about 20 kilometers west of the Kasese-Mbarara road. Visitors can enter the park through the Katunguru gate. For road travelers, taxis are available from Katunguru trading center to Mweya Lodge.`,
-    images: ['https://images.unsplash.com/photo-1680341041188-773c3932e2ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/c8/a6/73/kazinga.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: -0.198, lng: 29.932 },
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
     rating: 4.8,
@@ -321,7 +321,7 @@ Budget campsites including Rwonyo Rest Camp and Mantana Tented Camp
 
 Best Time to Visit
 The best time to visit is during the dry seasons, from June to September and December to February, when wildlife gathers around water sources making it easier to spot animals.`,
-    images: ['https://images.unsplash.com/photo-1648510398515-c4a7bda2d544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/93/f3/bb/caption.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: -0.595, lng: 30.948 },
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
     rating: 4.7,
@@ -344,7 +344,7 @@ Why Visit:
 - It’s one of Africa’s legendary geographical sites.
 - Easy access from Jinja town (about 10 minutes away).
 - A quiet, scenic place with a mix of history and nature.`,
-    images: ['https://images.unsplash.com/photo-1568121966587-d7023a462ae1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/6a/46/8a/nilin-kaynagi.jpg?w=900&h=500&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: 0.4479, lng: 33.2041 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.6,
@@ -366,7 +366,7 @@ Why Visit:
 - Ideal for birdwatchers and nature lovers.
 - Supports local conservation and livelihoods.
 - A calm, immersive experience that contrasts with traditional safari drives.`,
-    images: ['https://images.unsplash.com/photo-1568121966587-d7023a462ae1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/3d/22/29/photo3jpg.jpg?w=700&h=-1&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: 0.552, lng: 30.407 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.7,
@@ -390,7 +390,7 @@ By Air: There are scheduled and chartered flights from Entebbe or Kajjansi to Ki
 Best Time to Visit
 Dry Season (June–September and December–February): Best for wildlife viewing as animals gather near water sources.
 Wet Season (March–May and October–November): The park is lush and green, but some roads may become impassable.`,
-    images: ['https://images.unsplash.com/photo-1680341041188-773c3932e2ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/13/46/de/giraffe-evening-walk.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: 3.84, lng: 33.85 },
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
     rating: 4.8,
@@ -416,7 +416,7 @@ Facilities: The shrine area also includes a retreat center, medical clinic, scho
 Getting There
 By Road: Easily accessible from Kampala, about a 30 to 45-minute drive depending on traffic. Public taxis and boda bodas can also take you there.
 Visitor Support: Guides are available onsite, and the area is well marked with visitor-friendly information.`,
-    images: ['https://images.unsplash.com/photo-1594555249959-8c072a2772e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/39/f6/d8/a-roman-catholic-minor.jpg?w=700&h=-1&s=1'],
     location: { lat: 0.395, lng: 32.651 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.7,
@@ -441,7 +441,7 @@ Get authentic insight into Ankole heritage and traditions.
 Convenient stopover for travelers heading to Lake Mburo, Queen Elizabeth, Bwindi, or Kampala.
 Interactive learning through stories, crafts, food, and performances.
 Comfortable stay in a serene setting that blends culture and hospitality.`,
-    images: ['https://images.unsplash.com/photo-1620118336728-5be2dd3193a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b3/ee/fa/igongo-cultural-centre.jpg?w=700&h=400&s=1'],
     location: { lat: -0.528, lng: 30.697 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.6,
@@ -465,7 +465,7 @@ Why It’s Worth a Stop
 - A hands-on way to learn about the equator and basic physics.
 - A colorful cultural experience with local crafts and vendors.
 - A convenient and memorable stop along a major travel route.`,
-    images: ['https://images.unsplash.com/photo-1568121966587-d7023a462ae1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/a2/3f/58/equator-sign-in-uganda.jpg?w=700&h=-1&s=1'],
     location: { lat: -0.00078, lng: 32.036 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.5,
@@ -477,7 +477,7 @@ Why It’s Worth a Stop
     type: 'Attraction',
     description: 'Specialises in Contemporary Art from Ugandan Artists, and tribal art sculptures.',
     longDescription: `Gallery Antique Uganda specialises Contemporary Art from mainly Ugandana Artists, and tribal art sculptures, masks, old bead work and pottery. The collections accumulated after 25 yrs contemporary art gallery – selling to reputable collectors and international dealers. For those who are curious enthusiasts, collecting or dealers, you are welcome to view the gallery and showroom on Lubowa terrace, 500 metres from International school of uganda, eight miles from the city centre of Kampala Along Entebbe road.`,
-    images: ['https://images.unsplash.com/photo-1648510398515-c4a7bda2d544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/b3/fe/5d/the-interior-section.jpg?w=700&h=-1&s=1'],
     location: { lat: 0.233, lng: 32.570 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.4,
@@ -489,7 +489,7 @@ Why It’s Worth a Stop
     type: 'Attraction',
     description: 'A unique place that will inspire you to want to change the world.',
     longDescription: `The Social Innovation Museum is a unique place that will inspire you to want to change the world. Social Innovations are dynamic and living; thereby, you will see how they happen and be able to interact with our Social Innovators from the Social Innovation Academy (SINA). Scholars will give you a tour and tell you their story and what they are working on. You will see over 70 social enterprises and innovations. Some highlights are our upcycled buildings from plastic bottles and the beautiful hill where we are located just 35km outside of Kampala. Contact us for specific workshops (e.g. upcycling plastic bottle construction) and training in social innovation with our facilitators from the Social Innovation Academy (SINA).`,
-    images: ['https://images.unsplash.com/photo-1648510398515-c4a7bda2d544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/9b/a7/df/social-innovation-museum.jpg?w=700&h=400&s=1'],
     location: { lat: 0.312, lng: 32.327 },
     contact: { phone: 'N/A', website: 'https://www.socialinnovationacademy.org/museum' },
     rating: 4.6,
@@ -522,7 +522,7 @@ Tips for Your Trip
 - Booking: Book in advance, especially in high season, to secure your spot on morning or afternoon cruises.
 - What to Bring: Binoculars, a camera with a zoom lens, sun protection, and a light jacket for early or late cruises.
 - Best Seats: Sit at the sides or front of the boat for the clearest views and photo angles.`,
-    images: ['https://images.unsplash.com/photo-1568121966587-d7023a462ae1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080'],
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/89/58/8c/from-the-top.jpg?w=700&h=400&s=1'],
     location: { lat: 2.273, lng: 31.792 },
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
     rating: 4.8,
@@ -640,3 +640,5 @@ Tips for Your Trip
     rating: 4.7,
   },
 ];
+
+    
