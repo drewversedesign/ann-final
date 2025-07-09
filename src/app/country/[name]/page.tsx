@@ -1,4 +1,3 @@
-
 import { places } from "@/lib/data"
 import { COUNTRIES } from "@/lib/types"
 import { notFound } from "next/navigation"
@@ -10,8 +9,6 @@ export async function generateStaticParams() {
   }))
 }
 
-export default function CountryPage({ params }: { params: { name: string } }) {
-}
 export default async function CountryPage({ params }: { params: { name: string } }) {
   const countryName = COUNTRIES.find(c => c.toLowerCase() === params.name);
 
