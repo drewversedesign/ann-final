@@ -9,7 +9,6 @@ import { AttractionsListLoader } from "@/components/loaders";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
-import { Search } from "lucide-react";
 
 
 const WhereTo = dynamic(() => import('@/components/WhereTo'));
@@ -59,13 +58,12 @@ export default function Home() {
           <div className="mt-8 max-w-2xl mx-auto">
             <form onSubmit={handleSearch} className="flex gap-2 bg-white rounded-full p-2 shadow-lg">
                 <div className="relative w-full">
-                    <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
                     <Input
                         type="search"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         placeholder="Search destinations, hotels, or attractions..."
-                        className="pl-12 w-full bg-transparent border-none focus-visible:ring-0 text-foreground h-12 text-base"
+                        className="pl-6 w-full bg-transparent border-none focus-visible:ring-0 text-foreground h-12 text-base"
                     />
                 </div>
                 <Button type="submit" size="lg" className="rounded-full font-bold">Search</Button>
