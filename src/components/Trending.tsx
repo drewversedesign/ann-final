@@ -45,7 +45,7 @@ export default function Trending() {
           Trending in Travel
         </h2>
         <Tabs defaultValue="places-to-go">
-          <TabsList className="grid w-full grid-cols-1 sm:w-auto sm:grid-cols-3">
+          <TabsList className="w-full justify-start overflow-x-auto travel_toggle sm:justify-center">
             <TabsTrigger value="places-to-go">Places to Go</TabsTrigger>
             <TabsTrigger value="things-to-do">Things to Do</TabsTrigger>
             <TabsTrigger value="places-to-stay">Places to Stay</TabsTrigger>
