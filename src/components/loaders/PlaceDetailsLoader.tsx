@@ -1,46 +1,46 @@
-import { Card } from "@/components/ui/card"
 import { Skeleton } from "@/components/ui/skeleton"
 
 const PlaceDetailsLoader = () => {
   return (
-    <div className="container mx-auto px-4 py-16">
-      <div className="grid lg:grid-cols-3 gap-12">
-        <div className="lg:col-span-2 space-y-8">
-          <div>
-            <Skeleton className="h-12 w-3/4 rounded-md" />
-            <div className="flex items-center gap-4 mt-4">
-              <Skeleton className="h-5 w-24 rounded-md" />
-              <Skeleton className="h-5 w-16 rounded-md" />
-            </div>
-          </div>
-          <Skeleton className="w-full h-[50vh] rounded-lg" />
-          <div className="space-y-4">
-            <Skeleton className="h-8 w-1/4 rounded-md" />
-            <Skeleton className="h-5 w-full rounded-md" />
-            <Skeleton className="h-5 w-full rounded-md" />
-            <Skeleton className="h-5 w-3/4 rounded-md" />
-          </div>
-        </div>
-        <div className="lg:col-span-1 space-y-8">
-          <Card className="p-6">
-            <Skeleton className="h-6 w-1/3 mb-4 rounded-md" />
-            <Skeleton className="w-full h-64 rounded-lg" />
-          </Card>
-          <Card className="p-6 space-y-4">
-            <Skeleton className="h-6 w-1/2 mb-4 rounded-md" />
-            <div className="flex items-center gap-3">
-              <Skeleton className="w-5 h-5 rounded-full" />
-              <Skeleton className="w-32 h-5 rounded-md" />
-            </div>
-            <div className="flex items-center gap-3">
-              <Skeleton className="w-5 h-5 rounded-full" />
-              <Skeleton className="w-24 h-5 rounded-md" />
-            </div>
-          </Card>
-        </div>
+    <div className="container mx-auto px-4 py-16 space-y-3">
+      <Skeleton className="h-8 w-10/12 md:w-8/12" />
+
+      <div className="w-full md:w-5/12 grid grid-cols-6 gap-2">
+        <Skeleton className="h-3 w-full col-span-2" />
+        <Skeleton className="h-3 w-full hidden md:block col-span-2" />
+        <Skeleton className="h-3 w-full hidden md:block col-span-2" />
+      </div>
+
+      <div className="w-full md:w-11/12 grid grid-cols-12 gap-2">
+        <Skeleton className="h-3 w-full col-span-6" />
+        <Skeleton className="h-3 w-full col-span-2" />
+        <Skeleton className="h-3 w-full col-span-2" />
+        <Skeleton className="h-3 w-full col-span-2" />
+      </div>
+
+      <Skeleton className="h-[300px] w-full" />
+
+      <div className="grid grid-cols-3 md:hidden gap-3">
+        <Skeleton className="h-[100px] col-span-1" />
+        <Skeleton className="h-[100px] col-span-1" />
+        <Skeleton className="h-[100px] col-span-1" />
+      </div>
+
+      <Skeleton className="h-4 w-full md:w-4/12" />
+
+      <Skeleton className="h-3 w-full" />
+      <Skeleton className="h-3 w-full" />
+      <Skeleton className="h-3 w-11/12" />
+      <Skeleton className="h-3 w-full" />
+      <Skeleton className="h-3 w-10/12" />
+
+      <div className="hidden md:grid grid-cols-3 gap-3">
+        <Skeleton className="h-[300px] col-span-1" />
+        <Skeleton className="h-[300px] col-span-1" />
+        <Skeleton className="h-[300px] col-span-1" />
       </div>
     </div>
   )
 }
 
-export default PlaceDetailsLoader;
+export default PlaceDetailsLoader
