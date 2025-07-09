@@ -1,10 +1,23 @@
-import { places } from "@/lib/data";
+"use client"
+
+import { useContext } from "react";
+import { MainContext } from "@/context/MainContext";
 import { PlaceCard } from "@/components/place-card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import type { Place } from "@/lib/types";
+import { AttractionsListLoader } from "./loaders";
 
 export default function ToEat() {
-  const restaurants = places.filter(p => p.type === 'Restaurant');
+  const context = useContext(MainContext);
+
+  if (!context) {
+    return null; // Or some fallback UI
+  }
+
+  const { restaurants, isLoading } = context;
+
+  if (isLoading) {
+    return <AttractionsListLoader count={4} />;
+  }
 
   if (!restaurants.length) {
     return null;

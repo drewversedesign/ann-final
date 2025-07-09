@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils"
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Toaster } from '@/components/ui/toaster';
+import { MainContextProvider } from '@/context/MainContext';
 
 
 export const metadata: Metadata = {
@@ -26,12 +27,14 @@ export default function RootLayout({
       <body className={cn(
         "min-h-screen bg-background font-body antialiased"
       )}>
-        <div className="relative flex min-h-dvh flex-col">
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </div>
-        <Toaster />
+        <MainContextProvider>
+          <div className="relative flex min-h-dvh flex-col">
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+          <Toaster />
+        </MainContextProvider>
       </body>
     </html>
   );
