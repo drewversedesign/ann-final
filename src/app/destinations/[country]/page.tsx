@@ -2,7 +2,7 @@ import { places } from "@/lib/data"
 import type { Place } from "@/lib/types"
 import { notFound } from "next/navigation"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { PlaceListItem } from "@/components/place-list-item"
+import HotelCard from "@/components/HotelCard"
 
 export async function generateStaticParams() {
   const countries = [...new Set(places.map((p) => p.country.toLowerCase()))]
@@ -30,7 +30,7 @@ export default function DestinationPage({ params }: { params: { country: string 
     return (
       <div className="flex flex-col gap-6">
         {list.map(place => (
-          <PlaceListItem key={place.id} place={place} />
+          <HotelCard key={place.id} place={place} />
         ))}
       </div>
     )

@@ -1,8 +1,8 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { cn } from "@/lib/utils"
-import Header from '@/components/header';
-import { Footer } from '@/components/footer';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import { Toaster } from '@/components/ui/toaster';
 
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         "min-h-screen bg-background font-body antialiased"
       )}>
         <div className="relative flex min-h-dvh flex-col">
-          <Header />
+          <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
