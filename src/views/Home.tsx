@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from "next/image";
@@ -44,7 +43,7 @@ export default function Home() {
   ];
 
   const plugin = React.useRef(
-    Autoplay({ delay: 5000, stopOnInteraction: false })
+    Autoplay({ delay: 5000, stopOnInteraction: true })
   );
 
   return (
@@ -54,8 +53,8 @@ export default function Home() {
           plugins={[plugin.current]}
           className="absolute inset-0 w-full h-full"
           opts={{ loop: true }}
-          onMouseEnter={plugin.current.stop}
-          onMouseLeave={plugin.current.reset}
+          onMouseEnter={() => plugin.current?.stop()}
+          onMouseLeave={() => plugin.current?.reset()}
         >
           <CarouselContent>
             {heroImages.map((image, index) => (
