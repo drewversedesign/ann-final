@@ -1,4 +1,3 @@
-
 "use client"
 
 import { useEffect, useState } from "react";
@@ -148,7 +147,7 @@ export default function HotelsList() {
                     { isLoading ? (
                         <AttractionsListLoader count={9} />
                     ) : (
-                        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
                             {hotels.map((hotel, i) => (
                                 <PlaceCard key={i} place={hotel} />
                             ))}

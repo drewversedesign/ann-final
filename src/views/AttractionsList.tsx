@@ -1,4 +1,3 @@
-
 "use client"
 
 import { useEffect, useState } from "react";
@@ -30,7 +29,7 @@ export default function AttractionsList() {
                 { isLoading ? (
                     <AttractionsListLoader count={12} />
                 ) : (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
                         {attractions.map((attraction) => (
                             <PlaceCard key={attraction.id} place={attraction} />
                         ))}

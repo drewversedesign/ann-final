@@ -49,7 +49,7 @@ export default function CountryDetails({ country, places }: CountryDetailsProps)
           
           {placeTypes.map(pt => (
             <TabsContent key={pt.name} value={pt.name.toLowerCase()}>
-              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
                 {pt.data.map(place => (
                   <PlaceCard key={place.id} place={place} />
                 ))}
