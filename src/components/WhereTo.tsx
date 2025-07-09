@@ -19,10 +19,10 @@ export default function WhereTo() {
           <h2 className="font-headline text-3xl md:text-4xl font-bold">Explore Our Destinations</h2>
           <p className="mt-2 text-lg text-muted-foreground">Select a country to start your adventure.</p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+        <div className="max-w-md mx-auto grid grid-cols-2 gap-2">
           {COUNTRIES.map((country) => (
             <Link key={country} href={`/country/${country.toLowerCase()}`} className="group">
-              <Card className="relative overflow-hidden rounded-lg shadow-lg h-64 transform transition-transform duration-300 hover:-translate-y-2">
+              <Card className="relative overflow-hidden rounded-lg shadow-lg h-32 transform transition-transform duration-300 hover:-translate-y-1">
                 <Image
                   src={destinationImages[country].img}
                   alt={`Explore ${country}`}
@@ -32,8 +32,8 @@ export default function WhereTo() {
                   data-ai-hint={destinationImages[country].hint}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-                <div className="absolute bottom-0 left-0 p-4 w-full">
-                  <h3 className="font-headline text-2xl font-bold text-white">{country}</h3>
+                <div className="absolute bottom-0 left-0 p-2 w-full">
+                  <h3 className="font-headline text-sm font-bold text-white">{country}</h3>
                 </div>
               </Card>
             </Link>
