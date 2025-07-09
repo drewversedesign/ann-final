@@ -1,8 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Star } from "lucide-react"
+import { Star, MessageSquare } from "lucide-react"
 import type { Place } from "@/lib/types"
 
 interface SearchResultCardProps {
@@ -11,39 +9,46 @@ interface SearchResultCardProps {
 
 export default function SearchResultCard({ place }: SearchResultCardProps) {
   return (
-    <Card className="grid grid-cols-1 md:grid-cols-12 overflow-hidden transition-all duration-300 hover:shadow-xl w-full">
-      <div className="md:col-span-4">
-         <Image
+    <Link href={`/place/${place.id}`} className="block group">
+      <div className="block md:grid md:grid-cols-12 p-4 gap-4 border-b transition-colors hover:bg-muted/50">
+        <div className="md:col-span-3 rounded overflow-hidden h-48 md:h-full relative">
+          <Image
             src={place.images[0]}
             alt={place.name}
-            width={400}
-            height={300}
-            className="w-full h-60 md:h-full object-cover"
+            layout="fill"
+            objectFit="cover"
+            className="rounded"
             data-ai-hint={`${place.type} ${place.country}`}
           />
-      </div>
-      <div className="md:col-span-8 flex flex-col">
-        <CardHeader>
-          <CardTitle className="font-headline text-xl md:text-2xl">{place.name}</CardTitle>
-          <CardDescription>{place.country} - {place.type}</CardDescription>
-        </CardHeader>
-        <CardContent className="flex-grow space-y-4 py-0">
-           <div className="flex items-center">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <Star key={i} className={`w-5 h-5 ${i < Math.floor(place.rating) ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300'}`} />
-            ))}
-            <span className="ml-2 text-sm text-muted-foreground">{place.rating.toFixed(1)} rating</span>
+        </div>
+        <div className="md:col-span-9 flex flex-col justify-between">
+          <div className="pt-2 md:pt-0">
+            <h3 className="font-headline text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
+              {place.name}
+            </h3>
+            <p className="text-sm text-muted-foreground">{place.country} - {place.type}</p>
+
+            <div className="flex items-center text-sm text-muted-foreground mt-2">
+              <div className="flex items-center gap-1">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} className={`w-4 h-4 ${i < Math.floor(place.rating) ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300'}`} />
+                ))}
+              </div>
+              <span className="ml-2">{place.rating.toFixed(1)} rating</span>
+            </div>
           </div>
-          <p className="text-muted-foreground line-clamp-3">{place.description}</p>
-        </CardContent>
-        <CardFooter className="justify-end pt-6">
-           <Button asChild>
-            <Link href={`/place/${place.id}`}>
-              View Details <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
-        </CardFooter>
+
+          <div className="w-full self-end text-sm text-muted-foreground mt-4 space-y-1">
+            <div className="flex items-center">
+              <MessageSquare className="w-4 h-4 mr-2 shrink-0" />
+              <p className="font-semibold text-foreground">Review Snippet</p>
+            </div>
+            <p className="line-clamp-2 italic">
+              "...{place.description}..."
+            </p>
+          </div>
+        </div>
       </div>
-    </Card>
+    </Link>
   )
 }
