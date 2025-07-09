@@ -1,8 +1,7 @@
-
 "use client"
 
 import type { Place } from "@/lib/types"
-import { HotelCard } from "@/components/HotelCard"
+import HotelCard from "@/components/HotelCard"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useMemo } from "react"
 
