@@ -27,7 +27,7 @@ export default function Navbar() {
         <div className="flex items-center gap-6">
           <Link href="/" className="flex items-center gap-2">
             <Palmtree className="h-8 w-8 text-primary" />
-            <span className="font-bold text-lg font-headline">Safari Navigator</span>
+            <span className="font-bold text-lg font-headline">Ann Tours and Travel</span>
           </Link>
           <NavigationMenu className="hidden md:flex">
             <NavigationMenuList>

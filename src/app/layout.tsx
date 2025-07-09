@@ -7,7 +7,7 @@ import { Toaster } from '@/components/ui/toaster';
 
 
 export const metadata: Metadata = {
-  title: 'Safari Navigator',
+  title: 'Ann Tours and Travel',
   description: 'Your ultimate guide to African safaris and adventures.',
 };
 

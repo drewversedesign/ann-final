@@ -73,7 +73,7 @@ export default function ContactPage() {
               <div>
                 <h3 className="text-xl font-semibold font-headline">Email Us</h3>
                 <p className="text-muted-foreground">Send us an email for inquiries and support.</p>
-                <a href="mailto:contact@safarinavigator.com" className="text-primary hover:underline">contact@safarinavigator.com</a>
+                <a href="mailto:contact@anntoursandtravel.com" className="text-primary hover:underline">contact@anntoursandtravel.com</a>
               </div>
             </div>
              <div className="flex items-start gap-4">

@@ -24,7 +24,7 @@ export function MapComponent({ lat, lng }: MapComponentProps) {
       <Map
         defaultCenter={position}
         defaultZoom={14}
-        mapId="safari-navigator-map"
+        mapId="ann-tours-and-travel-map"
         className="w-full h-full rounded-lg"
         gestureHandling={'greedy'}
         disableDefaultUI={true}
