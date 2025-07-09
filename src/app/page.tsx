@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Star } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { places } from "@/lib/data";
 import { COUNTRIES } from "@/lib/types";
+import { PlaceCard } from "@/components/place-card";
 
 export default function Home() {
   const featuredDestinations = COUNTRIES.slice(0, 5).map(country => ({
@@ -71,27 +71,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {popularTours.map((tour) => (
-              <Card key={tour.id} className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
-                <Image src={tour.images[0]} alt={tour.name} width={600} height={400} className="w-full h-56 object-cover" data-ai-hint="safari animals" />
-                <CardHeader>
-                  <CardTitle className="font-headline">{tour.name}</CardTitle>
-                  <CardDescription>{tour.country}</CardDescription>
-                </CardHeader>
-                <CardContent className="flex-grow">
-                  <p className="text-muted-foreground line-clamp-3">{tour.description}</p>
-                  <div className="flex items-center mt-4">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star key={i} className={`w-5 h-5 ${i < Math.floor(tour.rating) ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300'}`} />
-                    ))}
-                    <span className="ml-2 text-sm text-muted-foreground">{tour.rating.toFixed(1)}</span>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Button asChild className="w-full">
-                    <Link href={`/place/${tour.id}`}>View Details <ArrowRight className="ml-2 h-4 w-4" /></Link>
-                  </Button>
-                </CardFooter>
-              </Card>
+              <PlaceCard key={tour.id} place={tour} />
             ))}
           </div>
         </div>
