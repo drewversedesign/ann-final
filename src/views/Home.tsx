@@ -49,24 +49,24 @@ export default function Home() {
           priority
         />
         <div className="absolute inset-0 bg-black/50 z-10" />
-        <div className="relative z-20 container mx-auto px-4">
-          <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">Discover Your Next Adventure</h1>
-          <p className="mt-4 text-lg md:text-xl max-w-3xl mx-auto">
+        <div className="relative z-20 container mx-auto px-4 py-16 md:py-24">
+          <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8">Discover Your Next Adventure</h1>
+          <p className="text-lg md:text-xl lg:text-2xl max-w-4xl mx-auto mb-12 leading-relaxed">
             Ann Tours and Travel offers curated safari experiences across the heart of Africa. Unforgettable journeys await.
           </p>
           
-          <div className="mt-8 max-w-2xl mx-auto">
-            <form onSubmit={handleSearch} className="flex gap-2 bg-white rounded-full p-2 shadow-lg">
+          <div className="max-w-3xl mx-auto">
+            <form onSubmit={handleSearch} className="flex gap-3 bg-white rounded-full p-3 shadow-2xl">
                 <div className="relative w-full">
                     <Input
                         type="search"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                         placeholder="Search destinations, hotels, or attractions..."
-                        className="pl-6 w-full bg-transparent border-none focus-visible:ring-0 text-foreground h-12 text-base"
+                        className="pl-6 w-full bg-transparent border-none focus-visible:ring-0 text-foreground h-14 text-base md:text-lg"
                     />
                 </div>
-                <Button type="submit" size="lg" className="rounded-full font-bold">Search</Button>
+                <Button type="submit" size="lg" className="rounded-full font-bold px-8 h-14 text-base md:text-lg">Search</Button>
             </form>
           </div>
         </div>
