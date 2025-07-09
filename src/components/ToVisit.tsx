@@ -3,7 +3,6 @@
 import { useContext } from "react";
 import { MainContext } from "@/context/MainContext";
 import { PlaceCard } from "@/components/place-card";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { AttractionsListLoader } from "./loaders";
 
 export default function ToVisit() {
@@ -30,25 +29,11 @@ export default function ToVisit() {
             <h2 className="font-headline text-3xl md:text-4xl font-bold">Place to Visit</h2>
             <p className="mt-2 text-lg text-muted-foreground">These are some places you might want to visit.</p>
         </div>
-        <Carousel 
-          opts={{
-            align: "start",
-            loop: attractions.length > 3,
-          }}
-          className="w-full px-10"
-        >
-          <CarouselContent className="-ml-4">
-            {attractions.map((place) => (
-              <CarouselItem key={place.id} className="pl-4 md:basis-1/2 lg:basis-1/3">
-                <div className="h-full">
-                  <PlaceCard place={place} />
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="hidden sm:flex" />
-          <CarouselNext className="hidden sm:flex" />
-        </Carousel>
+        <div className="max-w-md mx-auto grid grid-cols-2 gap-2">
+          {attractions.slice(0, 4).map((place) => (
+            <PlaceCard key={place.id} place={place} />
+          ))}
+        </div>
       </div>
     </section>
   );
