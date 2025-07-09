@@ -13,9 +13,9 @@ export default function ToVisit() {
   return (
     <section className="w-full py-16 lg:py-24">
        <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">What to Visit</h2>
-            <p className="mt-2 text-lg text-muted-foreground">Discover unforgettable attractions and experiences.</p>
+        <div className="mb-12">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">Place to Visit</h2>
+            <p className="mt-2 text-lg text-muted-foreground">These are some places you might want to visit.</p>
         </div>
         <Carousel 
           opts={{
