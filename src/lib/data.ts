@@ -1258,6 +1258,53 @@ Tips for Your Trip
     contact: { phone: '+255-776-591-360', website: 'https://www.rockrestaurantzanzibar.com' },
     rating: 4.6,
   },
+  {
+    id: 'zan-3',
+    name: 'Nakupenda Beach Nature Reserve',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'White sand beach and clear waters ideal for snorkeling with vibrant marine life. Enjoy fresh seafood and visit historical sites for cultural shopping.',
+    longDescription: 'White sand beach and clear waters ideal for snorkeling with vibrant marine life. Enjoy fresh seafood and visit historical sites for cultural shopping.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/d3/3a/ed/photo2jpg.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/68/2a/b8/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5f/1e/b6/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.162, lng: 39.172 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7,
+  },
+  {
+    id: 'zan-4',
+    name: 'Nungwi Beach',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Beautiful beach with powdery soft white sand and turquoise water.lots of cool restaurants with fantastic food.',
+    longDescription: 'Beautiful beach with powdery soft white sand and turquoise water.lots of cool restaurants with fantastic food and a vibrant atmosphere, especially at sunset.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/4c/d8/9e/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/4c/01/09/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -5.726, lng: 39.294 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8,
+  },
+  {
+    id: 'zan-5',
+    name: 'Prison Island - Changuu Private Island',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Historical island featuring a sanctuary with gentle giant tortoises and a small museum. Scenic boat rides complement the mix of natural beauty and cultural heritage.',
+    longDescription: 'A short boat trip from Stone Town, Changuu Private Island, also known as Prison Island, offers a fascinating combination of history and nature. The island was once used to detain rebellious slaves and later functioned as a quarantine station. Today, its main draw is the sanctuary for giant Aldabra tortoises, some of which are over a century old. Visitors can interact with these gentle giants, explore the old prison ruins, and snorkel in the clear surrounding waters.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/fb/f4/56/prison-island.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5e/59/13/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/54/f6/8c/caption.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -6.126, lng: 39.168 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5,
+  },
   // Rwanda
   {
     id: 'rw-1',
@@ -1288,3 +1335,4 @@ Tips for Your Trip
     
 
     
+
