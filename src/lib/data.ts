@@ -901,6 +901,338 @@ Tips for Your Trip
     contact: { phone: '+255-736-500100', website: 'https://www.asiliaafrica.com' },
     rating: 4.8,
   },
+  {
+    id: 'tz-3',
+    name: 'Ngorongoro Crater',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Wildlife sanctuary in a volcanic crater with dramatic landscapes, home to dense populations of lions, elephants, and the rare black rhino, with a notable hippo pool.',
+    longDescription: 'Wildlife sanctuary in a volcanic crater with dramatic landscapes, home to dense populations of lions, elephants, and the rare black rhino, with a notable hippo pool.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/4e/82/9c/ngorongoro-crater-is.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -3.169, lng: 35.587 },
+    contact: { phone: 'N/A', website: 'https://www.tripadvisor.com/Attraction_Review-g317085-d317783-Reviews-Ngorongoro_Crater-Ngorongoro_Conservation_Area_Arusha_Region.html' },
+    rating: 4.9
+  },
+  {
+    id: 'tz-4',
+    name: 'Mount Kilimanjaro',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Mount Kilimanjaro treks through the Lemosho route offer a scenic journey with a gradual ascent, leading to the life-changing Uhuru Peak and unforgettable sunrise views.',
+    longDescription: 'Mount Kilimanjaro treks through the Lemosho route offer a scenic journey with a gradual ascent, leading to the life-changing Uhuru Peak and unforgettable sunrise views.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/4d/dc/a1/mount-kilimanjaro.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/66/75/d9/climbing-kilimanjaro.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/98/9a/20/bushmaasaisafaris-gmailcom.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -3.067, lng: 37.355 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-5',
+    name: 'Nakupenda Beach Nature Reserve',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'White sand beach and clear waters ideal for snorkeling with vibrant marine life. Enjoy fresh seafood and visit historical sites for cultural shopping.',
+    longDescription: 'White sand beach and clear waters ideal for snorkeling with vibrant marine life. Enjoy fresh seafood and visit historical sites for cultural shopping.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/d3/3a/ed/photo2jpg.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/68/2a/b9/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5f/1e/b8/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.162, lng: 39.172 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-6',
+    name: 'Paje Beach',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Sun-kissed beach with clear, warm waters, ideal for kite surfing and reef walks. Offers a relaxed atmosphere with bars and restaurants, though can be crowded.',
+    longDescription: 'Sun-kissed beach with clear, warm waters, ideal for kite surfing and reef walks. Offers a relaxed atmosphere with bars and restaurants, though can be crowded.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e8/b4/7b/you-are-most-welcome.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/45/67/12/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/45/67/11/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.264, lng: 39.535 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-7',
+    name: 'The Tanzanite Experience',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Gemstone journey through a replicated mine and informative exhibits, revealing the unique history and process behind Tanzanite. Includes a documentary and displays of fine jewelry.',
+    longDescription: 'Gemstone journey through a replicated mine and informative exhibits, revealing the unique history and process behind Tanzanite. Includes a documentary and displays of fine jewelry.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ab/b1/1f/the-tanzanite-experience.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/d9/83/1c/beautiful-tanzanite.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/8a/b5/92/gemologist.jpg?w=300&h=300&s=1'
+    ],
+    location: { lat: -3.366, lng: 36.676 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'tz-8',
+    name: 'Kendwa Beach',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Spacious beach with crystal clear waters ideal for swimming, serene private areas, and a variety of dining options. Enjoy peaceful sunsets and water sports without the crowds.',
+    longDescription: 'Spacious beach with crystal clear waters ideal for swimming, serene private areas, and a variety of dining options. Enjoy peaceful sunsets and water sports without the crowds.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/c4/54/f8/kendwa.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5d/ae/08/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/49/d4/eb/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -5.756, lng: 39.288 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-9',
+    name: 'Tarangire National Park',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Safari adventure in a serene park, known for close elephant encounters and diverse wildlife amidst iconic baobab trees. Ideal for game drives and wildlife photography.',
+    longDescription: 'Safari adventure in a serene park, known for close elephant encounters and diverse wildlife amidst iconic baobab trees. Ideal for game drives and wildlife photography.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/6b/ff/ef/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/49/9b/50/working-safari-in-tanzania.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -4.000, lng: 36.000 },
+    contact: { phone: 'N/A', website: 'https://www.tripadvisor.com/Attraction_Review-g608450-d10506512-Reviews-Tarangire_National_Park-Tarangire_National_Park_Arusha_Region.html' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-10',
+    name: 'Jambiani Beach',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Idyllic beach known for its white sand, turquoise waters, and seaweed farming. It offers a glimpse into local life with a laid-back atmosphere.',
+    longDescription: 'Idyllic beach known for its white sand, turquoise waters, and seaweed farming. It offers a glimpse into local life with a laid-back atmosphere.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/67/cf/ab/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/67/cf/aa/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.315, lng: 39.552 },
+    contact: { phone: 'N/A', website: 'https://www.tripadvisor.com/Attraction_Review-g635745-d11661213-Reviews-Jambiani_Beach-Jambiani_Zanzibar_Island_Zanzibar_Archipelago.html' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-11',
+    name: 'Kikuletwa Hotsprings',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Tranquil hot springs with crystal clear water for swimming and lounging, featuring rope swings and natural fish pedicures amidst scenic views. Ideal for unwinding post-adventure.',
+    longDescription: 'Tranquil hot springs with crystal clear water for swimming and lounging, featuring rope swings and natural fish pedicures amidst scenic views. Ideal for unwinding post-adventure.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/66/f3/c8/23-january-2121.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/71/19/04/trip-epics.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/71/19/03/trip-epics.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -3.583, lng: 37.083 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'tz-12',
+    name: 'Mikumi National Park',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Wildlife sanctuary providing immersive safaris and close encounters with diverse species, including the big five, in their natural habitat, complemented by comfortable accommodations.',
+    longDescription: 'Wildlife sanctuary providing immersive safaris and close encounters with diverse species, including the big five, in their natural habitat, complemented by comfortable accommodations.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/bb/75/30/about-safaris.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/6d/19/aa/whatsapp-255625927127.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/bb/73/ed/lions-in-mikumi-park.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -7.408, lng: 37.126 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-13',
+    name: 'Seronera',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Safari adventure through wildlife-rich reserves with comfortable, well-equipped vehicles. Spot the "big five", enjoy stunning landscapes, and capture remarkable wildlife photography.',
+    longDescription: 'Safari adventure through wildlife-rich reserves with comfortable, well-equipped vehicles. Spot the "big five", enjoy stunning landscapes, and capture remarkable wildlife photography.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/b4/80/95/serengeti.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/b4/80/9a/serengeti.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/47/c7/65/lake-ngoitokitoki-ngorngoro.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -2.449, lng: 34.825 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-14',
+    name: 'Ruaha National Park',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Safari destination with serene landscapes and diverse wildlife, including lions and elephants. Features informative guides and a peaceful, less-traveled atmosphere for nature enthusiasts.',
+    longDescription: 'Safari destination with serene landscapes and diverse wildlife, including lions and elephants. Features informative guides and a peaceful, less-traveled atmosphere for nature enthusiasts.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/10/5e/67/ruaha-national-park.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/97/f7/c7/welcome-to-ruaha.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/a9/f5/87/rope-bridge.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -7.500, lng: 34.500 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-15',
+    name: 'Materuni Waterfalls',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Rustic trail leading to a 70-meter waterfall, with cultural experiences including a local village tour and traditional coffee making. Enjoy local cuisine and rural ambiance.',
+    longDescription: 'Rustic trail leading to a 70-meter waterfall, with cultural experiences including a local village tour and traditional coffee making. Enjoy local cuisine and rural ambiance.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/4a/95/ea/materuni-waterfalls-beautiful.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/5a/4c/64/materuni-waterfalls-january.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/57/cd/da/one-dream-one-team-top.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -3.242, lng: 37.382 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-16',
+    name: 'Usambara Mountains',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Mountainous hiking trails through the Usambara Mountains reveal diverse wildlife, local culture, and panoramic landscapes, with multi-day treks available.',
+    longDescription: 'Mountainous hiking trails through the Usambara Mountains reveal diverse wildlife, local culture, and panoramic landscapes, with multi-day treks available.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/36/7a/89/usambara-mountains.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/a1/59/1b/usambara-mountains.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/6a/c1/5d/usambara-mountains.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -4.750, lng: 38.500 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-17',
+    name: 'Selous Game Reserve',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Wildlife park featuring land and river safaris amidst diverse landscapes, home to lions, elephants, and giraffes for a leisurely and educational wildlife encounter.',
+    longDescription: 'Wildlife park featuring land and river safaris amidst diverse landscapes, home to lions, elephants, and giraffes for a leisurely and educational wildlife encounter.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b4/0b/c1/big-mammal-land.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/2b/4a/28/serengeti-folge-mir-junglegerm.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/2b/4a/27/serengeti-folge-mir-junglegerm.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -8.483, lng: 37.416 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-18',
+    name: 'Serengeti Hippo Pool',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: "Serengeti's Hippo Pool offers intimate encounters with these majestic creatures amidst their natural habitat, allowing for close-up views and the unique sounds of hippo interactions.",
+    longDescription: "Serengeti's Hippo Pool offers intimate encounters with these majestic creatures amidst their natural habitat, allowing for close-up views and the unique sounds of hippo interactions.",
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/96/e1/2c/baby-hippos-are-born.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/98/bb/d5/photo0jpg.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/09/95/e4/serengeti-hippo-pool.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -2.332, lng: 34.826 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-19',
+    name: 'Ngurdoto Crater',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Located in Arusha National Park and off limits to humans, this verdant crater’s mossy, swampy habitat provides a natural sanctuary for elephants, buffalo and Colobus monkeys.',
+    longDescription: 'Located in Arusha National Park and off limits to humans, this verdant crater’s mossy, swampy habitat provides a natural sanctuary for elephants, buffalo and Colobus monkeys.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/9a/1f/06/photo0jpg.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/8f/c9/cc/blick-in-den-kraterboden.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/a9/65/a8/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -3.250, lng: 36.916 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'tz-20',
+    name: "Crafty Dee's (microbrewery & Brewpub)",
+    country: 'Tanzania',
+    type: 'Restaurant',
+    description: "Crafty Dee's Brewing Company has evolved from a backyard room to Dar es Salaam's premier craft beer destination. Our 130-seat brewpub merges restaurant, pub, and beer garden vibes, showcasing our commitment to innovation.",
+    longDescription: "Crafty Dee's Brewing Company has evolved from a backyard room to Dar es Salaam's premier craft beer destination. Our 130-seat brewpub merges restaurant, pub, and beer garden vibes, showcasing our commitment to innovation. Through panoramic windows, guests glimpse our cutting-edge production facility, highlighting our dedication to quality. Crafty Dee's isn't just about beer; it's a community hub. Recognized at the African Beer Cup from 2021-2024, our award-winning beers showcase our dedication to quality and freshness. As Tanzania's sole microbrewery in Dar es Salaam, Crafty Dee's represents local ingenuity. Join us in celebrating innovation, tradition, and the limitless possibilities of craft beer. Welcome to Crafty Dee's, where every sip tells a story of dedication and artistry. Cheers!",
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/4a/43/b6/glass-enclosed-state.jpg?w=900&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/d9/a2/58/african-beer-cup-awards.jpg?w=900&h=500&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/27/d6/1c/oktoberfest.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.762, lng: 39.231 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-21',
+    name: 'Ngozi Crater Lake',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Lush jungle trail leading to the serene Ngozi Crater Lake, enveloped by clouds, with captivating views and a refreshing atmosphere, ideal for leisurely hikes.',
+    longDescription: 'Lush jungle trail leading to the serene Ngozi Crater Lake, enveloped by clouds, with captivating views and a refreshing atmosphere, ideal for leisurely hikes.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/e5/24/92/top-view-lake-ngozi-crater.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/6f/9d/d9/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/6f/9d/d8/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -8.995, lng: 33.565 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-22',
+    name: 'Migration at Serengeti National Park',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Vast wildlife sanctuary with dramatic plains and hot air balloon safaris, home to the Great Migration and diverse ecosystems. Ideal for witnessing majestic animals in their natural habitat.',
+    longDescription: 'Vast wildlife sanctuary with dramatic plains and hot air balloon safaris, home to the Great Migration and diverse ecosystems. Ideal for witnessing majestic animals in their natural habitat.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/4c/2a/53/serengeti-migration-season.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/29/92/50/serengeti-national-park.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/21/f4/d2/serengeti-s-great-wild.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -2.333, lng: 34.833 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'tz-23',
+    name: 'The Tanzanite Dream',
+    country: 'Tanzania',
+    type: 'Attraction',
+    description: 'Tanzanite jewelry showcase with a spectrum of high-quality pieces in well-lit displays. Visitors can browse unique designs and enjoy a relaxed, informative atmosphere.',
+    longDescription: 'Tanzanite jewelry showcase with a spectrum of high-quality pieces in well-lit displays. Visitors can browse unique designs and enjoy a relaxed, informative atmosphere.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/30/0c/c2/the-tanzanite-dream.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b5/33/6e/the-tanzanite-dream.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b5/33/70/the-tanzanite-dream.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -3.366, lng: 36.676 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
   // Zanzibar
   {
     id: 'zan-1',
