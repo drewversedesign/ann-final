@@ -187,7 +187,7 @@ Tour packages will include half-day and full-day options, allowing guests to par
 Overnight stays will be available at the Ngamba Eco-Lodge, featuring luxury tent accommodations and various island activities.
 
 Getting There
-Visitors will reach the island by speedboat in about 45 to 50 minutes from Entebbe Dock.
+Visitors will reach the island by speedboat in about 45 to 50 minutes from Entebbe’s Dock.
 Alternatively, a traditional motorized canoe will take approximately 90 minutes.
 Small plane transfers from Entebbe Airport or Kajjansi Airstrip will take roughly 20 minutes.
 
@@ -1305,6 +1305,230 @@ Tips for Your Trip
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.5,
   },
+   {
+    id: 'zan-6',
+    name: 'Paje Beach',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Sun-kissed beach with clear, warm waters, ideal for kite surfing and reef walks. Offers a relaxed atmosphere with bars and restaurants, though can be crowded.',
+    longDescription: 'Sun-kissed beach with clear, warm waters, ideal for kite surfing and reef walks. Offers a relaxed atmosphere with bars and restaurants, though can be crowded.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e8/b4/7b/you-are-most-welcome.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/45/67/12/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/5c/82/d1/paje-beach-opposite-kilima.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -6.264, lng: 39.535 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'zan-7',
+    name: 'Kendwa Beach',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Spacious beach with crystal clear waters ideal for swimming, serene private areas, and a variety of dining options. Enjoy peaceful sunsets and water sports without the crowds.',
+    longDescription: 'Spacious beach with crystal clear waters ideal for swimming, serene private areas, and a variety of dining options. Enjoy peaceful sunsets and water sports without the crowds.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/c4/54/f8/kendwa.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5d/ae/08/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/49/d4/ea/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -5.756, lng: 39.288 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'zan-8',
+    name: 'Jambiani Beach',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Sunrise is the best here and super amazing. It was fun seeing locals collecting seaweeds.',
+    longDescription: 'Sunrise is the best here and super amazing. It was fun seeing locals collecting seaweeds. The beach offers a unique glimpse into the local way of life against a stunning natural backdrop.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/67/cf/ab/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/67/cf/a9/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/59/56/e6/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.315, lng: 39.552 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'zan-9',
+    name: 'Old Slave Market/Anglican Cathedral',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'The Heritage Centre aims to promote tolerance and reconciliation by telling the story of this dark chapter in history.',
+    longDescription: 'The Old Slave Market site, now home to the Anglican Cathedral, is a poignant reminder of Zanzibar\'s past. The Heritage Centre aims to promote tolerance, reconciliation, and an inclusive society, bridging social and ethnic divides by telling the story of this dark chapter.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/c3/d6/42/20181217-103935-largejpg.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/75/d9/67/anglican-cathedral.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/f4/60/e6/anglican-cathedral.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.164, lng: 39.193 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'zan-10',
+    name: 'Jozani Chwaka Bay National Park',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Tropical forest walk through diverse flora, home to unique red colobus monkeys and a mangrove swamp ecosystem.',
+    longDescription: 'Jozani Chwaka Bay National Park offers a tropical forest walk through diverse flora, and is home to unique red colobus monkeys and a mangrove swamp ecosystem. It is ideal for wildlife and plant enthusiasts seeking an immersive nature experience.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/eb/2c/52/jozan-forest-is-a-national.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9a/df/3e/red-monkey-on-the-tree.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9a/dd/84/enjoy-baby-red-monkey.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -6.262, lng: 39.409 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'zan-11',
+    name: 'Matemwe Beach',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Tranquil beach with wide, white sands ideal for leisurely strolls, snorkeling, and dolphin spotting.',
+    longDescription: 'Tranquil beach with wide, white sands ideal for leisurely strolls, snorkeling, and dolphin spotting. Characterized by serene scenery and local charm, perfect for a peaceful retreat.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/09/02/ed/schaaa-ists-villa-kiva.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/56/fb/c9/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/56/fb/c7/caption.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -5.850, lng: 39.362 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'zan-12',
+    name: 'Mnarani Marine Turtles Conservation Pond',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Marine sanctuary in a beachside neighborhood provides interactive experiences with sea turtles.',
+    longDescription: 'Marine sanctuary in a beachside neighborhood provides interactive experiences with sea turtles, including feeding and snorkeling, with a focus on conservation education.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/52/3d/c4/meeresschildkroten-im.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/6a/ed/a2/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/08/50/3f/img-20190214-115214-largejpg.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -5.722, lng: 39.294 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'zan-13',
+    name: 'Darajani Bazaar',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Also known as the Spice Market, this bustling local market is the vibrant heart of Stone Town.',
+    longDescription: 'This is a market which has more than one name - some call it the Spice Market, Darajani Market, or simply the Local Market. It is a vibrant and bustling hub where locals and tourists alike can find a wide array of spices, fresh produce, seafood, and local crafts.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/4c/65/6f/spices.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/81/b4/29/darajani-bazaar.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/f5/03/26/caption.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -6.163, lng: 39.191 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.3
+  },
+  {
+    id: 'zan-14',
+    name: 'Forodhani Gardens',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'A vibrant seafront park that comes alive at night with a bustling food market.',
+    longDescription: 'There are so many options and it\'s really neat to see all the different types of fresh seafood. In the evening, Forodhani Gardens transforms into a lively open-air food market, offering a taste of Zanzibari street food, from grilled seafood to sugar cane juice.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/4a/13/72/photo1jpg.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/98/7c/88/20170221-184401-largejpg.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/31/88/c8/park.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -6.160, lng: 39.189 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'zan-15',
+    name: 'Kuza Cave',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Serene swimming spot in a crystal-clear cave with cultural experiences and unique rock formations.',
+    longDescription: 'Serene swimming spot in a crystal-clear cave with cultural experiences and unique rock formations. Ideal for peaceful exploration and refreshing swims among luminescent algae.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/d9/81/4f/discover-the-ancient.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/d9/82/fd/most-days-you-will-see.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/d9/82/74/learn-about-the-world.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -6.320, lng: 39.544 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'zan-16',
+    name: 'Kiwengwa Beach',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'An absolutely beautiful beach front with a gentle tide and stunning sunrises.',
+    longDescription: 'An absolutely beautiful beach front with a gentle tide and stunning sunrises. Kiwengwa is known for its long stretches of white sand and calm, turquoise waters, making it ideal for relaxation and water sports.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/44/d6/7e/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/44/d6/7d/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/44/d6/7c/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -5.996, lng: 39.380 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'zan-17',
+    name: 'Nungwi Mnarani Aquarium',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'The best experience, and they love their seaweed food, nearly grabbing it off your hands! The area is clean.',
+    longDescription: 'The best experience, and they love their seaweed food, nearly grabbing it off your hands! The area is clean. This conservation project focuses on rescuing and rehabilitating sea turtles.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/c5/19/40/photo0jpg.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d1/d2/ed/20170325-145152-largejpg.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/a3/03/20/alimentando-as-tartarugas.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -5.723, lng: 39.295 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'zan-18',
+    name: 'Zanzibar Butterfly Centre',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Butterfly and chameleon garden focused on conservation and community support.',
+    longDescription: 'Butterfly and chameleon garden focused on conservation and community support, featuring informative tours, a pleasant ambiance, and interaction with diverse species in a serene setting.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/1c/57/08/butterfly.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/a7/77/f8/the-butterfly-garden.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/8a/38/80/zanzibar-butterfly-centre.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -6.269, lng: 39.408 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'zan-19',
+    name: 'Mtende beach',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'The hidden gems… third trip to this place because it’s always the best.',
+    longDescription: 'The hidden gems… third trip to this place because it’s always the best. A stunning and secluded beach known for its dramatic rock formations and pristine sand, perfect for a photo session or a quiet escape.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/dc/6d/72/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/6a/7a/33/mtende-beach-this-is.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/6a/7a/32/mtende-beach-this-is.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.446, lng: 39.516 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
   // Rwanda
   {
     id: 'rw-1',
@@ -1335,4 +1559,5 @@ Tips for Your Trip
     
 
     
+
 
