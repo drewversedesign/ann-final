@@ -22,7 +22,11 @@ export const places: Place[] = [
     type: 'Hotel',
     description: 'A 5-star hotel offering a world-class experience in Kampala.',
     longDescription: 'Nestled in the heart of Kampala, the Serena Hotel stands amidst 17 acres of beautifully manicured water gardens. The hotel features an international conference center, a roof-top terrace, and a rock-hewn pool. It provides a tranquil and secure environment for both business and leisure travelers, offering a perfect blend of luxury and Ugandan hospitality.',
-    images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bc/9f/40/kampala-serena-hotel.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/77/75/f9/exterior-kampala-serena.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bc/a6/6c/kampala-serena-hotel.jpg?w=500&h=-1&s=1'
+    ],
     location: { lat: 0.316, lng: 32.589 },
     contact: { phone: '+256-312-309000', website: 'https://www.serenahotels.com' },
     rating: 4.6,
