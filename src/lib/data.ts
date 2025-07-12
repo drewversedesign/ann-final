@@ -8,7 +8,7 @@ export const places: Place[] = [
     name: 'Bwindi Impenetrable National Park',
     country: 'Uganda',
     type: 'Attraction',
-    description: 'Home to nearly half of the world\'s mountain gorillas.',
+    description: 'Bwindi Impenetrable National Park is a UNESCO World Heritage site renowned for its exceptional biodiversity and, most famously, as a sanctuary for nearly half of the world\'s mountain gorillas. A trek through its dense, misty forests offers a once-in-a-lifetime opportunity to observe these magnificent creatures in their natural habitat.',
     longDescription: 'Bwindi Impenetrable National Park is a UNESCO World Heritage site in southwestern Uganda. It is renowned for its exceptional biodiversity, with more than 160 species of trees and over 120 species of mammals. Its main attraction is the gorilla tracking, offering a once-in-a-lifetime opportunity to see these magnificent creatures up close in their natural habitat. The dense, misty forest also offers incredible bird watching and nature walks.',
     images: ['https://images.unsplash.com/photo-1648510398515-c4a7bda2d544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -1.087, lng: 29.619 },
@@ -433,6 +433,224 @@ The best time to visit is during the dry seasons, from June to September and Dec
     location: { lat: 2.273, lng: 31.792 },
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
     rating: 4.8,
+  },
+  {
+    id: 'ug-22',
+    name: 'Kampala Serena Hotel',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Elegant hotel with African-themed rooms, spacious accommodations, and a serene ambience.',
+    longDescription: 'Elegant hotel with African-themed rooms, spacious accommodations, and a serene ambience. Highlights include a spa, health club, and gym. Convenient central location near business areas. Limited dining option',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bc/9f/40/kampala-serena-hotel.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/de/af/1c/exterior-view-and-pool.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/62/ef/50/exterior-view-and-pool.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.315, lng: 32.588 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'ug-23',
+    name: 'Le Petit Village Hotel And Spa',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Boutique hotel with tranquil gardens, stylish rooms, and diverse dining options.',
+    longDescription: 'Boutique hotel with tranquil gardens, stylish rooms, and diverse dining options including Belgian and Japanese cuisine. Features a gym, spa, pool, gourmet supermarket, and spacious grounds.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/66/b7/56/hotel-le-petit-village.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/26/1a/96/hotel-le-petit-village.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/67/38/3f/hotel-le-petit-village.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.298, lng: 32.593 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'ug-24',
+    name: 'K Hotels',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Hotel renowned for exceptional staff, spa, and sauna facilities with stunning views.',
+    longDescription: 'Hotel renowned for exceptional staff, spa, and sauna facilities with stunning views. Offers amenities like pool, gym, and complimentary foot massages. Enjoy comfortable rooms, delicious breakfast, and unique entertainment like Mongolian night at the rooftop bar.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c7/65/84/lake-suite.jpg?w=500&h=300&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c7/65/8f/classic-room.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/54/e4/e7/k-hotels.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.052, lng: 32.470 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'ug-25',
+    name: 'Explorers Hub',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'A unique guesthouse offering vegan and organic options, a wine shop, and a local craft shop.',
+    longDescription: 'Also, it\'s incredible that the restaurant offers vegan and organic options. Moreover, I love that there is a wine shop on the premises and a local shop offering African-made products',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a7/15/9e/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/2b/db/f3/guest-lounge.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/6f/57/c6/explorers-hub.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.057, lng: 32.462 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'ug-26',
+    name: 'Speke Hotel',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Centrally located hotel in Kampala with easy access to attractions and businesses.',
+    longDescription: 'Centrally located hotel in Kampala with easy access to attractions and businesses. Features quick check-in, helpful staff, comfortable rooms, diverse breakfast options, open-air dining, and online booking.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fa/9e/40/img-20190607-104540-largejpg.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/8a/d5/76/speke-hotel.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.314, lng: 32.583 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.2
+  },
+  {
+    id: 'ug-27',
+    name: 'Chobe Safari Lodge',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'A breathtaking lodge in Murchison Falls National Park with incredible wildlife views.',
+    longDescription: 'The views and wildlife are breathe taking, the staff were just wonderful and so incredibly helpful. Our room was lovely and the food was good:) We would go back if we are ever in this part of the world again!',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/4c/1b/a7/chobe-safari-lodge-uganda.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/4c/1c/5d/chobe-safari-lodge-uganda.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 2.270, lng: 31.960 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'ug-28',
+    name: 'Hotel Golden Tulip Canaan Kampala',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Luxury hotel with exceptional staff, comfortable rooms, and excellent food.',
+    longDescription: 'Luxury hotel with exceptional staff, comfortable rooms, and excellent food. Features pool, spa, fitness center, and golf course views. Convenient for business travelers near airport and attractions.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/e9/97/bc/buiding.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/a2/46/20/mosaic-restaurant.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/e9/98/2f/swimming-pool.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.306, lng: 32.593 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'ug-29',
+    name: 'Kabira Country Club',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Tranquil hotel with serene grounds, spacious rooms, and varied dining options.',
+    longDescription: 'Tranquil hotel with serene grounds, spacious rooms, pool, gym, sauna, and steam room. Features live music, varied dining options including Indian and Mongolian cuisine, and a well-stocked bar.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/35/52/3d/swimming-pool.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/35/21/ab/kabira-country-club.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/1f/d2/13/studio-deluxe-room.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.344, lng: 32.602 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'ug-30',
+    name: 'Hilton Garden Inn Kampala',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Modern hotel in Kampala near Acacia Mall, featuring spacious, well-equipped rooms.',
+    longDescription: 'Modern hotel in Kampala near Acacia Mall and restaurants, featuring spacious, well-equipped rooms with free WiFi, tea amenities, and a small fridge. Guests enjoy diverse dining options and attentive service.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/36/0a/d9/hilton-garden-inn-kampala.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/36/0b/1b/hilton-garden-inn-kampala.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/36/0b/23/hilton-garden-inn-kampala.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.334, lng: 32.588 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'ug-31',
+    name: 'Mweya Safari Lodge',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Scenic lodge on a peninsula in Queen Elizabeth National Park with stunning views.',
+    longDescription: 'Scenic lodge on a peninsula in Queen Elizabeth National Park with stunning views of Lake Edward and Kazinga Channel. Features wildlife sightings, boat tours, spacious rooms, pool, and nightly entertainment.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/e9/8b/c5/mweya-lodge-view-from.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/e9/8b/c6/mweya-lodge-the-bar.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/4b/44/22/mweya-safari-lodge-uganda.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -0.194, lng: 29.897 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.3
+  },
+  {
+    id: 'ug-32',
+    name: 'Lake Victoria Serena Golf Resort & Spa',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'A beautiful resort with spacious rooms, great service, and a stunning landscape.',
+    longDescription: 'Spacious rooms, great service and beautiful landscape around the property! Loved that there\'s a gym, I used it plenty! I also enjoyed how spacious the room is and liked dining at the marina restaurant!',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/ab/fa/7b/caption.jpg?w=500&h=300&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/01/ce/c5/golf.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/84/6c/20/regularly-sanitized-high.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.207, lng: 32.607 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'ug-33',
+    name: 'Fairway Boutique Hotel',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Central hotel with well-designed rooms, lush gardens, and top-rated dining.',
+    longDescription: 'Central hotel with well-designed rooms, lush gardens, pool, gym, and top-rated dining. Close to Kampala’s key attractions, malls, and restaurants. Relaxing poolside bar and diverse Asian Fusion cuisine.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/a2/1a/c6/fairway-boutique-hotel.jpg?w=500&h=300&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/2a/a6/8a/fairway-boutique-hotel.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/2a/a5/f9/fairway-boutique-hotel.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.319, lng: 32.576 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'ug-34',
+    name: '2Friends Beach Hotel',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Lakeside hotel near the airport with comfortable rooms and a waterfront restaurant.',
+    longDescription: 'Lakeside hotel near the airport with comfortable rooms, small pool, and bar. Waterfront restaurant offers great views and fresh fish. Relaxing atmosphere, ideal for pre- or post-safari stays.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/8d/66/21/exterior.jpg?w=500&h=300&s=1'
+    ],
+    location: { lat: 0.052, lng: 32.457 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'ug-35',
+    name: 'Humura Resorts',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Peaceful hotel in Kampala with spacious rooms, Ugandan-style decor, and a tranquil atmosphere.',
+    longDescription: 'Peaceful hotel in Kampala with spacious rooms, Ugandan-style decor, and a tranquil atmosphere. Features include a pool, gym, complimentary breakfast, and convenient access to city attractions.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e9/dc/a9/view-from-lounge.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.33, lng: 32.58 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
   },
   // Kenya
   {
