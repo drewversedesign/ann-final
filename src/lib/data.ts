@@ -8,8 +8,8 @@ export const places: Place[] = [
     name: 'Bwindi Impenetrable National Park',
     country: 'Uganda',
     type: 'Attraction',
-    description: 'Bwindi Impenetrable National Park is a UNESCO World Heritage site renowned for its exceptional biodiversity and, most famously, as a sanctuary for nearly half of the world\'s mountain gorillas. A trek through its dense, misty forests offers a once-in-a-lifetime opportunity to observe these magnificent creatures in their natural habitat.',
-    longDescription: 'Bwindi Impenetrable National Park is a UNESCO World Heritage site in southwestern Uganda. It is renowned for its exceptional biodiversity, with more than 160 species of trees and over 120 species of mammals. Its main attraction is the gorilla tracking, offering a once-in-a-lifetime opportunity to see these magnificent creatures up close in their natural habitat. The dense, misty forest also offers incredible bird watching and nature walks.',
+    description: 'A UNESCO World Heritage site, Bwindi Impenetrable National Park is a sanctuary for nearly half of the world\'s mountain gorillas. Its dense, misty forests offer a once-in-a-lifetime opportunity to observe these magnificent creatures in their natural habitat while supporting vital conservation efforts and local communities.',
+    longDescription: 'Bwindi Impenetrable National Park is a UNESCO World Heritage site in southwestern Uganda, renowned for its exceptional biodiversity with over 160 species of trees and 120 species of mammals. Its main attraction is gorilla tracking, offering a unique opportunity to see these magnificent creatures up close. The dense, misty forest also provides incredible bird watching, with over 350 species, and guided nature walks that reveal the rich ecosystem and stunning waterfalls within the park.',
     images: ['https://images.unsplash.com/photo-1648510398515-c4a7bda2d544?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxBdHRyYWN0aW9uJTIwVWdhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -1.087, lng: 29.619 },
     contact: { phone: '+256-414-346287', website: 'https://www.ugandawildlife.org' },
@@ -45,26 +45,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Attraction',
     description: 'Home to nearly half of the world\'s remaining mountain gorillas, making it one of the top destinations for gorilla trekking.',
-    longDescription: `Bwindi Impenetrable Forest is one of Uganda’s most famous natural treasures, located in southwestern Uganda along the border with the Democratic Republic of Congo. It covers about 331 square kilometers of dense tropical rainforest and is recognized as a UNESCO World Heritage Site.
-
-Why Visit Bwindi?
-Mountain Gorilla Tracking: Bwindi is home to nearly half of the world’s remaining mountain gorillas, making it one of the top destinations for gorilla trekking.
-Biodiversity: The forest hosts over 120 mammal species, including chimpanzees, elephants, forest buffalo, and various monkeys, as well as more than 350 bird species.
-Unique Ecosystem: Its dense vegetation, steep terrain, and rich plant life make it one of the most biologically diverse forests in Africa.
-
-Gorilla Trekking Experience
-Permits: Gorilla trekking permits are required and limited to ensure minimal disturbance. Treks typically last 2 to 8 hours, depending on how far gorilla groups are.
-Guides: Trained park rangers lead the trek, providing safety and educational insight about the gorillas and their habitat.
-Rules: Visitors must stay at least 7 meters away from gorillas, avoid direct eye contact, and limit observation time to one hour.
-Best Time: Dry seasons (December to February, June to August) offer easier trekking conditions and better chances to find gorillas.
-
-Other Activities
-Bird Watching: Bwindi is a birdwatcher’s paradise, with many endemic and rare species.
-Nature Walks: Explore trails in the forest, including community walks near the park edges.
-Cultural Visits: Meet local Batwa pygmy communities and learn about their traditional lifestyles.
-
-Accommodation
-Options range from luxury lodges like Bwindi Lodge and Buhoma Lodge to community-run guesthouses and campsites around the forest.`,
+    longDescription: `Bwindi Impenetrable Forest, a UNESCO World Heritage Site in southwestern Uganda, is a sanctuary of dramatic, mist-shrouded volcanic slopes and one of the most biologically diverse forests in Africa. Its most famous residents are the mountain gorillas, and tracking them through the dense vegetation is an unforgettable wildlife encounter. The forest also hosts chimpanzees, forest elephants, and over 350 bird species, offering rich opportunities for nature walks and birdwatching. Engaging with local Batwa pygmy communities provides deep cultural insight into their ancient forest-dwelling traditions.`,
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/d4/02/b5/experience-the-beauty.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
     location: { lat: -1.087, lng: 29.619 },
     contact: { phone: '+256-414-346287', website: 'https://www.ugandawildlife.org' },
@@ -76,26 +57,7 @@ Options range from luxury lodges like Bwindi Lodge and Buhoma Lodge to community
     country: 'Uganda',
     type: 'Attraction',
     description: 'Uganda’s largest and oldest national park, famous for the spectacular Murchison Falls where the Nile River squeezes through a narrow gorge.',
-    longDescription: `Murchison Falls National Park is Uganda’s largest and oldest national park, covering about 3,840 square kilometers in the northwest. It’s famous for the spectacular Murchison Falls, where the Nile River squeezes through a narrow gorge and plunges over 40 meters down.
-
-Highlights
-Murchison Falls: The park’s centerpiece—a thunderous waterfall where the Nile is forced through a 7-meter-wide gap, creating an impressive display of power and mist.
-Wildlife: The park hosts diverse animals including elephants, lions, leopards, giraffes, buffalo, hippos, crocodiles, Uganda kob, waterbucks, and many bird species.
-Big Game Viewing: Murchison Falls offers classic African savannah game drives with a good chance to see the “Big Five” (except rhinos, which are currently absent).
-Boat Safaris: A popular way to experience the park is by boat along the Nile, cruising from Paraa to the base of the falls. This route offers great views of hippos, crocodiles, and birdlife like the African fish eagle.
-Chimpanzee Tracking: Nearby Budongo Forest is known for chimpanzee trekking.
-
-Activities
-Game Drives: Morning and afternoon safaris explore the park’s diverse habitats.
-Boat Cruises: Half-day trips up the Nile to the falls, with opportunities to see aquatic wildlife.
-Hiking: Trek to the top of Murchison Falls for a stunning panoramic view of the Nile and surrounding landscapes.
-Bird Watching: Over 450 bird species, including the rare shoebill stork.
-
-When to Visit
-The best time is during the dry seasons, December to February and June to September, when animals gather near water sources and roads are more accessible.
-
-Accommodation
-Options range from budget campsites to mid-range lodges like Paraa Safari Lodge and luxury tented camps.`,
+    longDescription: `Murchison Falls National Park, Uganda’s largest conservation area, is a realm of breathtaking waterfalls, sprawling savannahs, and the mighty Nile River. The park's centerpiece is the thunderous Murchison Falls, where the Nile explodes through a narrow 7-meter gorge. Visitors can enjoy thrilling game drives to see lions, giraffes, and elephants, and take a boat safari to the base of the falls for incredible hippo and crocodile sightings. The park also offers chimpanzee tracking in the nearby Budongo Forest and spectacular hiking to the top of the falls.`,
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3b/73/32/africa-is-for-us-the.jpg?w=700&h=400&s=1', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/a5/8c/51/the-falls.jpg?w=600&h=400&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: 2.273, lng: 31.792 },
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
@@ -107,30 +69,7 @@ Options range from budget campsites to mid-range lodges like Paraa Safari Lodge 
     country: 'Uganda',
     type: 'Attraction',
     description: 'A leading conservation education facility, home to rescued and rehabilitated wildlife in habitats mimicking their natural environments.',
-    longDescription: `Established in 1952 as a wildlife reception center for injured, orphaned, or confiscated animals, UWEC has grown into Uganda’s leading conservation education facility. In 1994, it was restructured under the Uganda Wildlife Education Centre Trust to focus on conservation education, wildlife rescue, rehabilitation, and breeding endangered species.
-
-Wildlife & Habitats
-UWEC is home to over 250 animals representing more than 120 species, including mammals, birds, reptiles, and amphibians. The center features four main habitats designed to mimic natural environments: savannah, forest, wetland, and open water.
-Notable species include:
-Mammals: lions, giraffes, rhinos, chimpanzees, zebras, crocodiles, and various antelopes
-Birds: shoebill stork, ostriches, grey-crowned cranes, and peacocks
-Reptiles and amphibians: Nile crocodiles, African rock pythons, and various tortoises
-
-Education & Outreach
-Education is central to UWEC’s mission. The center offers guided tours, workshops, and interactive exhibits aimed at raising awareness about wildlife conservation. Programs are tailored for different age groups, with a strong emphasis on engaging youth through hands-on learning.
-
-Conservation & Research
-UWEC plays a key role in Uganda’s conservation efforts as a national wildlife rescue center. It collaborates with the Uganda Wildlife Authority and other partners to rescue and rehabilitate wildlife. The center also conducts research on animal behavior and habitat conservation.
-
-Visitor Amenities
-Facilities include:
-On-site restaurant offering local and international cuisine
-Children’s play area
-Gift shop selling wildlife-themed souvenirs and educational materials
-Eco-lodges and dormitories for overnight stays or volunteers
-
-Location & Access
-UWEC is located about 10–15 minutes from Entebbe International Airport and roughly 40 minutes from Kampala, making it easily accessible for both local and international visitors.`,
+    longDescription: `The Uganda Wildlife Conservation Education Centre (UWEC), often called the Entebbe Zoo, is a center for animal rescue, rehabilitation, and conservation education. Located on the shores of Lake Victoria, it provides a sanctuary for animals that are orphaned, injured, or confiscated from illegal trade. Visitors can see a wide range of native species, including lions, giraffes, rhinos, and chimpanzees, in spacious, naturalistic enclosures. It offers unique experiences like behind-the-scenes tours and a 'keeper for a day' program.`,
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/bd/e4/15/photo0jpg.jpg?w=700&h=-1&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: 0.056, lng: 32.463 },
     contact: { phone: 'N/A', website: 'https://uwec.ug' },
@@ -142,27 +81,7 @@ UWEC is located about 10–15 minutes from Entebbe International Airport and rou
     country: 'Uganda',
     type: 'Attraction',
     description: 'Historic gardens on the shores of Lake Victoria, showcasing over 500 indigenous and exotic plant species.',
-    longDescription: `Established in 1898, the Entebbe Botanical Gardens cover about 40.7 hectares and are located just five minutes from Entebbe International Airport and around 34 kilometers from Kampala. Originally created to test economically important crops like cotton, rubber, cocoa, tea, coffee, and spices, the gardens now serve as a center for plant conservation, education, and recreation.
-
-Plant Collections
-The gardens house over 500 plant species, including both indigenous and exotic varieties. Notable sections include:
-Medicinal plants with traditional and modern uses
-Tropical rainforest area featuring tall trees and orchids
-Palm tree avenue lined with various palm species
-Rock garden showcasing plants adapted to rocky habitats
-
-Wildlife
-The gardens are home to several primate species such as vervet monkeys and black-and-white colobus monkeys. Visitors may also see red-tailed monkeys, squirrels, and a variety of birds including African fish eagles, malachite kingfishers, and sunbirds.
-
-Activities
-Guided nature walks to explore diverse plants and ecosystems
-Bird watching with over 150 species recorded
-Picnicking in designated areas overlooking Lake Victoria
-Photography of tropical flora and fauna
-Volunteer opportunities in conservation and education
-
-Events
-The gardens host events such as the annual Milege World Music Festival in November, featuring live music, cultural performances, and art exhibitions.`,
+    longDescription: `Established in 1898, the Entebbe Botanical Gardens are a tranquil oasis on the shores of Lake Victoria. The gardens are a haven for nature lovers, featuring a diverse collection of tropical plants, trees, and flowers from around the world. It's an excellent spot for birdwatching, with numerous species attracted to the lush environment, and visitors can often spot colobus monkeys swinging through the trees. The peaceful atmosphere makes it perfect for a leisurely stroll or a relaxing picnic.`,
     images: ['https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/c3/bf/b7.jpg'],
     location: { lat: 0.065, lng: 32.476 },
     contact: { phone: 'N/A', website: 'N/A' },
@@ -174,26 +93,7 @@ The gardens host events such as the annual Milege World Music Festival in Novemb
     country: 'Uganda',
     type: 'Attraction',
     description: 'A safe haven for orphaned eastern chimpanzees, providing a semi-natural forest environment for them to thrive.',
-    longDescription: `Ngamba Island Chimpanzee Sanctuary is a safe haven for orphaned eastern chimpanzees rescued from poachers and the illegal pet trade. It covers about 100 acres of forest on Ngamba Island, located roughly 23 kilometers southeast of Entebbe. The sanctuary provides a semi-natural environment for over 50 chimpanzees to live, recover, and thrive.
-
-Sanctuary Features
-The sanctuary includes 95 acres of natural forest where chimpanzees roam and forage daily.
-Their diet is supplemented several times a day, and they have the choice to stay in the forest at night or return to nighttime enclosures where they build nests and receive an evening meal.
-Conservation efforts involve fieldwork and community education, in cooperation with the Ugandan government and wildlife authorities. The sanctuary is accredited by the Global Federation of Animal Sanctuaries.
-
-Visitor Experience
-Visitors can observe chimpanzee feeding sessions from a raised viewing platform, offering close-up views of chimpanzee behavior.
-Tour packages include half-day and full-day options, allowing guests to participate in feeding sessions and learn about conservation work.
-Overnight stays are available at the Ngamba Eco-Lodge, featuring luxury tent accommodations and various island activities.
-
-Getting There
-Visitors reach the island by speedboat in about 45 to 50 minutes from Entebbe’s Dock.
-Alternatively, a traditional motorized canoe takes approximately 90 minutes.
-Small plane transfers from Entebbe Airport or Kajjansi Airstrip take roughly 20 minutes.
-
-Additional Activities
-Guests staying overnight have access to exclusive sunset cruises on Lake Victoria.
-Volunteering programs lasting one to four weeks allow participants to assist with chimpanzee care and conservation projects.`,
+    longDescription: `Located on a forested island in Lake Victoria, Ngamba Island Chimpanzee Sanctuary provides a safe home for over 50 orphaned and rescued chimpanzees. The sanctuary offers a unique opportunity to observe these intelligent primates up close from a raised viewing platform during their feeding times. Visitors can also take a boat trip across the beautiful Lake Victoria to reach the island, making the journey part of the adventure. The project is managed by the Chimpanzee Sanctuary and Wildlife Conservation Trust (CSWCT).`,
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/d6/b9/87/20210407-114824-largejpg.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: -0.103, lng: 32.650 },
     contact: { phone: 'N/A', website: 'https://ngambaisland.org' },
@@ -205,22 +105,7 @@ Volunteering programs lasting one to four weeks allow participants to assist wit
     country: 'Uganda',
     type: 'Attraction',
     description: 'The largest mosque in East Africa, offering panoramic views of Kampala from its minaret.',
-    longDescription: `The Uganda National Mosque, located atop Old Kampala Hill, is the largest mosque in East Africa and the second largest on the African continent. It was commissioned by former Libyan leader Muammar Gaddafi, completed in 2006, and officially opened in June 2007. After Gaddafi’s death in 2011, the mosque was renamed in 2013 to its current title.
-
-Architecture and Capacity
-The mosque can accommodate up to 15,000 worshippers in the main hall, with additional space for 1,100 in the gallery and 3,500 on the terrace.
-Its design blends Islamic and Ugandan cultural elements, featuring a large dome and a 50.5-meter minaret.
-The complex includes the headquarters of the Uganda Muslim Supreme Council, a conference hall, library, university college, and a radio station.
-
-Visiting the Mosque
-The mosque is located about 2 kilometers from Kampala’s city center.
-Visitors are expected to dress modestly. Women should wear loose-fitting clothing that covers the wrists and ankles, and headscarves are available at the entrance. Men should wear trousers and shirts with sleeves.
-Entry fees are approximately UGX 20,000 for foreign tourists.
-Guided tours are available daily and included in the entry fee.
-Visitors can climb the 272 steps of the minaret for panoramic views of Kampala.
-
-Cultural Significance
-The mosque serves as a symbol of religious unity and cultural heritage in Uganda. It plays a central role in the Muslim community and is a notable landmark in Kampala.`,
+    longDescription: `The Uganda National Mosque, located atop Old Kampala Hill, is a stunning architectural landmark and the largest mosque in East Africa. Commissioned by Colonel Muammar Gaddafi, its design blends Islamic and Ugandan cultural elements. The mosque is open to visitors of all faiths, who can admire its beautiful interior and intricate details. A highlight of the visit is climbing the 272 steps of the minaret for breathtaking 360-degree views of Kampala's seven hills.`,
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/68/9c/ef/caption.jpg?w=700&h=400&s=1'],
     location: { lat: 0.318, lng: 32.571 },
     contact: { phone: 'N/A', website: 'N/A' },
@@ -232,33 +117,7 @@ The mosque serves as a symbol of religious unity and cultural heritage in Uganda
     country: 'Uganda',
     type: 'Attraction',
     description: 'A vast wetland renowned as one of the best places in Uganda to see the elusive and prehistoric-looking Shoebill stork.',
-    longDescription: `Mabamba Swamp, located about 45 minutes west of Entebbe, is known for its rich biodiversity and is one of the best places in Uganda to see the elusive Shoebill stork in the wild. This wetland covers over 16,500 hectares and features dense papyrus vegetation and narrow water channels. The Shoebill, a prehistoric-looking bird with a massive bill, is the main attraction for bird watchers visiting the swamp.
-
-Best Time to Visit
-The best times to spot Shoebills are early mornings between 7:00 AM and 9:00 AM, and late afternoons around 5:00 PM. During these times, Shoebills are more active, often feeding on lungfish. Mid-day visits can also be rewarding as the birds continue feeding.
-
-Bird Species to Spot
-Besides the Shoebill, Mabamba Swamp is home to over 300 bird species, including:
-Papyrus Gonolek
-African Fish Eagle
-Malachite Kingfisher
-African Jacana
-Blue-headed Coucal
-Greater Swamp Warbler
-African Pygmy Goose
-Various herons and egrets
-
-Tour Options
-Several tour operators offer guided trips to Mabamba Swamp, with options including boat tours and all-inclusive packages that may cover transport, entry fees, guides, and refreshments. Prices vary depending on the operator and group size.
-
-What to Bring
-Binoculars and a camera for birdwatching and photography
-Insect repellent and sunscreen
-Raincoat or waterproof gear due to unpredictable weather
-Waterproof boots or sandals suitable for wet conditions
-
-Accessibility
-Mabamba Swamp is about an hour’s drive from Entebbe. Visitors can also reach the swamp via boat from Entebbe’s Nakiwogo landing site, offering a scenic trip through the waterways.`,
+    longDescription: `Mabamba Swamp, a vast wetland on the shores of Lake Victoria, is a birdwatcher's paradise and one of the most reliable places in Uganda to spot the rare and prehistoric-looking Shoebill stork. Visitors explore the swamp's narrow water channels by canoe, guided by local experts who know the best spots to find this elusive bird. Besides the Shoebill, the swamp is home to over 300 other bird species, making it a rich and rewarding ecological tour.`,
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e3/47/4d/bird-watching-on-a-locally.jpg?w=700&h=400&s=1', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/a1/5b/7d/happy-clients.jpg?w=900&h=500&s=1'],
     location: { lat: 0.076, lng: 32.348 },
     contact: { phone: 'N/A', website: 'N/A' },
@@ -270,13 +129,7 @@ Mabamba Swamp is about an hour’s drive from Entebbe. Visitors can also reach t
     country: 'Uganda',
     type: 'Attraction',
     description: 'A natural waterway in Queen Elizabeth National Park with one of the largest concentrations of hippos in the world.',
-    longDescription: `Kazinga Channel is a 32-kilometer (20-mile) natural waterway connecting Lake Edward to Lake George in Queen Elizabeth National Park. It is known for its rich biodiversity and is a top spot for wildlife lovers. The channel has one of the largest concentrations of hippos in the world and is home to many Nile crocodiles. Its banks are often visited by elephants, buffaloes, and various antelope species. Over 600 bird species live in the area, including pelicans, kingfishers, and African fish eagles.
-
-Boat Cruises
-A boat cruise on Kazinga Channel offers an excellent chance to see wildlife up close. Cruises usually last 2 to 3 hours and allow you to spot hippos in the water, crocodiles on the shores, and many bird species. The best time for a boat cruise is during the dry seasons, from June to September and December to February, when animals gather around the channel.
-
-Access and Logistics
-Boat cruises depart from the Mweya Peninsula, about 20 kilometers west of the Kasese-Mbarara road. Visitors can enter the park through the Katunguru gate. For road travelers, taxis are available from Katunguru trading center to Mweya Lodge.`,
+    longDescription: `The Kazinga Channel is a wide, natural waterway that links Lake Edward and Lake George within Queen Elizabeth National Park. It boasts one of the world's largest concentrations of hippos and numerous Nile crocodiles. A boat cruise along the channel is a highlight of any visit to the park, offering fantastic opportunities to see elephants, buffalo, and a wide array of water birds cooling off at the water's edge. The slow-moving boat provides excellent photo opportunities and a relaxing way to experience the park's wildlife.`,
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/c8/a6/73/kazinga.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: -0.198, lng: 29.932 },
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
@@ -288,39 +141,7 @@ Boat cruises depart from the Mweya Peninsula, about 20 kilometers west of the Ka
     country: 'Uganda',
     type: 'Attraction',
     description: 'Uganda’s smallest savanna national park, offering diverse landscapes and rich wildlife including zebras, impalas, and over 300 bird species.',
-    longDescription: `Lake Mburo National Park is located about 240 kilometers west of Kampala and is Uganda’s smallest savanna national park. Despite its size, it offers diverse landscapes including rolling hills, grassy valleys, wetlands, and acacia woodlands, making it a unique destination for nature lovers.
-
-Wildlife & Biodiversity
-The park is home to 68 mammal species, such as:
-Burchell’s zebra
-Impala
-Topi
-Eland
-Defassa waterbuck
-Buffalo
-Hippo
-Crocodile
-Leopard
-Hyena
-It is also a great spot for birdwatching, with over 315 bird species recorded, including the rare shoebill stork, African finfoot, and papyrus yellow warbler.
-
-Activities & Experiences
-Game Drives: Early morning and late afternoon drives offer chances to see wildlife. Night drives with armed rangers allow spotting nocturnal animals like leopards and bush babies.
-Boat Cruises: Explore Lake Mburo by boat to see hippos, crocodiles, and various birds. Best done mid-morning or evening.
-Horseback Safaris: Unique safaris on horseback provide close encounters with animals such as zebras and impalas. Suitable for all skill levels.
-Cycling Safaris: Guided bike tours give a different perspective on the park’s trails and wildlife.
-Nature Walks: Guided walks let you observe smaller wildlife and plants up close.
-Fishing: Sport fishing is available at certain spots, with species like tilapia and catfish.
-Cultural Visits: Nearby Ankole Cultural Centre offers insights into local traditions and lifestyle.
-
-Accommodation Options
-Lake Mburo offers a variety of places to stay, including:
-Luxury lodges such as Mihingo Lodge and Arcadia Cottages
-Mid-range options like Rwakobo Rock and Eagles Nest Lodge
-Budget campsites including Rwonyo Rest Camp and Mantana Tented Camp
-
-Best Time to Visit
-The best time to visit is during the dry seasons, from June to September and December to February, when wildlife gathers around water sources making it easier to spot animals.`,
+    longDescription: `Lake Mburo National Park is Uganda’s most compact savanna park, making it an easily accessible and rewarding destination. It's known for its rich biodiversity and is the best place in the country to see large herds of zebra and impala. The park's varied landscapes of acacia woodland, wetlands, and grassy hills can be explored through game drives, boat cruises on Lake Mburo, guided nature walks, and even horseback safaris, which offer a unique and intimate way to view wildlife.`,
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/93/f3/bb/caption.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png'],
     location: { lat: -0.595, lng: 30.948 },
     contact: { phone: 'N/A', website: 'https://www.ugandawildlife.org' },
@@ -652,6 +473,163 @@ The best time to visit is during the dry seasons, from June to September and Dec
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.5
   },
+  {
+    id: 'ug-36',
+    name: 'Nyamunyonyi Lake Resort',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Serene resort boasting spacious rooms, exceptional hospitality, and stunning lake views.',
+    longDescription: 'Serene resort boasting spacious rooms, exceptional hospitality, and stunning lake views. Variety of activities, including boat cruises and zip-lining. Ideal for vacations or honeymoons.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/75/73/6d/rooms-view-at-nyamunyonyi.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/fb/fa/75/caption.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -1.272, lng: 29.989 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'ug-37',
+    name: 'De Rain Eco Beach Resort',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Serene resort offering spacious rooms with lake views.',
+    longDescription: 'Serene resort offering spacious rooms with lake views. Known for excellent service, personal attention from owner, delicious food, and affordable prices. Ideal for nature lovers and families.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/2c/dd/62/super-king-size-bed.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/d9/c7/10/caption.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/d9/c7/0e/caption.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.051, lng: 32.455 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'ug-38',
+    name: 'Explorers River Camp',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Well-maintained camp with warm beds and essential amenities.',
+    longDescription: 'We stayed at NRE for the Nyege Nyege festival 2023 and we were well taken care of. We stayed at the tents and were provided with a warm bed and a towel to wash off the mud and grime from the festival!',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ec/e6/66/caption.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/a5/f3/e7/caption.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.525, lng: 33.153 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.3
+  },
+  {
+    id: 'ug-39',
+    name: 'La Grande Hotel',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Hotel known for its warm welcome and helpful staff.',
+    longDescription: 'Leila and Bridget always give this warm welcome at the reception. Rose and Christine\'s service was on point. Daniel and Kevin are very calm, respectful fine young men who are so helpful.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/66/36/73/caption.jpg?w=500&h=300&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/e9/f9/88/la-grande-hotel.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.441, lng: 33.204 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.2
+  },
+  {
+    id: 'ug-40',
+    name: 'Latitude 0 Degrees Hotel',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Hilltop hotel with serene ambiance and stunning views.',
+    longDescription: 'Hilltop hotel with serene ambiance, stunning views of Kampala and Lake Victoria. Features African-inspired decor, rooftop dining, two pools, a gym, and spacious, well-designed rooms with modern comforts.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/ac/ce/d8/latitude-0-degrees-hotel.jpg?w=500&h=300&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/ae/ac/94/latitude-0-degrees-hotel.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/ae/ab/e5/latitude-0-degrees-hotel.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.287, lng: 32.582 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'ug-41',
+    name: 'Forest Cottages',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Centrally located hotel with good food and Wi-Fi.',
+    longDescription: 'This hotel is centrally located in Kampala, off a busy street. Hotel and grounds are nice, restaurant serves good food. The rooms are very small, tiny bathrooms, good Wi-Fi.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/c1/63/3c/forest-cottages-front.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/c1/6b/89/forest-cottages.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/30/93/2b/standard-room.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.345, lng: 32.597 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.0
+  },
+  {
+    id: 'ug-42',
+    name: 'Golf Course Hotel',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Hotel with exceptional staff and a unique revolving restaurant.',
+    longDescription: 'One of the hotel\'s standout attributes is its exceptional staff. Every member of the team embodies a genuine warmth and dedication to guest satisfaction. Try the food at revolving restaurant',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/86/3a/8a/golf-course-hotel.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/86/41/8b/golf-course-hotel.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/86/3e/71/golf-course-hotel.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.320, lng: 32.591 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.3
+  },
+  {
+    id: 'ug-43',
+    name: 'Kaazi Beach Resort',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Friendly beach resort suitable for large groups.',
+    longDescription: 'The resort is located in an area near Kampala with a beach. The staff are very friendly and the resort can accommodate a big group of people. The booking process is very fast and easy.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/89/43/6f/kaazi-beach-hotel.jpg?w=500&h=300&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/89/35/79/kaazi-beach-hotel.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/89/33/73/kaazi-beach-hotel.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.201, lng: 32.584 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.1
+  },
+  {
+    id: 'ug-44',
+    name: 'Arcadia Suites',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Hotel offering spacious suites and reliable airport transfers.',
+    longDescription: 'My airport transfer was arranged by the hotel for my 2am arrival and was a safe ride to the hotel. The suite was really spacious with a great shower, a small kitchenette, iron and iron board all supplied.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ec/14/a3/arcadia-suites.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/d3/68/52/view-of-the-main-restaurant.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/d3/68/4a/bar-terrace.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: 0.325, lng: 32.594 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'ug-45',
+    name: 'Buffalo Safari Lodge',
+    country: 'Uganda',
+    type: 'Hotel',
+    description: 'Safari lodge known for wildlife sightings and excellent service.',
+    longDescription: 'Safari lodge in a national park with spacious cottages, exceptional service, excellent food, and an infinity pool. Known for wildlife sightings, including resident elephants.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/1d/c3/72/buffalo-safari-lodge.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/1b/21/63/this-is-our-super-deluxe.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/1d/ba/de/an-infinity-swimming.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -0.177, lng: 29.986 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
   // Kenya
   {
     id: 'ke-1',
@@ -660,7 +638,7 @@ The best time to visit is during the dry seasons, from June to September and Dec
     type: 'Attraction',
     description: 'Wildlife-rich safari destination encompassing the Big Five and the Great Migration, with opportunities for cultural experiences and diverse activities amidst stunning landscapes.',
     longDescription: 'The Maasai Mara is one of the most famous and important wildlife conservation and wilderness areas in Africa, world-renowned for its exceptional populations of lion, leopard, cheetah and African bush elephant. It also hosts the Great Migration, which secured it as one of the Seven Natural Wonders of Africa, and as one of the ten Wonders of the World. Visitors can also engage in cultural tours to nearby Maasai villages.',
-    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5f/14/85/caption.jpg?w=500&h=400&s=1', 'https://images.unsplash.com/photo-1741771034079-3d142c11d913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxBdHRyYWN0aW9uJTIwS2VueWF8ZW58MHx8fHwxNzUyMDI5ODQ1fDA&ixlib=rb-4.1.0&q=80&w=1080'],
+    images: ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5f/14/85/caption.jpg?w=500&h=400&s=1", 'https://images.unsplash.com/photo-1741771034079-3d142c11d913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxBdHRyYWN0aW9uJTIwS2VueWF8ZW58MHx8fHwxNzUyMDI5ODQ1fDA&ixlib=rb-4.1.0&q=80&w=1080'],
     location: { lat: -1.683, lng: 35.250 },
     contact: { phone: '+254-20-600800', website: 'https://www.kws.go.ke' },
     rating: 4.8,
@@ -1296,7 +1274,7 @@ The best time to visit is during the dry seasons, from June to September and Dec
   },
   {
     id: 'tz-20',
-    name: "Crafty Dee's (microbrewery & Brewpub)",
+    name: 'Crafty Dee\'s (microbrewery & Brewpub)',
     country: 'Tanzania',
     type: 'Restaurant',
     description: "Crafty Dee's Brewing Company has evolved from a backyard room to Dar es Salaam's premier craft beer destination. Our 130-seat brewpub merges restaurant, pub, and beer garden vibes, showcasing our commitment to innovation.",
@@ -2257,3 +2235,5 @@ The best time to visit is during the dry seasons, from June to September and Dec
     rating: 4.7
   },
 ];
+
+    
