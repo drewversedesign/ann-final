@@ -1240,8 +1240,8 @@ Tips for Your Trip
     country: 'Zanzibar',
     type: 'Attraction',
     description: 'The old part of Zanzibar City, a UNESCO World Heritage Site.',
-    longDescription: 'Stone Town is the cultural heart of Zanzibar. It is a city of prominent historical and artistic importance in East Africa. Its winding lanes present a mosaic of carved doorways, mosques, and stone buildings. It is a place to get lost in, exploring the shops, bazaars, and historic sites.',
-    images: ['https://images.unsplash.com/photo-1672559455399-f0fa7e1a2eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxBdHRyYWN0aW9uJTIwWmFuemliYXJ8ZW58MHx8fHwxNzUyMDI5ODQ1fDA&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png'],
+    longDescription: 'Historical neighborhood with UNESCO World Heritage status, featuring narrow streets, vibrant markets, and significant sites like the Slave Market. Local guides provide insightful tours',
+    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/a7/96/6c/photo2jpg.jpg?w=500&h=400&s=1', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/70/20/71/caption.jpg?w=500&h=400&s=1', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/70/20/6e/caption.jpg?w=500&h=400&s=1'],
     location: { lat: -6.166, lng: 39.199 },
     contact: { phone: 'N/A', website: 'https://whc.unesco.org/en/list/173' },
     rating: 4.7,
@@ -1698,8 +1698,12 @@ Tips for Your Trip
     country: 'Rwanda',
     type: 'Attraction',
     description: 'A haven for the mountain gorilla and golden monkeys.',
-    longDescription: 'Volcanoes National Park is situated in northwestern Rwanda and is home to the endangered mountain gorilla and a rich mosaic of montane ecosystems, which embrace evergreen and bamboo forest, open grassland, swamp and heath. It is named after the chain of dormant volcanoes making up the Virunga Massif.',
-    images: ['https://images.unsplash.com/photo-1721933761666-17a89e1590fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxBdHRyYWN0aW9uJTIwUndhbmRhfGVufDB8fHx8MTc1MjAyOTg0NHww&ixlib=rb-4.1.0&q=80&w=1080', 'https://placehold.co/800x600.png'],
+    longDescription: 'Challenging yet rewarding treks through lush landscapes for close encounters with mountain gorillas and unique Golden Monkeys, supporting local conservation efforts.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/02/fc/bb/photo2jpg.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/16/d1/23/it-s-been-a-tough-time.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/4f/9d/f2/9-day-rwanda-the-full.jpg?w=500&h=400&s=1'
+    ],
     location: { lat: -1.463, lng: 29.493 },
     contact: { phone: '+250-788-319-300', website: 'https://www.rdb.rw' },
     rating: 4.8,
@@ -1716,11 +1720,171 @@ Tips for Your Trip
     contact: { phone: '+250-788-305-825', website: 'https://www.heavenrwanda.com' },
     rating: 4.7,
   },
+  {
+    id: 'rw-3',
+    name: 'Kigali Genocide Memorial',
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'A permanent National genocide memorial in remembrance of more than one million victims of the 1994 Genocide against the Tutsi.',
+    longDescription: 'A permanent National genocide memorial in remembrance of more than one million victims of the 1994 Genocide against the Tutsi. The memorial is a place of remembrance and learning where more than 250,000 victims are buried.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/03/b5/50/the-main-museum-building.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b0/fa/14/gisozi-genocide-memorial.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/b0/fa/56/gisozi-genocide-memorial.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -1.932, lng: 30.059 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'rw-4',
+    name: 'Akagera National Park',
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'Just two hours from Kigali, Akagera National Park is situated in the eastern province of Rwanda, on the border with Tanzania.',
+    longDescription: 'Just two hours from Kigali, Akagera National Park is situated in the eastern province of Rwanda, on the border with Tanzania. The park covers an area of approximately 1,100 km² encompassing a unique landscape of savannah, rolling hills, and wetlands.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/26/6d/0c/views-from-the-western.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/26/6d/3f/expansive-wetlands-scott.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/26/6c/d6/akagera-encompasses-several.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -1.666, lng: 30.750 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'rw-5',
+    name: 'Niyo Art Gallery',
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'Colorful mural art and vibrant sculptures set the scene at this art gallery that also hosts drumming sessions and serves local African coffee.',
+    longDescription: 'Colorful mural art and vibrant sculptures set the scene at this art gallery that also hosts drumming sessions and serves local African coffee. Supports local underprivileged children.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/c1/08/ff/amazing-art-center-in.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/56/69/f1/entrance.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/c9/18/0b/welcome.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -1.940, lng: 30.081 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'rw-6',
+    name: 'Inema Art Center',
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'Founded in 2012 by brothers and self-taught painters Emmanuel Nkuranga and Innocent Nkurunziza, the Inema Arts Centre\'s mission is to spur creativity for personal, social, and economic growth.',
+    longDescription: 'Founded in 2012 by brothers and self-taught painters Emmanuel Nkuranga and Innocent Nkurunziza, the Inema Arts Centre\'s mission is to spur creativity for personal, social, and economic growth. At its core, Inema provides a space for artists to explore their creative talent.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/f3/9e/5f/20210508-111428-01-largejpg.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/fe/80/79/dancers.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -1.942, lng: 30.083 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'rw-7',
+    name: 'Kimironko Market',
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'A typical bustling African market, offering a vibrant atmosphere and a wide array of goods.',
+    longDescription: 'Kimironko Market is one of the largest and busiest markets in Kigali. It is a fantastic place to experience local Rwandan life, with vendors selling everything from fresh produce and spices to colorful fabrics, crafts, and household goods.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/db/a6/af/photo0jpg.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/01/33/d4/photo8jpg.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/ec/36/0f/sharing-some-video-with.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -1.960, lng: 30.122 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'rw-8',
+    name: 'Nyungwe National Park',
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'Elevated canopy walk and suspension bridges provide panoramic forest vistas.',
+    longDescription: 'Elevated canopy walk and suspension bridges provide panoramic forest vistas, while comfortable cabins and wildlife encounters enrich the stay in this tranquil retreat. Nyungwe is one of the oldest rainforests in Africa, rich in biodiversity and spectacularly beautiful.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/cf/c6/41/chimp-trekking.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/ab/c4/d7/experience-of-a-life.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/09/bf/48/angolan-black-and-white.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -2.483, lng: 29.183 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'rw-9',
+    name: "Iby'iwacu Cultural Village",
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'Cultural village with traditional dances, hands-on craft, and ceremony participation.',
+    longDescription: 'Cultural village with traditional dances, hands-on craft, and ceremony participation. Delve into Rwandan culture through educational activities and community engagement.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/ca/9c/34/we-have-beaut-full-volcanoes.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ca/96/f8/iby-iwacu-cultural-village.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a4/0a/e3/a-perfect-place-to-experience.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -1.488, lng: 29.567 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'rw-10',
+    name: 'Kigali Convention Centre',
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'One of the top tourist attractions in Kigali, the convention centre neighbours Radisson Blu hotel and Kigali Heights.',
+    longDescription: 'One of the top tourist attractions in Kigali, the convention centre is an architectural marvel with its dome-shaped design inspired by a traditional Rwandan hut. It hosts major events and glows with vibrant colors at night.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/b3/1d/1a/caption.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/de/ed/27/getlstd-property-photo.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/34/00/99/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -1.954, lng: 30.092 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'rw-11',
+    name: 'Nyamata Church',
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'A poignant genocide memorial where thousands of people were killed during the 1994 genocide.',
+    longDescription: 'Nyamata Church serves as a powerful and somber memorial to the victims of the Rwandan genocide. The preserved site, with victims\' clothing and belongings, provides a shocking and educational look into the history of the tragedy.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/fb/a3/b2/photo0jpg.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/1a/81/4d/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/8b/cf/ff/nyamata-genocide-memorial.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -2.139, lng: 30.089 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'rw-12',
+    name: 'Choose Kigali Art Gallery',
+    country: 'Rwanda',
+    type: 'Attraction',
+    description: 'A creative space including several floors of open gallery that will feature a rotating collection of local artists.',
+    longDescription: 'Art, Comfort, Adventure. Located in Kiyovu, the historic heart of the city, Choose Kigali is at its core a creative space. This space includes several floors of open gallery that will feature a rotating collection of local artists, along with a restaurant and rooftop bar.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/31/b7/d6/gallery.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/c7/a3/8e/chefs.jpg?w=500&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/c7/a3/77/chefs-at-work.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -1.949, lng: 30.058 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
 ];
 
     
 
     
+
 
 
 
