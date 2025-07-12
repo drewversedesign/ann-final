@@ -22,8 +22,35 @@ const playfairDisplay = Playfair_Display({
 
 
 export const metadata: Metadata = {
-  title: 'Ann Tours and Travel',
-  description: 'Your ultimate guide to African safaris and adventures.',
+  metadataBase: new URL('https://anntoursandtravel.com'), // Replace with your actual domain
+  title: {
+    default: 'Ann Tours and Travel - Unforgettable African Journeys',
+    template: '%s | Ann Tours and Travel',
+  },
+  description: 'Your ultimate guide to African safaris and adventures in Uganda, Kenya, Tanzania, Zanzibar, and Rwanda. Discover destinations, attractions, hotels, and plan your dream trip.',
+  keywords: ['African safari', 'tours', 'travel', 'Uganda', 'Kenya', 'Tanzania', 'Zanzibar', 'Rwanda', 'gorilla trekking', 'wildlife', 'safari packages'],
+  openGraph: {
+    title: 'Ann Tours and Travel',
+    description: 'Your ultimate guide to African safaris and adventures.',
+    url: 'https://anntoursandtravel.com', // Replace with your actual domain
+    siteName: 'Ann Tours and Travel',
+    images: [
+      {
+        url: 'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/49/d5/a1.jpg',
+        width: 674,
+        height: 446,
+        alt: 'African Safari Adventure',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ann Tours and Travel',
+    description: 'Your ultimate guide to African safaris and adventures.',
+    images: ['https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/49/d5/a1.jpg'],
+  },
 };
 
 export default function RootLayout({
