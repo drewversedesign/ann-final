@@ -2,7 +2,7 @@
 "use client"
 
 import Link from "next/link"
-import { Menu, Palmtree, Search, Home, Info, Mail, MapPin, Globe } from "lucide-react"
+import { Menu, Palmtree, Search, Home, Info, Mail, MapPin, Globe, BookCopy } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   NavigationMenu,
@@ -61,6 +61,12 @@ export default function Navbar() {
 
                <NavigationMenuItem>
                 <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+                  <Link href="/itineraries">Itineraries</Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+
+               <NavigationMenuItem>
+                <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
                   <Link href="/map">Map</Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
@@ -110,6 +116,11 @@ export default function Navbar() {
                     <span>{name}</span>
                   </Link>
                 ))}
+
+                <Link href="/itineraries" className="font-medium flex items-center gap-2" onClick={() => setIsOpen(false)}>
+                  <BookCopy className="h-5 w-5" />
+                  <span>Itineraries</span>
+                </Link>
 
                 <Link href="/map" className="font-medium flex items-center gap-2" onClick={() => setIsOpen(false)}>
                   <MapPin className="h-5 w-5" />
