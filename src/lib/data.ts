@@ -1529,6 +1529,168 @@ Tips for Your Trip
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.8
   },
+  {
+    id: 'zan-20',
+    name: 'Maalum',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Tranquil cave oasis with serene swimming spots, smoothie refreshments, and inclusive amenities like masks and water shoes. Ideal for a peaceful escape amidst natural beauty.',
+    longDescription: 'Tranquil cave oasis with serene swimming spots, smoothie refreshments, and inclusive amenities like masks and water shoes. Ideal for a peaceful escape amidst natural beauty.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/73/3b/0f/maalum.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/40/e0/9b/caption.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/40/e0/99/caption.jpg?w=500&h=-1&s=1'
+    ],
+    location: { lat: -6.246, lng: 39.530 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'zan-21',
+    name: 'Muyuni Beach',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Private tours in Zanzibar with snorkeling, sunset cruises, and dolphin swims. Includes visits to Mnemba Atoll and historic cultural insights.',
+    longDescription: 'Private tours in Zanzibar with snorkeling, sunset cruises, and dolphin swims. Includes visits to Mnemba Atoll and historic cultural insights.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/2b/7f/a1/l-acqua-a-muyuni.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a5/85/32/caption.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/da/f2/65/pausa-frutta-muyuni-escursione.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -5.833, lng: 39.375 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'zan-22',
+    name: 'Chumbe Island Coral Park',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Award-winning private island, fully managed nature reserve and marine park. Day guests ($90 US) receive an inclusive package with: all boat transfers to & from Chumbe, lunch, all drinks.',
+    longDescription: 'Award-winning private island, fully managed nature reserve and marine park. Day guests ($90 US) receive an inclusive package with: all boat transfers to & from Chumbe, lunch, all drinks and activities.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/74/48/52/aerial-view-of-chumbe.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/74/48/ce/eco-bungalows.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/74/48/cd/sunset-over-chumbe-island.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/75/8b/24/blue-water.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.280, lng: 39.176 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'zan-23',
+    name: 'Tumbatu Island',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Snorkeling excursions with clear waters and vibrant marine life, including a chance to swim with dolphins. Tours feature cultural spice explorations and scenic island landscapes.',
+    longDescription: 'Snorkeling excursions with clear waters and vibrant marine life, including a chance to swim with dolphins. Tours feature cultural spice explorations and scenic island landscapes.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/90/b4/97/tumbatu-island-is-the.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/c6/f4/19/tumbatu-islands-is-very.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/19/b9/33/tumbatu-island.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/c6/ea/f3/tumbatu-island-is-very.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -5.823, lng: 39.227 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'zan-24',
+    name: 'Jambo Spice Farm',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Educational spice farm tour showcasing a plethora of spices and fruits. Engages visitors with plant knowledge, taste tests, and coconut tree climbing, complemented by a delightful lunch.',
+    longDescription: 'Educational spice farm tour showcasing a plethora of spices and fruits. Engages visitors with plant knowledge, taste tests, and coconut tree climbing, complemented by a delightful lunch.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/89/d2/7a/caption.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/9b/5d/48/welcome-to-see-the-original.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/9b/5d/49/welcome-to-see-the-original.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/9b/5d/4a/welcome-to-see-the-original.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.071, lng: 39.261 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'zan-26',
+    name: 'Nanasi Beach Club',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Beach club in Nungwi featuring fresh cuisine and a variety of drinks, complemented by striking sunset views and ambient music. Provides a vibrant spot for beachside relaxation and swimming.',
+    longDescription: 'Beach club in Nungwi featuring fresh cuisine and a variety of drinks, complemented by striking sunset views and ambient music. Provides a vibrant spot for beachside relaxation and swimming.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c0/c7/b3/caption.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/65/e6/89/caption.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/70/c4/29/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -5.728, lng: 39.290 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'zan-27',
+    name: 'Bwa Mzee Spice Farm',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Interactive spice farm tour showcasing a variety of spices and fruits in their natural environment with engaging presentations and a cultural acrobatic display.',
+    longDescription: 'Interactive spice farm tour showcasing a variety of spices and fruits in their natural environment with engaging presentations and a cultural acrobatic display.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/7b/06/22/bwa-mzee-spice-farm.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/36/41/48/caption.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/36/3b/5d/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.073, lng: 39.259 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'zan-29',
+    name: 'Zanzibar Spices and Heritage Centre',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Zanzibar Spices and Heritage Center is an authentic spice farm of Zanzibar where we grow traditionnally a vast range of spices and tropical plants following organic farming principles. We organize…',
+    longDescription: 'Zanzibar Spices and Heritage Center is an authentic spice farm of Zanzibar where we grow traditionnally a vast range of spices and tropical plants following organic farming principles. We organize tours and activities to make you discover the world of spices.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/05/e5/27/zanzibar-spices-and-heritage.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/35/a3/29/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.088, lng: 39.288 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'zan-30',
+    name: 'Zanzibar Kilosas Conservation',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: "It's a small zoo where we try to show the endemic animals of the island saved in different occasions.",
+    longDescription: "It's a small zoo where we try to show the endemic animals of the island saved in different occasions, providing a sanctuary and educational experience for visitors.",
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/23/93/ca/zanzibar-kilosas-conservation.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/49/fb/81/caption.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/5b/cb/b7/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.275, lng: 39.412 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'zan-32',
+    name: 'Village Green Spice farm',
+    country: 'Zanzibar',
+    type: 'Attraction',
+    description: 'Spice farm tour through a tapestry of local flora, featuring interactive coconut tree climbing and tasting of fresh fruits and spices. Educational insights into plant cultivation.',
+    longDescription: 'Spice farm tour through a tapestry of local flora, featuring interactive coconut tree climbing and tasting of fresh fruits and spices. Educational insights into plant cultivation.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/ed/bc/7b/village-green-spice-farm.jpg?w=500&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6a/60/c3/caption.jpg?w=500&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6a/60/c4/caption.jpg?w=500&h=400&s=1'
+    ],
+    location: { lat: -6.075, lng: 39.265 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
   // Rwanda
   {
     id: 'rw-1',
@@ -1559,5 +1721,6 @@ Tips for Your Trip
     
 
     
+
 
 
