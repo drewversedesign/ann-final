@@ -1489,14 +1489,14 @@ export const places: Place[] = [
   {
     id: 'tz-6',
     name: 'Paje Beach',
-    country: 'Tanzania',
+    country: 'Zanzibar',
     type: 'Attraction',
     description: 'Sun-kissed beach with clear, warm waters, ideal for kite surfing and reef walks. Offers a relaxed atmosphere with bars and restaurants, though can be crowded.',
     longDescription: 'Paje Beach is a vibrant spot on Zanzibar\'s east coast, famous for its excellent kitesurfing conditions. The long stretch of white sand and shallow turquoise waters make it ideal for both beginners and experienced surfers. The beach has a lively, bohemian atmosphere with plenty of cool bars and restaurants.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e8/b4/7b/you-are-most-welcome.jpg?w=500&h=400&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/45/67/12/caption.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/45/67/11/caption.jpg?w=500&h=400&s=1'
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/5c/82/d1/paje-beach-opposite-kilima.jpg?w=500&h=-1&s=1'
     ],
     location: { lat: -6.264, lng: 39.535 },
     contact: { phone: 'N/A', website: 'N/A' },
@@ -1771,6 +1771,591 @@ export const places: Place[] = [
     location: { lat: -3.366, lng: 36.676 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.5
+  },
+  {
+    id: 'tz-hotel-1',
+    name: 'Makofi Guest House',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Exotic guesthouse steps from the beach with cozy rooms, a serene garden, shared kitchen, and fast WiFi. Features an island-inspired vibe, friendly staff, and opportunities to connect with travelers.',
+    longDescription: 'Exotic guesthouse steps from the beach with cozy rooms, a serene garden, shared kitchen, and fast WiFi. Features an island-inspired vibe, friendly staff, and opportunities to connect with travelers.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/d0/71/2e/nungwi-beach-in-the-early.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/d6/b0/98/the-king-hut-terrace.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/9a/bb/bd/welcome-everyone.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.731, lng: 39.293 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-hotel-2',
+    name: 'Turaco Nungwi Resort',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Beachfront resort with private beach, stunning sunset views, and tide pool exploration. Features all-inclusive dining, day trips to Stone Town, a swim-up pool bar, and fresh seafood at a beachside grill.',
+    longDescription: 'Beachfront resort with private beach, stunning sunset views, and tide pool exploration. Features all-inclusive dining, day trips to Stone Town, a swim-up pool bar, and fresh seafood at a beachside grill.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/fe/08/c9/nungwi-beach-resort-by.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/8d/59/14/restaurant-beach-side.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/8d/58/61/fisherman-s-seafood-grill.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.727, lng: 39.298 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-hotel-3',
+    name: 'Essque Zalu Zanzibar',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Spacious rooms with luxury bathroom amenities, free shuttle to Kendwa beach, daily housekeeping, kids club, and oceanfront Jetty restaurant. High standard of service praised by guests.',
+    longDescription: 'Spacious rooms with luxury bathroom amenities, free shuttle to Kendwa beach, daily housekeeping, kids club, and oceanfront Jetty restaurant. High standard of service praised by guests.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/f6/b7/17/40m-high-main-building.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/91/e0/1d/essque-zalu-zanzibar.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/91/e0/1f/essque-zalu-zanzibar.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.736, lng: 39.294 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-hotel-4',
+    name: 'Le Mersenne Zanzibar, Autograph Collection',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Scenic resort with spacious rooms, ocean views, and a relaxing atmosphere. Features include a picturesque pool, on-site restaurant, water activities, and complimentary boat trips to a sandbank.',
+    longDescription: 'Scenic resort with spacious rooms, ocean views, and a relaxing atmosphere. Features include a picturesque pool, on-site restaurant, water activities, and complimentary boat trips to a sandbank.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/78/7c/73/le-mersenne-zanzibar.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/df/ff/33/le-mersenne-beach-resort.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/78/80/d3/le-mersenne-zanzibar.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.291, lng: 39.524 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-hotel-5',
+    name: 'TUI BLUE Bahari Zanzibar',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Beachfront resort with two pools, themed nights, and live entertainment. All-inclusive options with varied dining, including Italian cuisine. Spacious rooms with balconies and ocean views.',
+    longDescription: 'Beachfront resort with two pools, themed nights, and live entertainment. All-inclusive options with varied dining, including Italian cuisine. Spacious rooms with balconies and ocean views.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/2f/11/32/main-pool.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/65/85/c3/tui-blue-bahari-zanzibar.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/ca/ab/50/fitness-center--v5892216.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.042, lng: 39.362 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-hotel-6',
+    name: 'Gran Melia Arusha',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'breathtaking Mount Meru and Kilimanjaro views. Rooftop bar, coffee plantation tours, organic gardens, spacious rooms with balconies, poolside lounge, and top-quality food and drinks.',
+    longDescription: 'breathtaking Mount Meru and Kilimanjaro views. Rooftop bar, coffee plantation tours, organic gardens, spacious rooms with balconies, poolside lounge, and top-quality food and drinks.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/4c/1d/d5/caption.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/9f/ca/bf/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/9f/c9/d2/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -3.376, lng: 36.678 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'tz-hotel-7',
+    name: 'Gold Zanzibar Beach House & Spa',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Beachfront resort offering all-inclusive dining with fresh seafood, themed buffets, and personalized service. Features private pools, serene villas, outdoor activities, and a romantic atmosphere.',
+    longDescription: 'Beachfront resort offering all-inclusive dining with fresh seafood, themed buffets, and personalized service. Features private pools, serene villas, outdoor activities, and a romantic atmosphere.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/8f/9a/09/gold-zanzibar-beach-house.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/8f/9a/06/gold-zanzibar-beach-house.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/ca/dc/a9/pool--v5894680.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.760, lng: 39.289 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-hotel-8',
+    name: 'Kendwa Rocks Beach Hotel',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Beachfront resort with vibrant full moon parties, live entertainment, and an on-site club. Features modern rooms, clean pools, a charming bar, delicious dining options, and friendly service.',
+    longDescription: 'Beachfront resort with vibrant full moon parties, live entertainment, and an on-site club. Features modern rooms, clean pools, a charming bar, delicious dining options, and friendly service.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/11/42/b6/kendwarocks-bungalows.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/04/2d/5e/kendwa-rocks-beach-hotel.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/04/2d/53/kendwa-rocks-beach-hotel.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.758, lng: 39.288 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'tz-hotel-9',
+    name: 'Royal Zanzibar Beach Resort',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Ideal for honeymoons or family vacations with well-maintained pools, swim-up bar, spacious rooms with ocean views, and a restaurant offering exceptional food and vistas.',
+    longDescription: 'Ideal for honeymoons or family vacations with well-maintained pools, swim-up bar, spacious rooms with ocean views, and a restaurant offering exceptional food and vistas.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/84/70/ec/caption.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/84/74/af/spices-restaurant.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/84/62/7d/superior-room-twin-bed.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.733, lng: 39.295 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-hotel-10',
+    name: 'Mizingani Seafront Hotel',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Central oceanfront location in Stone Town near attractions, shops, and restaurants. Features spacious rooms, unique architecture, seafront views, a pool, vintage decor, and organized local tours.',
+    longDescription: 'Central oceanfront location in Stone Town near attractions, shops, and restaurants. Features spacious rooms, unique architecture, seafront views, a pool, vintage decor, and organized local tours.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/07/63/22/mizingani-seafront-hotel.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/07/64/2c/mizingani-seafront-hotel.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/8a/90/b7/swimming-pool.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.160, lng: 39.189 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'tz-hotel-11',
+    name: 'Canary Nungwi Hotel & Spa',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Conveniently located near the beach, shops, and restaurants, this hotel features a large pool, rooftop terrace with beach views, spa services, water sports, delicious dining, and stylish, comfortable rooms.',
+    longDescription: 'Conveniently located near the beach, shops, and restaurants, this hotel features a large pool, rooftop terrace with beach views, spa services, water sports, delicious dining, and stylish, comfortable rooms.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/a5/d0/5e/canary-nungwi-hotel-restaurant.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/48/c5/b6/property-amenity.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/d7/48/b9/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.732, lng: 39.294 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-hotel-12',
+    name: 'Sanna Boutique Hotel',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Centrally located hotel with spacious rooms, stunning views of Mount Meru. Features a rooftop restaurant, gym, café, and special touches for a remarkable stay.',
+    longDescription: 'Centrally located hotel with spacious rooms, stunning views of Mount Meru. Features a rooftop restaurant, gym, café, and special touches for a remarkable stay.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/37/a1/d0/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/37/a1/cf/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/04/e4/c7/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -3.369, lng: 36.682 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-hotel-13',
+    name: 'Golden Tulip Dar City Center',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Centrally located hotel with ocean and city views, rooftop dining with diverse breakfast options, clean and spacious rooms, cozy atmosphere, and friendly staff. Close to ferry, airport, and attractions.',
+    longDescription: 'Centrally located hotel with ocean and city views, rooftop dining with diverse breakfast options, clean and spacious rooms, cozy atmosphere, and friendly staff. Close to ferry, airport, and attractions.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/46/00/26/gtdrone.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/3a/1d/4e/reception-desk.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/42/a5/99/spet-restaurant.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.815, lng: 39.287 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'tz-hotel-14',
+    name: 'Paje Beach Apartments & Hotel',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Rooms lovely, clean and airy, staff wonderful so helpful and friendly, food amazing. It\'s directly on the beach and next door to buccaneer diving which I can also highly recommend.',
+    longDescription: 'Rooms lovely, clean and airy, staff wonderful so helpful and friendly, food amazing. It\'s directly on the beach and next door to buccaneer diving which I can also highly recommend.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/67/b1/paje-beach-apartments.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/61/ce/paje-beach-apartments.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/50/5b/39/paje-beach-apartments.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.265, lng: 39.535 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-hotel-15',
+    name: 'Hotel Verde Zanzibar - Azam Luxury Resort and Spa',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Eco-friendly hotel with modern, spacious rooms, private balconies, and ocean views. Features a pool, spa, gym, massage chairs, and water sports. Serene ambiance with vibrant dining and activity options.',
+    longDescription: 'Eco-friendly hotel with modern, spacious rooms, private balconies, and ocean views. Features a pool, spa, gym, massage chairs, and water sports. Serene ambiance with vibrant dining and activity options.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/b3/26/18/hotel-verde-zanzibar.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/c3/99/ae/hotel-verde-zanzibar.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/c3/9e/1d/hotel-verde-zanzibar.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/44/e1/11/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.155, lng: 39.208 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-hotel-16',
+    name: 'Dhow Palace Hotel',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Historic 16th-century hotel in Stone Town blending traditional Zanzibari decor with modern comforts. Features a rooftop terrace, pool, museum-like ambiance, and easy access to markets and landmarks.',
+    longDescription: 'Historic 16th-century hotel in Stone Town blending traditional Zanzibari decor with modern comforts. Features a rooftop terrace, pool, museum-like ambiance, and easy access to markets and landmarks.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c0/78/5d/breakfast-area.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c0/78/59/breakfast-area.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c0/5f/6b/double-room-bathroom.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.165, lng: 39.191 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'tz-hotel-17',
+    name: 'My Blue Hotel',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Beachfront hotel on Nungwi Beach with stunning sunsets, infinity pool, lively beachfront dining with live music and dancing, nightly entertainment, ocean view suites, and a variety of beach activities.',
+    longDescription: 'Beachfront hotel on Nungwi Beach with stunning sunsets, infinity pool, lively beachfront dining with live music and dancing, nightly entertainment, ocean view suites, and a variety of beach activities.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/78/f3/20/my-blue-hotel-by-night.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/e4/04/15/my-blue-hotel.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/e4/05/03/my-blue-hotel.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.733, lng: 39.294 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'tz-hotel-18',
+    name: 'Airport Planet Lodge',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Convenient lodge near the airport with complimentary shuttle service, quick check-in, and relaxing ambience. Offers comfortable accommodations, attentive staff, and a great spot for pre/post-flight stays.',
+    longDescription: 'Convenient lodge near the airport with complimentary shuttle service, quick check-in, and relaxing ambience. Offers comfortable accommodations, attentive staff, and a great spot for pre/post-flight stays.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/53/69/b6/aerial-view-of-swimming.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/7d/d9/28/executive-suite.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/de/02/4d/front-of-the-house.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/a1/0b/6e/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -3.428, lng: 37.060 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-hotel-19',
+    name: 'Sansi Kendwa Beach Resort',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Boutique beachside resort with stylish rooms and stunning sea views. Highlights include a relaxing atmosphere, professional service, massages, and proximity to Kendwa Beach\'s charm and local experiences.',
+    longDescription: 'Boutique beachside resort with stylish rooms and stunning sea views. Highlights include a relaxing atmosphere, professional service, massages, and proximity to Kendwa Beach\'s charm and local experiences.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/41/e1/e6/sansi-kendwa-beach-resort.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/52/5a/5f/sansi-kendwa-beach-resort.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/52/58/b9/sansi-kendwa-beach-resort.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/41/e2/3b/sansi-kendwa-beach-resort.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.759, lng: 39.289 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-hotel-20',
+    name: 'Golden Tulip Stonetown Boutique',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Elegant hotel near the sea port with seamless check-in, clean and spacious rooms, and a rooftop restaurant offering Indian and Zanzibarian cuisine with scenic views. Convenient location for travelers.',
+    longDescription: 'Elegant hotel near the sea port with seamless check-in, clean and spacious rooms, and a rooftop restaurant offering Indian and Zanzibarian cuisine with scenic views. Convenient location for travelers.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/68/79/80/gt-znz-aug-shoot.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/81/35/1d/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.158, lng: 39.191 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'tz-hotel-21',
+    name: 'Nungwi Dreams By Mantis',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Boutique hotel with stunning Indian Ocean views, private beach, two infinity pools, spacious rooms with balconies, sea life exploration at low tide, tranquil vibe, evening activities, and dining options.',
+    longDescription: 'Boutique hotel with stunning Indian Ocean views, private beach, two infinity pools, spacious rooms with balconies, sea life exploration at low tide, tranquil vibe, evening activities, and dining options.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/60/87/28/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/d4/7c/05/nungwi-dreams-by-mantis.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/d4/79/a1/nungwi-dreams-by-mantis.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/d4/59/e4/nungwi-dreams-by-mantis.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.734, lng: 39.294 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'tz-hotel-22',
+    name: 'Golden Tulip Zanzibar Resort',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Hotel with friendly staff, spacious, clean, air-conditioned rooms. Offers rooftop restaurant with ocean views, local cuisine, and convenient location.',
+    longDescription: 'Hotel with friendly staff, spacious, clean, air-conditioned rooms. Offers rooftop restaurant with ocean views, local cuisine, and convenient location.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e4/8c/37/suite-ocean-view.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e4/8c/30/superior-ocean-view.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e4/8c/27/pool.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.115, lng: 39.191 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'tz-hotel-23',
+    name: 'Meliá Zanzibar',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Luxurious oceanfront resort with scenic views, multiple dining options including beachfront and poolside restaurants. Fresh seafood, tapas, and cocktails praised. Convenient buggy service and serene atmosphere.',
+    longDescription: 'Luxurious oceanfront resort with scenic views, multiple dining options including beachfront and poolside restaurants. Fresh seafood, tapas, and cocktails praised. Convenient buggy service and serene atmosphere.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/84/cf/48/melia-zanzibar.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/1b/ff/a0/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/42/2c/d0/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.996, lng: 39.400 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'tz-hotel-24',
+    name: 'The Mora Zanzibar',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Set on a stunning beach with views of Mnemba Island, this resort boasts exceptional snorkeling, diverse dining, and a unique gelato shop included in the all-inclusive package. Highlights include spacious pools, a serene garden pool, sports facilities, a spa, and engaging activities.',
+    longDescription: 'Set on a stunning beach with views of Mnemba Island, this resort boasts exceptional snorkeling, diverse dining, and a unique gelato shop included in the all-inclusive package. Highlights include spacious pools, a serene garden pool, sports facilities, a spa, and engaging activities.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/37/45/b8/emerald-zanzibar-resort.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/37/45/aa/emerald-zanzibar-resort.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/37/45/d2/emerald-zanzibar-resort.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/37/45/93/emerald-zanzibar-resort.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.836, lng: 39.375 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'tz-hotel-25',
+    name: 'Hotel Riu Jambo',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Modern hotel with spacious, well-furnished rooms and beautiful views. Exceptional dining with varied cuisine, including standout Asian and traditional restaurants. Attentive staff and plentiful water activities. Some construction nearby, but minimal disruption for most guests.',
+    longDescription: 'Modern hotel with spacious, well-furnished rooms and beautiful views. Exceptional dining with varied cuisine, including standout Asian and traditional restaurants. Attentive staff and plentiful water activities. Some construction nearby, but minimal disruption for most guests.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/5e/c8/d3/vista-aerea-y-playa.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/fe/2d/55/hotel-riu-jambo.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/fe/2d/25/hotel-riu-jambo.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/fe/2a/be/hotel-riu-jambo.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -5.733, lng: 39.296 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-hotel-26',
+    name: 'Meliá Serengeti Lodge member of Meliá Collection',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Luxurious lodge in the Serengeti with panoramic views, spacious modern rooms, infinity pool, and exceptional service. Features game drives with expert guides, wildlife sightings, and stunning sunsets.',
+    longDescription: 'Luxurious lodge in the Serengeti with panoramic views, spacious modern rooms, infinity pool, and exceptional service. Features game drives with expert guides, wildlife sightings, and stunning sunsets.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/ac/0b/d8/caption.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/32/af/b9/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/32/af/b7/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/32/af/b5/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -2.463, lng: 34.821 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'tz-hotel-27',
+    name: 'Tulia Zanzibar Unique Beach Resort',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Lush gardens, beachfront villas, and varied activities like yoga, spa massages, and water sports. Organic farm-to-table dining, garden tours, and attentive staff create a relaxing and memorable stay.',
+    longDescription: 'Lush gardens, beachfront villas, and varied activities like yoga, spa massages, and water sports. Organic farm-to-table dining, garden tours, and attentive staff create a relaxing and memorable stay.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/81/97/06/view-from-seafront-luxury.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/81/83/2d/royal-garden-villa.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/81/7c/d1/pool-with-two-water-slides.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/81/95/17/pool-view.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.002, lng: 39.389 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 5.0
+  },
+  {
+    id: 'tz-hotel-28',
+    name: 'The Residence Zanzibar',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Peaceful resort with stunning views, clear sea, and distance excursions. Known for great cocktails, spacious garden villas with private pools, and a large main pool. Ideal for honeymoons.',
+    longDescription: 'Peaceful resort with stunning views, clear sea, and distance excursions. Known for great cocktails, spacious garden villas with private pools, and a large main pool. Ideal for honeymoons.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/71/bd/af/infinity-pool.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/c3/f0/c6/master-bedroom.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/93/2d/d5/the-dining.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.467, lng: 39.467 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'tz-hotel-29',
+    name: 'The Palms, Zanzibar',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Serene resort with private villas, plunge pools, and beach cabanas. Access to sister property amenities like a spa, tennis court, and lap pool. High-end dining, personalized service, and ocean views.',
+    longDescription: 'Serene resort with private villas, plunge pools, and beach cabanas. Access to sister property amenities like a spa, tennis court, and lap pool. High-end dining, personalized service, and ocean views.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1a/99/73/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/e8/1e/50/palms-infinity-pool.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1a/99/77/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.284, lng: 39.537 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 5.0
+  },
+  {
+    id: 'tz-hotel-30',
+    name: 'Baraza Resort And Spa Zanzibar',
+    country: 'Zanzibar',
+    type: 'Hotel',
+    description: 'Luxury oceanfront resort with private villas featuring plunge pools, spacious interiors, and serene day beds. Stunning beach, reef walks, exceptional dining, and attentive service for special occasions.',
+    longDescription: 'Luxury oceanfront resort with private villas featuring plunge pools, spacious interiors, and serene day beds. Stunning beach, reef walks, exceptional dining, and attentive service for special occasions.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1a/93/66/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1a/93/61/frangipani-spa-at-baraza.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1a/93/65/caption.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1a/93/6a/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.283, lng: 39.537 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 5.0
+  },
+  {
+    id: 'tz-hotel-31',
+    name: 'Coral Beach Hotel Dar Es Salaam',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Coastal hotel with ocean-view rooms, private beach, and waterfront dining. Spacious, modern rooms with balconies. Ideal for business or leisure, offering stunning sunsets and a relaxing ambiance.',
+    longDescription: 'Coastal hotel with ocean-view rooms, private beach, and waterfront dining. Spacious, modern rooms with balconies. Ideal for business or leisure, offering stunning sunsets and a relaxing ambiance.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e3/bc/5f/make-a-tranquil-escape.jpg?w=700&h=400&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/19/0e/d0/heritage-wing-and-tower.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/18/f7/8f/tower-wing-luxury-junior.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/f6/5a/a5/coral-beach-hotel-dar.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -6.758, lng: 39.266 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.3
+  },
+  {
+    id: 'tz-hotel-32',
+    name: 'Mvuli Hotel',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Great for safari base, offering an authentic Tanzanian experience. Conveniently located with friendly staff, comfortable beds, and clean rooms. Organizes safaris efficiently.',
+    longDescription: 'Great for safari base, offering an authentic Tanzanian experience. Conveniently located with friendly staff, comfortable beds, and clean rooms. Organizes safaris efficiently.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/38/5e/2d/mvuli-hotels-arusha.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/38/5d/23/entrance.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/38/5e/79/mvuli-hotels-arusha.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -3.374, lng: 36.684 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.2
+  },
+  {
+    id: 'tz-hotel-33',
+    name: 'Fun Retreat Resort',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Resort in Arusha offering day trips to national parks and waterfalls. Features a peaceful setting, Ayurvedic spa, water park, family-friendly activities, spacious rooms, diverse dining, and helpful staff.',
+    longDescription: 'Resort in Arusha offering day trips to national parks and waterfalls. Features a peaceful setting, Ayurvedic spa, water park, family-friendly activities, spacious rooms, diverse dining, and helpful staff.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/25/f7/a1/fun-retreat.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/25/f4/d3/tree-top.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/25/f5/41/spa-ayurveda-center.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/26/25/0e/pool-bar.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -3.344, lng: 36.757 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'tz-hotel-34',
+    name: 'Venus Premier Hotel',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Centrally located hotel in Arusha with clean, spacious rooms and excellent housekeeping. Offers delicious Indian cuisine, diverse breakfast options, and attentive staff. Great for business and leisure travelers.',
+    longDescription: 'Centrally located hotel in Arusha with clean, spacious rooms and excellent housekeeping. Offers delicious Indian cuisine, diverse breakfast options, and attentive staff. Great for business and leisure travelers.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/5b/2a/41/lobby.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/41/2a/09/venus-premier-hotel.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/a3/23/e8/venus-premier-hotel-is.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -3.370, lng: 36.685 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'tz-hotel-35',
+    name: 'The African Tulip',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'Ideal for safari stopovers, this boutique hotel offers large rooms, friendly staff, and good food. It boasts a cozy pool and bar area, and a central location. Unique mix of modern and traditional decor.',
+    longDescription: 'Ideal for safari stopovers, this boutique hotel offers large rooms, friendly staff, and good food. It boasts a cozy pool and bar area, and a central location. Unique mix of modern and traditional decor.',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/1d/31/56/spacious-rooms.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/24/96/30/the-african-tulip.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/24/96/04/the-african-tulip.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -3.372, lng: 36.687 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'tz-hotel-36',
+    name: 'Heart Of Africa Lodge',
+    country: 'Tanzania',
+    type: 'Hotel',
+    description: 'The beds and mattresses are a real asset at the lodge. Rooms rather small but sufficient. We stayed in the lodge to meet our partner NGOs in the area of Arusha. We can just recommend and will stay there next time',
+    longDescription: 'The beds and mattresses are a real asset at the lodge. Rooms rather small but sufficient. We stayed in the lodge to meet our partner NGOs in the area of Arusha. We can just recommend and will stay there next time',
+    images: [
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/9e/5f/92/heart-of-africa-lodge.jpg?w=700&h=-1&s=1',
+        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/98/f3/87/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -3.398, lng: 36.671 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.3
   },
   // Zanzibar
   {
