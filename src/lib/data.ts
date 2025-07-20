@@ -1479,8 +1479,8 @@ export const places: Place[] = [
     longDescription: 'Nakupenda Beach, which means \'I love you\' in Swahili, is a stunning sandbank that appears during low tide. It offers pristine white sands and crystal-clear waters perfect for snorkeling and swimming. A day trip here often includes a delicious fresh seafood barbecue, making it a truly idyllic escape.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/d3/3a/ed/photo2jpg.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/68/2a/b9/caption.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5f/1e/b8/caption.jpg?w=500&h=400&s=1'
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/68/2a/b8/caption.jpg?w=500&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5f/1e/b6/caption.jpg?w=500&h=400&s=1'
     ],
     location: { lat: -6.162, lng: 39.172 },
     contact: { phone: 'N/A', website: 'N/A' },
@@ -1775,7 +1775,7 @@ export const places: Place[] = [
   {
     id: 'tz-hotel-1',
     name: 'Makofi Guest House',
-    country: 'Tanzania',
+    country: 'Zanzibar',
     type: 'Hotel',
     description: 'Exotic guesthouse steps from the beach with cozy rooms, a serene garden, shared kitchen, and fast WiFi. Features an island-inspired vibe, friendly staff, and opportunities to connect with travelers.',
     longDescription: 'Exotic guesthouse steps from the beach with cozy rooms, a serene garden, shared kitchen, and fast WiFi. Features an island-inspired vibe, friendly staff, and opportunities to connect with travelers.',
@@ -3255,6 +3255,454 @@ export const places: Place[] = [
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.7
   },
+  {
+    id: 'rw-hotel-1',
+    name: 'Heaven Restaurant & Boutique Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Peaceful hotel near downtown Kigali with spacious rooms, friendly staff, beautiful patios, and a relaxing pool. Features include two restaurants, banana beer classes, and proximity to local attractions.',
+    longDescription: 'Peaceful hotel near downtown Kigali with spacious rooms, friendly staff, beautiful patios, and a relaxing pool. Features include two restaurants, banana beer classes, and proximity to local attractions.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/a3/c7/62/heaven-restaurant-boutique.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/15/52/fe/our-open-air-gym-is-equipped.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/15/4e/a6/heaven-fitness-classes.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.958, lng: 30.061 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'rw-hotel-2',
+    name: 'Hotel Des Mille Collines',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Centrally located hotel in Kigali with historical significance, stunning outdoor spaces, pool area with exceptional views, and first-class dining. Known for excellent service and a relaxing atmosphere.',
+    longDescription: 'Centrally located hotel in Kigali with historical significance, stunning outdoor spaces, pool area with exceptional views, and first-class dining. Known for excellent service and a relaxing atmosphere.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/bc/70/dc/swimming-pool-facade.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/40/23/df/la-piscine.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/16/14/e7/20180803-084737-largejpg.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.949, lng: 30.060 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'rw-hotel-3',
+    name: 'Five To Five Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Convenient hotel near Kigali Airport with free reliable shuttle service, clean and comfortable rooms, 24-hour dining, mosquito nets, and friendly staff. Quiet location with city views and great value.',
+    longDescription: 'Convenient hotel near Kigali Airport with free reliable shuttle service, clean and comfortable rooms, 24-hour dining, mosquito nets, and friendly staff. Quiet location with city views and great value.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/8a/27/06/five-to-five-hotel.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/fe/a4/6d/hotel-main-builiding.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/55/ab/50/reception.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.954, lng: 30.123 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'rw-hotel-4',
+    name: 'M Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Serene hotel with spacious, clean rooms and stunning views. Offers delicious food, delightful ambiance, and convenient location. Features excellent service, well-maintained amenities, and room service.',
+    longDescription: 'Serene hotel with spacious, clean rooms and stunning views. Offers delicious food, delightful ambiance, and convenient location. Features excellent service, well-maintained amenities, and room service.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/33/4d/bb/swimming-pool.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cc/f2/cb/m-hotel-kigali-is-located.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/33/8b/51/hotel-face.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.947, lng: 30.063 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'rw-hotel-5',
+    name: 'Park Inn by Radisson Kigali',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Modern hotel with clean rooms, well-maintained pool and gym, and diverse dining options. Features a popular breakfast buffet, business-friendly amenities, reliable internet, and friendly, attentive staff.',
+    longDescription: 'Modern hotel with clean rooms, well-maintained pool and gym, and diverse dining options. Features a popular breakfast buffet, business-friendly amenities, reliable internet, and friendly, attentive staff.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c5/aa/66/park-inn-by-radisson.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c5/a3/91/park-inn-by-radisson.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c5/a8/f4/park-inn-by-radisson.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.952, lng: 30.063 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'rw-hotel-6',
+    name: 'Four Points by Sheraton Kigali',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Modern, clean hotel with spacious, tastefully decorated rooms and modern amenities. Features a Brew Pub, pool bar, and outstanding dining. Convenient location, ideal for business and leisure travelers.',
+    longDescription: 'Modern, clean hotel with spacious, tastefully decorated rooms and modern amenities. Features a Brew Pub, pool bar, and outstanding dining. Convenient location, ideal for business and leisure travelers.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/3f/71/19/hotel-exterior-daytime.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/55/eb/87/loft.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/6d/ab/5f/fp-social-all-day-dining.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.947, lng: 30.062 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'rw-hotel-7',
+    name: 'Step Town Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'The breakfast that was included with my room was plenty & delicious, with eggs, toast, fresh fruits, fresh coffee, & juice. They have a good menu selection so I ended up having lunch & dinner here on my first day.',
+    longDescription: 'The breakfast that was included with my room was plenty & delicious, with eggs, toast, fresh fruits, fresh coffee, & juice. They have a good menu selection so I ended up having lunch & dinner here on my first day.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6f/72/f3/step-town-hotel.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/7b/ba/5e/eating-area-at-the-fron.jpg?w=600&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/1a/3b/7a/step-town-motel.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.945, lng: 30.057 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.3
+  },
+  {
+    id: 'rw-hotel-8',
+    name: 'Onomo Hotel Kigali',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Modern hotel with stylish decor and picturesque views. Spacious, clean rooms, serene ambiance, and well-equipped facilities. Professional, hospitable staff and convenient for business travelers.',
+    longDescription: 'Modern hotel with stylish decor and picturesque views. Spacious, clean rooms, serene ambiance, and well-equipped facilities. Professional, hospitable staff and convenient for business travelers.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/16/5e/94/pool-deck.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/16/5e/a8/bathroom.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/16/5e/ac/restaurant.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.944, lng: 30.058 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'rw-hotel-9',
+    name: '2000 Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Breakfast buffet is rich, everything is available. It is right in the center, so you can easily walk to some of the museums, the German restaurant, cheap massage place, etc. I liked it here, good and safe base.',
+    longDescription: 'Breakfast buffet is rich, everything is available. It is right in the center, so you can easily walk to some of the museums, the German restaurant, cheap massage place, etc. I liked it here, good and safe base.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/79/6b/b6/2000-hotel.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d1/09/81/2000.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/5b/a8/10/bamboo-rooftop-bar-restaurant.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.946, lng: 30.059 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'rw-hotel-10',
+    name: 'The Manor Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Elegant hotel with stunning Kigali views, spacious rooms, pool, sauna, restaurant, and bar. Quiet location near the airport and city center. Diverse menu with Indian and Italian cuisine.',
+    longDescription: 'Elegant hotel with stunning Kigali views, spacious rooms, pool, sauna, restaurant, and bar. Quiet location near the airport and city center. Diverse menu with Indian and Italian cuisine.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c4/ad/84/hotel-grounds.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c4/9a/c6/deluxe-double-room.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c4/90/a0/pool.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.940, lng: 30.090 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'rw-hotel-11',
+    name: 'Lake Kivu Serena Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Lakeside retreat with lush grounds, large pool, and serene atmosphere. Features exceptional dining, a well-stocked gift shop, and attentive service. Ideal for relaxation, families, or business stays.',
+    longDescription: 'Lakeside retreat with lush grounds, large pool, and serene atmosphere. Features exceptional dining, a well-stocked gift shop, and attentive service. Ideal for relaxation, families, or business stays.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/4a/2b/c7/jet-skiing-on-lake-kivu.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/62/ef/94/aerial-exterior-view.jpg?w=600&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/4a/2b/c0/beach-volleyball.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -2.483, lng: 28.893 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'rw-hotel-12',
+    name: 'Gloria Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Excellent reception conditions, with very comfortable, clean rooms with excellent views. The staff is very friendly and professional, always available to make your stay as pleasant as possible.',
+    longDescription: 'Excellent reception conditions, with very comfortable, clean rooms with excellent views. The staff is very friendly and professional, always available to make your stay as pleasant as possible.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b5/3a/66/restaurant-area-also.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/77/a3/80/gloria-hotel.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/c6/0f/db/getlstd-property-photo.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.946, lng: 30.061 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'rw-hotel-13',
+    name: 'Nyungwe Top View Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Hilltop hotel with stunning views of Lake Kivu and Nyungwe Forest. Spacious cottages with fireplaces, dining with a scenic terrace, and access to Nyungwe National Park\'s canopy walks and chimpanzee trekking.',
+    longDescription: 'Hilltop hotel with stunning views of Lake Kivu and Nyungwe Forest. Spacious cottages with fireplaces, dining with a scenic terrace, and access to Nyungwe National Park\'s canopy walks and chimpanzee trekking.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/06/45/27/the-main-lodge-building.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/cd/9d/4e/photo3jpg.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/72/72/49/inside-one-of-the-wonderful.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -2.467, lng: 29.083 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.2
+  },
+  {
+    id: 'rw-hotel-14',
+    name: 'Musanto Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'A comfortable hotel with a convenient location and friendly staff.',
+    longDescription: 'A comfortable hotel with a convenient location and friendly staff. It provides a good base for exploring the surrounding area, with clean rooms and essential amenities for a pleasant stay.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/42/5f/99/vue-depuis-le-portail.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/93/67/d8/photo0jpg.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/1a/e9/36/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.713, lng: 29.563 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.1
+  },
+  {
+    id: 'rw-hotel-15',
+    name: 'Nobilis Hotel & Apartments',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Nobilis apartment was A haven in Kigali during our stay.The staff i repeat was quite helpful and maintained a happy smile everytime. Ambient rooms, quite some pretty outdoors though I had trouble with the water...',
+    longDescription: 'Nobilis apartment was A haven in Kigali during our stay.The staff i repeat was quite helpful and maintained a happy smile everytime. Ambient rooms, quite some pretty outdoors though I had trouble with the water...',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/8e/a6/2a/caption.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/8e/a6/21/caption.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/9e/6d/ce/fb-img-1558203958894.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.942, lng: 30.063 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.3
+  },
+  {
+    id: 'rw-hotel-16',
+    name: 'Mythos Boutique Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Boutique hotel with spacious rooms, balconies, city views, serene pool, fitness center, and rooftop dining. Stunning decor blends modern and traditional styles. Known for great food and attentive service.',
+    longDescription: 'Boutique hotel with spacious rooms, balconies, city views, serene pool, fitness center, and rooftop dining. Stunning decor blends modern and traditional styles. Known for great food and attentive service.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/97/60/6e/mythos-boutique-hotel.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/97/60/cd/mythos-boutique-hotel.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/97/61/22/mythos-boutique-hotel.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.956, lng: 30.060 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  },
+  {
+    id: 'rw-hotel-17',
+    name: 'Nature Kigali',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'This is a great place to relax, have some tasty food while the kids play. Esper did a great job attending to us and following up on our requests.',
+    longDescription: 'This is a great place to relax, have some tasty food while the kids play. Esper did a great job attending to us and following up on our requests.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/36/04/e7/nature-kigali.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/35/a8/e6/nature-kigali.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/35/84/0a/nature-kigali.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.954, lng: 30.096 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.5
+  },
+  {
+    id: 'rw-hotel-18',
+    name: 'The Nest',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'The outdoor seating areas was really nice. There was fast, reliable wifi and staff were very friendly and helpful. Breakfast was included in the price of the hotel, I really enjoyed the fresh fruits and pancakes.',
+    longDescription: 'The outdoor seating areas was really nice. There was fast, reliable wifi and staff were very friendly and helpful. Breakfast was included in the price of the hotel, I really enjoyed the fresh fruits and pancakes.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7b/77/30/caption.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7b/77/22/caption.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7b/77/1f/pool-is-in-a-neighbouring.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.957, lng: 30.061 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.6
+  },
+  {
+    id: 'rw-hotel-19',
+    name: 'INZU Lodge',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Calm atmosphere except for some music from neighbouring bars at the weekend. You will find everything you need at Inzu Lodge for a relaxing stay: great food, excellent cocktails and a beautiful souvenir shop.',
+    longDescription: 'Calm atmosphere except for some music from neighbouring bars at the weekend. You will find everything you need at Inzu Lodge for a relaxing stay: great food, excellent cocktails and a beautiful souvenir shop.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/3b/9a/e6/inzu-lodge-restaurant.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/3b/9b/49/inzu-lodge.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/c7/51/4c/inzu-lodge.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -2.483, lng: 28.894 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.4
+  },
+  {
+    id: 'rw-hotel-20',
+    name: 'Gorillas Lake Kivu Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'A serene hotel on the shores of Lake Kivu, offering beautiful views and a relaxing atmosphere.',
+    longDescription: 'A serene hotel on the shores of Lake Kivu, offering beautiful views and a relaxing atmosphere. With comfortable rooms and access to water-based activities, it\'s a great base for exploring the Lake Kivu area.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/4a/7c/3a/gorillas-lake-kivu-hotel.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/4a/7b/e0/caption.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/f8/0b/1c/view-from-across-the.jpg?w=600&h=-1&s=1'
+    ],
+    location: { lat: -2.484, lng: 28.892 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.3
+  },
+  {
+    id: 'rw-hotel-21',
+    name: 'Nyungwe Nziza Ecolodge',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'The relative lack of accommodation options near Nyungwe is a blessing and a curse. A blessing since the area is not overrun with tourists, but a curse since there are only a few accommodation options, and if you.',
+    longDescription: 'The relative lack of accommodation options near Nyungwe is a blessing and a curse. A blessing since the area is not overrun with tourists, but a curse since there are only a few accommodation options, and if you.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/31/b0/22/outdoor-leisure-world.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cb/3f/83/begin-november-2022-we.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cb/3f/84/begin-november-2022-we.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -2.483, lng: 29.183 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.0
+  },
+  {
+    id: 'rw-hotel-22',
+    name: 'Palast Rock Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'A hotel offering basic amenities and a convenient location for travelers.',
+    longDescription: 'A hotel offering basic amenities and a convenient location for travelers. It serves as a functional base for exploring the local area, with a focus on providing essential comforts.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/1e/e8/b4/palast-rock-hotel.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/1e/e8/a0/palast-rock-hotel.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.493, lng: 29.584 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 3.8
+  },
+  {
+    id: 'rw-hotel-23',
+    name: 'Virunga Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'I was quite pleased with my stay here for a number of reasons. The hotel is set in the central business area so it was rather easy to go out for a walk and to do some shopping. A few shops near by sell the...',
+    longDescription: 'I was quite pleased with my stay here for a number of reasons. The hotel is set in the central business area so it was rather easy to go out for a walk and to do some shopping. A few shops near by sell the...',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/36/92/c3/virunga-hotel.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/36/90/62/conference-room.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/7a/46/fa/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.500, lng: 29.593 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.2
+  },
+  {
+    id: 'rw-hotel-25',
+    name: 'Grazia Apartments',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'There is also a pool with a cafe which makes for a great common area for meetings.',
+    longDescription: 'There is also a pool with a cafe which makes for a great common area for meetings.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f2/44/fd/such-a-lovely-place-to.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/77/a7/b8/grazia-aparments-ltd.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.948, lng: 30.088 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.0
+  },
+  {
+    id: 'rw-hotel-28',
+    name: 'Radisson Blu Hotel & Convention Centre, Kigali',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Sophisticated hotel offering comfort for both business and leisure travelers. Features a business lounge with excellent food and beverage selection. Standout service throughout, including a highly praised dining experience. Modern decor, comfortable seating areas, and lounge bar with extraordinary service. On-site restaurant and bar highly recommended for food quality and variety.',
+    longDescription: 'Sophisticated hotel offering comfort for both business and leisure travelers. Features a business lounge with excellent food and beverage selection. Standout service throughout, including a highly praised dining experience. Modern decor, comfortable seating areas, and lounge bar with extraordinary service. On-site restaurant and bar highly recommended for food quality and variety.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/bf/0e/3d/radisson-blu-hotel-convention.jpg?w=700&h=400&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/bf/0d/c2/filini-italian-restaurant.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/bf/06/12/radisson-blu-hotel-convention.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.954, lng: 30.091 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'rw-hotel-29',
+    name: 'Kigali Marriott Hotel',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Modern hotel in a central location with spacious, clean rooms and excellent dining options. Features an inviting pool, well-equipped gym, Executive Lounge, and relaxing ambiance. Ideal for business or leisure.',
+    longDescription: 'Modern hotel in a central location with spacious, clean rooms and excellent dining options. Features an inviting pool, well-equipped gym, Executive Lounge, and relaxing ambiance. Ideal for business or leisure.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/16/09/65/hotel-exterior.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/ac/1c/e9/malaika-garden-rounds.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/ac/1c/e8/outdoor-pool-terrace.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.950, lng: 30.061 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.8
+  },
+  {
+    id: 'rw-hotel-30',
+    name: 'Virunga Inn Resort & Spa',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Luxurious lodge near Volcanoes National Park, ideal for gorilla trekking. Offers modern amenities, stunning volcano views, colorful gardens, spa services, fireplaces, outdoor showers, and exceptional service.',
+    longDescription: 'Luxurious lodge near Volcanoes National Park, ideal for gorilla trekking. Offers modern amenities, stunning volcano views, colorful gardens, spa services, fireplaces, outdoor showers, and exceptional service.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/17/b0/be/newest-modern-elegant.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/17/b0/bb/newest-modern-elegant.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/16/c2/d3/comfortable-relax-lounge.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.492, lng: 29.583 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.9
+  },
+  {
+    id: 'rw-hotel-31',
+    name: 'Da Vinci Gorilla Lodge',
+    country: 'Rwanda',
+    type: 'Hotel',
+    description: 'Rustic lodge near Volcanoes National Park, ideal for gorilla trekking. Cozy rooms with fireplaces, delicious food, and friendly staff. Unique touches include boot cleaning, foot massages, and visits from wildlife.',
+    longDescription: 'Rustic lodge near Volcanoes National Park, ideal for gorilla trekking. Cozy rooms with fireplaces, delicious food, and friendly staff. Unique touches include boot cleaning, foot massages, and visits from wildlife.',
+    images: [
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/66/1b/4a/da-vinci-lodge.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/b4/03/11/dinner-upstairs-in-the.jpg?w=700&h=-1&s=1',
+      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/a4/02/b8/caption.jpg?w=700&h=-1&s=1'
+    ],
+    location: { lat: -1.488, lng: 29.570 },
+    contact: { phone: 'N/A', website: 'N/A' },
+    rating: 4.7
+  }
 ];
+
+    
 
     
