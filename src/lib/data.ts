@@ -27,7 +27,7 @@ export const places: Place[] = [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/77/75/f9/exterior-kampala-serena.jpg?w=500&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bc/a6/6c/kampala-serena-hotel.jpg?w=500&h=-1&s=1'
     ],
-    location: { lat: 0.316, lng: 32.589 },
+    location: { lat: 0.3162, lng: 32.5893 },
     contact: { phone: '+256-312-309000', website: 'https://www.serenahotels.com' },
     rating: 4.6,
   },
@@ -39,7 +39,7 @@ export const places: Place[] = [
     description: 'A unique dining experience with a specialty in game meat.',
     longDescription: 'The Lawns offers a serene dining environment with lush gardens and a sophisticated ambiance. The menu is a fusion of international cuisine with a special focus on game meats like crocodile, ostrich, and gnu. It\'s a perfect spot for a romantic dinner or a special celebration, known for its quality service and unique culinary offerings.',
     images: ['https://placehold.co/800x600.png'],
-    location: { lat: 0.301, lng: 32.587 },
+    location: { lat: 0.3015, lng: 32.5878 },
     contact: { phone: '+256-772-200002', website: 'https://thelawns.co.ug' },
     rating: 4.5,
   },
@@ -51,7 +51,7 @@ export const places: Place[] = [
     description: 'Home to nearly half of the world\'s remaining mountain gorillas, making it one of the top destinations for gorilla trekking.',
     longDescription: `Bwindi Impenetrable Forest, a UNESCO World Heritage Site in southwestern Uganda, is a sanctuary of dramatic, mist-shrouded volcanic slopes and one of the most biologically diverse forests in Africa. Its most famous residents are the mountain gorillas, and tracking them through the dense vegetation is an unforgettable wildlife encounter. The forest also hosts chimpanzees, forest elephants, and over 350 bird species, offering rich opportunities for nature walks and birdwatching. Engaging with local Batwa pygmy communities provides deep cultural insight into their ancient forest-dwelling traditions.`,
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/d4/02/b5/experience-the-beauty.jpg?w=700&h=400&s=1', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
-    location: { lat: -1.087, lng: 29.619 },
+    location: { lat: -1.055, lng: 29.625 },
     contact: { phone: '+256-414-346287', website: 'https://www.ugandawildlife.org' },
     rating: 4.9,
   },
@@ -271,7 +271,7 @@ export const places: Place[] = [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/26/1a/96/hotel-le-petit-village.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/67/38/3f/hotel-le-petit-village.jpg?w=500&h=-1&s=1'
     ],
-    location: { lat: 0.298, lng: 32.593 },
+    location: { lat: 0.2982, lng: 32.5931 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.6
   },
@@ -287,7 +287,7 @@ export const places: Place[] = [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c7/65/8f/classic-room.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/54/e4/e7/k-hotels.jpg?w=500&h=-1&s=1'
     ],
-    location: { lat: 0.052, lng: 32.470 },
+    location: { lat: 0.0528, lng: 32.4705 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.7
   },
@@ -457,7 +457,7 @@ export const places: Place[] = [
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e9/dc/a9/view-from-lounge.jpg?w=500&h=-1&s=1'
     ],
-    location: { lat: 0.33, lng: 32.58 },
+    location: { lat: 0.330, lng: 32.580 },
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.5
   },
@@ -639,7 +639,7 @@ export const places: Place[] = [
     description: 'An exclusive boutique hotel, famous for its resident Rothschild giraffes.',
     longDescription: 'Giraffe Manor is set in 12 acres of private land within 140 acres of indigenous forest in the Langata suburb of Nairobi. As one of Nairobi\'s most iconic buildings, it offers an enchanting experience where resident Rothschild giraffes often poke their long necks into the windows in search of a treat. With its stately façade and elegant interior, it harks back to the 1930s when European visitors first enjoyed East African safaris.',
     images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
-    location: { lat: -1.369, lng: 36.745 },
+    location: { lat: -1.374, lng: 36.747 },
     contact: { phone: '+254-20-5020888', website: 'https://www.thesafaricollection.com' },
     rating: 4.9,
   },
@@ -2341,464 +2341,6 @@ export const places: Place[] = [
     contact: { phone: 'N/A', website: 'N/A' },
     rating: 4.3
   },
-  // Zanzibar
-  {
-    id: 'zan-1',
-    name: 'Stone Town',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Historical neighborhood with UNESCO World Heritage status, featuring narrow streets, vibrant markets, and significant sites like the Slave Market. Local guides provide insightful tours.',
-    longDescription: 'The old part of Zanzibar City, Stone Town is a UNESCO World Heritage Site with a rich history and a labyrinth of narrow, winding streets. It\'s a fascinating place to explore, with its unique blend of Arab, Persian, Indian, and European cultural influences evident in its architecture. Key sites include the House of Wonders, the Old Fort, and the poignant former slave market.',
-    images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/a7/96/6c/photo2jpg.jpg?w=500&h=400&s=1', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/70/20/71/caption.jpg?w=500&h=400&s=1', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/70/20/6e/caption.jpg?w=500&h=400&s=1'],
-    location: { lat: -6.166, lng: 39.199 },
-    contact: { phone: 'N/A', website: 'https://whc.unesco.org/en/list/173' },
-    rating: 4.7,
-  },
-  {
-    id: 'zan-2',
-    name: 'The Rock Restaurant',
-    country: 'Zanzibar',
-    type: 'Restaurant',
-    description: 'A world-famous restaurant perched on a rock in the Indian Ocean.',
-    longDescription: 'The Rock Restaurant is a truly unique dining destination. Situated on a rock in the middle of the Indian Ocean, it is accessible by foot during low tide and by boat during high tide. The restaurant specializes in fresh seafood and offers breathtaking views of the ocean and the coastline, making for an unforgettable meal.',
-    images: ['https://placehold.co/800x600.png', 'https://placehold.co/800x600.png'],
-    location: { lat: -6.223, lng: 39.510 },
-    contact: { phone: '+255-776-591-360', website: 'https://www.rockrestaurantzanzibar.com' },
-    rating: 4.6,
-  },
-  {
-    id: 'zan-3',
-    name: 'Nakupenda Beach Nature Reserve',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'White sand beach and clear waters ideal for snorkeling with vibrant marine life. Enjoy fresh seafood and visit historical sites for cultural shopping.',
-    longDescription: 'Nakupenda Beach, which means \'I love you\' in Swahili, is a stunning sandbank that appears during low tide. It offers pristine white sands and crystal-clear waters perfect for snorkeling and swimming. A day trip here often includes a delicious fresh seafood barbecue, making it a truly idyllic escape.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/d3/3a/ed/photo2jpg.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/68/2a/b8/caption.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5f/1e/b6/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.162, lng: 39.172 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.7,
-  },
-  {
-    id: 'zan-4',
-    name: 'Nungwi Beach',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Beautiful beach with powdery soft white sand and turquoise water.lots of cool restaurants with fantastic food.',
-    longDescription: 'Nungwi Beach, at the northern tip of Zanzibar, is famous for its stunning sunsets and vibrant atmosphere. The beach boasts powdery white sand and clear turquoise waters, perfect for swimming and snorkeling. It has a lively vibe with numerous dhow boat builders, restaurants, and bars along the shore.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/4c/d8/9e/caption.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/4c/01/09/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -5.726, lng: 39.294 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.8,
-  },
-  {
-    id: 'zan-5',
-    name: 'Prison Island - Changuu Private Island',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Historical island featuring a sanctuary with gentle giant tortoises and a small museum. Scenic boat rides complement the mix of natural beauty and cultural heritage.',
-    longDescription: 'A short boat trip from Stone Town, Changuu Private Island, also known as Prison Island, offers a fascinating combination of history and nature. The island was once used to detain rebellious slaves and later functioned as a quarantine station. Today, its main draw is the sanctuary for giant Aldabra tortoises, some of which are over a century old. Visitors can interact with these gentle giants, explore the old prison ruins, and snorkel in the clear surrounding waters.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/fb/f4/56/prison-island.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5e/59/13/caption.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/54/f6/8c/caption.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: -6.126, lng: 39.168 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.5,
-  },
-   {
-    id: 'zan-6',
-    name: 'Paje Beach',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Sun-kissed beach with clear, warm waters, ideal for kite surfing and reef walks. Offers a relaxed atmosphere with bars and restaurants, though can be crowded.',
-    longDescription: 'Paje Beach is a vibrant spot on Zanzibar\'s east coast, famous for its excellent kitesurfing conditions. The long stretch of white sand and shallow turquoise waters make it ideal for both beginners and experienced surfers. The beach has a lively, bohemian atmosphere with plenty of cool bars and restaurants.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e8/b4/7b/you-are-most-welcome.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/45/67/12/caption.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/5c/82/d1/paje-beach-opposite-kilima.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: -6.264, lng: 39.535 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.6
-  },
-  {
-    id: 'zan-7',
-    name: 'Kendwa Beach',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Spacious beach with crystal clear waters ideal for swimming, serene private areas, and a variety of dining options. Enjoy peaceful sunsets and water sports without the crowds.',
-    longDescription: 'Kendwa Beach, located on the northern tip of Zanzibar, is famous for its stunning sunsets and vibrant Full Moon parties. Unlike many other beaches on the island, Kendwa is less affected by tides, making it perfect for swimming at any time of day. The beach has a relaxed yet lively vibe with numerous hotels, bars, and restaurants.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/c4/54/f8/kendwa.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/5d/ae/08/caption.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/49/d4/ea/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -5.756, lng: 39.288 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.7
-  },
-  {
-    id: 'zan-8',
-    name: 'Jambiani Beach',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Idyllic beach known for its white sand, turquoise waters, and seaweed farming. It offers a glimpse into local life with a laid-back atmosphere.',
-    longDescription: 'Jambiani is a traditional fishing village on the southeast coast of Zanzibar, offering a more authentic and laid-back beach experience. The stunning white sand beach is perfect for long walks, and at low tide, you can see local women farming seaweed. It\'s a great place to experience local life and enjoy the tranquil beauty of the Indian Ocean.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/67/cf/ab/caption.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/67/cf/a9/caption.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/59/56/e6/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.315, lng: 39.552 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.6
-  },
-  {
-    id: 'zan-9',
-    name: 'Old Slave Market/Anglican Cathedral',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'The Heritage Centre aims to promote tolerance and reconciliation by telling the story of this dark chapter in history.',
-    longDescription: 'The Old Slave Market site, now home to the Anglican Cathedral, is a poignant reminder of Zanzibar\'s past. The Heritage Centre tells the story of this dark chapter, aiming to promote tolerance and reconciliation. Visitors can see the underground chambers where slaves were held and learn about the abolitionist movement.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/c3/d6/42/20181217-103935-largejpg.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/75/d9/67/anglican-cathedral.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/f4/60/e6/anglican-cathedral.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.164, lng: 39.193 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.7
-  },
-  {
-    id: 'zan-10',
-    name: 'Jozani Chwaka Bay National Park',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Tropical forest walk through diverse flora, home to unique red colobus monkeys and a mangrove swamp ecosystem.',
-    longDescription: 'Jozani Forest is the last remaining indigenous forest on Zanzibar and is famous for its population of the rare red colobus monkey, which is endemic to the island. A walk through the forest offers opportunities to see these playful primates, as well as a variety of other wildlife and plant species. The park also includes a fascinating mangrove boardwalk.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/eb/2c/52/jozan-forest-is-a-national.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9a/df/3e/red-monkey-on-the-tree.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/9a/dd/84/enjoy-baby-red-monkey.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: -6.262, lng: 39.409 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.5
-  },
-  {
-    id: 'zan-11',
-    name: 'Matemwe Beach',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Tranquil beach with wide, white sands ideal for leisurely strolls, snorkeling, and dolphin spotting.',
-    longDescription: 'Matemwe Beach offers a more secluded and tranquil experience on Zanzibar\'s northeast coast. Its long stretches of white sand are perfect for leisurely walks, and the beach provides a glimpse into local life with its seaweed farms and fishing boats. It\'s also a great base for snorkeling and diving trips to the famous Mnemba Atoll.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/09/02/ed/schaaa-ists-villa-kiva.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/56/fb/c9/caption.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/56/fb/c7/caption.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: -5.850, lng: 39.362 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.4
-  },
-  {
-    id: 'zan-12',
-    name: 'Mnarani Marine Turtles Conservation Pond',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Marine sanctuary in a beachside neighborhood provides interactive experiences with sea turtles.',
-    longDescription: 'This community-based conservation project in Nungwi is dedicated to protecting sea turtles. Visitors can see green and hawksbill turtles in a natural tidal pool, learn about their conservation, and even participate in feeding them. It\'s an educational and rewarding experience that supports a valuable local initiative.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/52/3d/c4/meeresschildkroten-im.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/6a/ed/a2/caption.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/08/50/3f/img-20190214-115214-largejpg.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -5.722, lng: 39.294 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.6
-  },
-  {
-    id: 'zan-13',
-    name: 'Darajani Bazaar',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Also known as the Spice Market, this bustling local market is the vibrant heart of Stone Town.',
-    longDescription: 'Darajani Bazaar is the main market in Stone Town and a vibrant hub of local life. It\'s a sensory experience, with vendors selling everything from fresh spices and produce to seafood and meat. It\'s a fantastic place to immerse yourself in the local culture and find some authentic Zanzibari ingredients.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/4c/65/6f/spices.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/81/b4/29/darajani-bazaar.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/f5/03/26/caption.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: -6.163, lng: 39.191 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.3
-  },
-  {
-    id: 'zan-14',
-    name: 'Forodhani Gardens',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'A vibrant seafront park that comes alive at night with a bustling food market.',
-    longDescription: 'In the evening, Forodhani Gardens transforms into a lively open-air food market, offering a taste of Zanzibari street food. Visitors can enjoy a variety of local delicacies, from grilled seafood and Zanzibar pizza to fresh sugar cane juice. It\'s a bustling and delicious cultural experience with a beautiful seafront setting.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/4a/13/72/photo1jpg.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/98/7c/88/20170221-184401-largejpg.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/31/88/c8/park.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: -6.160, lng: 39.189 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.4
-  },
-  {
-    id: 'zan-15',
-    name: 'Kuza Cave',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Serene swimming spot in a crystal-clear cave with cultural experiences and unique rock formations.',
-    longDescription: 'Kuza Cave offers a unique opportunity to swim in a crystal-clear, freshwater pool inside an ancient limestone cave. The site is also a cultural center, offering insights into local history and traditions. It\'s a serene and beautiful spot for a refreshing swim and a cultural experience.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/d9/81/4f/discover-the-ancient.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/d9/82/fd/most-days-you-will-see.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/d9/82/74/learn-about-the-world.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: -6.320, lng: 39.544 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.7
-  },
-  {
-    id: 'zan-16',
-    name: 'Kiwengwa Beach',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'An absolutely beautiful beach front with a gentle tide and stunning sunrises.',
-    longDescription: 'Kiwengwa Beach is known for its long stretches of fine white sand and calm, turquoise waters, making it an ideal spot for relaxation and water sports. The beach is lined with resorts and restaurants, offering a comfortable and beautiful coastal getaway with stunning sunrises.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/44/d6/7e/caption.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/44/d6/7d/caption.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/44/d6/7c/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -5.996, lng: 39.380 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.5
-  },
-  {
-    id: 'zan-17',
-    name: 'Nungwi Mnarani Aquarium',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'The best experience, and they love their seaweed food, nearly grabbing it off your hands! The area is clean.',
-    longDescription: 'This conservation project in Nungwi is focused on rescuing and rehabilitating sea turtles. Visitors can see green and hawksbill turtles in a natural tidal pool, learn about their conservation, and participate in feeding them. It\'s an educational experience that supports a valuable local initiative.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/c5/19/40/photo0jpg.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d1/d2/ed/20170325-145152-largejpg.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/a3/03/20/alimentando-as-tartarugas.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -5.723, lng: 39.295 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.6
-  },
-  {
-    id: 'zan-18',
-    name: 'Zanzibar Butterfly Centre',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Butterfly and chameleon garden focused on conservation and community support.',
-    longDescription: 'The Zanzibar Butterfly Centre is a tropical garden teeming with hundreds of butterflies, all of which are native to Zanzibar. It\'s a community project that supports local people and conservation efforts. Visitors can enjoy a peaceful walk through the gardens and learn about the life cycle of these beautiful insects.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/1c/57/08/butterfly.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/a7/77/f8/the-butterfly-garden.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/8a/38/80/zanzibar-butterfly-centre.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: -6.269, lng: 39.408 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.4
-  },
-  {
-    id: 'zan-19',
-    name: 'Mtende beach',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'The hidden gems… third trip to this place because it’s always the best.',
-    longDescription: 'Mtende Beach is a stunning and secluded spot on the southern coast of Zanzibar, known for its dramatic rock formations and pristine sand. It\'s a hidden gem that offers a peaceful escape from the more crowded beaches, perfect for a photo session or a quiet day by the sea.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/dc/6d/72/caption.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/6a/7a/33/mtende-beach-this-is.jpg?w=500&h=400&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/6a/7a/32/mtende-beach-this-is.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.446, lng: 39.516 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.8
-  },
-  {
-    id: 'zan-20',
-    name: 'Maalum',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Tranquil cave oasis with serene swimming spots, smoothie refreshments, and inclusive amenities like masks and water shoes. Ideal for a peaceful escape amidst natural beauty.',
-    longDescription: 'Maalum is a natural swimming pool in a stunning cave, offering a tranquil and unique experience. The crystal-clear water is refreshing, and the serene atmosphere makes it an ideal spot for a peaceful escape. It\'s a hidden gem that provides a memorable and picturesque swimming adventure.',
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/73/3b/0f/maalum.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/40/e0/9b/caption.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/40/e0/99/caption.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: -6.246, lng: 39.530 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.9
-  },
-  {
-    id: 'zan-21',
-    name: 'Muyuni Beach',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Private tours in Zanzibar with snorkeling, sunset cruises, and dolphin swims. Includes visits to Mnemba Atoll and historic cultural insights.',
-    longDescription: 'Muyuni Beach is a pristine and quiet beach on the northeastern coast of Zanzibar. It serves as a starting point for trips to the Mnemba Atoll, a premier snorkeling and diving destination. The beach itself is beautiful and offers a peaceful retreat from the more bustling tourist spots.',
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/2b/7f/a1/l-acqua-a-muyuni.jpg?w=500&h=-1&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/a5/85/32/caption.jpg?w=500&h=-1&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/da/f2/65/pausa-frutta-muyuni-escursione.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -5.833, lng: 39.375 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.7
-  },
-  {
-    id: 'zan-22',
-    name: 'Chumbe Island Coral Park',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Award-winning private island, fully managed nature reserve and marine park. Day guests ($90 US) receive an inclusive package with: all boat transfers to & from Chumbe, lunch, all drinks.',
-    longDescription: 'Chumbe Island Coral Park is an award-winning private nature reserve that was created to protect the stunning coral reef on its western shore. It\'s a model of ecotourism, with eco-lodges and educational programs. Visitors can enjoy world-class snorkeling, guided forest walks, and learn about marine conservation.',
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/74/48/52/aerial-view-of-chumbe.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/74/48/ce/eco-bungalows.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/74/48/cd/sunset-over-chumbe-island.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/75/8b/24/blue-water.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.280, lng: 39.176 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.9
-  },
-  {
-    id: 'zan-23',
-    name: 'Tumbatu Island',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Snorkeling excursions with clear waters and vibrant marine life, including a chance to swim with dolphins. Tours feature cultural spice explorations and scenic island landscapes.',
-    longDescription: 'Tumbatu Island is a secluded and culturally rich island off the northwest coast of Zanzibar. It\'s home to the Tumbatu people, one of the three original ethnic groups of the archipelago. The island is known for its excellent snorkeling and diving spots, as well as its unique and traditional way of life.',
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/90/b4/97/tumbatu-island-is-the.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/c6/f4/19/tumbatu-islands-is-very.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/19/b9/33/tumbatu-island.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/c6/ea/f3/tumbatu-island-is-very.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -5.823, lng: 39.227 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.6
-  },
-  {
-    id: 'zan-24',
-    name: 'Jambo Spice Farm',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Educational spice farm tour showcasing a plethora of spices and fruits. Engages visitors with plant knowledge, taste tests, and coconut tree climbing, complemented by a delightful lunch.',
-    longDescription: 'A visit to a spice farm is a must-do in Zanzibar, the "Spice Island." Jambo Spice Farm offers an educational and sensory tour where you can see, smell, and taste a variety of spices, herbs, and tropical fruits. The tour often includes a coconut tree climbing demonstration and a delicious traditional lunch.',
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/89/d2/7a/caption.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/9b/5d/48/welcome-to-see-the-original.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/9b/5d/49/welcome-to-see-the-original.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/9b/5d/4a/welcome-to-see-the-original.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.071, lng: 39.261 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.7
-  },
-  {
-    id: 'zan-26',
-    name: 'Nanasi Beach Club',
-    country: 'Zanzibar',
-    type: 'Restaurant',
-    description: 'Beach club in Nungwi featuring fresh cuisine and a variety of drinks, complemented by striking sunset views and ambient music. Provides a vibrant spot for beachside relaxation and swimming.',
-    longDescription: 'Nanasi Beach Club in Nungwi offers a vibrant and stylish beachside experience. With a menu of fresh cuisine, a variety of drinks, and ambient music, it\'s a great place to relax, swim, and enjoy the stunning sunset views. The club provides a perfect blend of relaxation and lively atmosphere.',
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c0/c7/b3/caption.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/65/e6/89/caption.jpg?w=500&h=-1&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/70/c4/29/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -5.728, lng: 39.290 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.5
-  },
-  {
-    id: 'zan-27',
-    name: 'Bwa Mzee Spice Farm',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Interactive spice farm tour showcasing a variety of spices and fruits in their natural environment with engaging presentations and a cultural acrobatic display.',
-    longDescription: 'Bwa Mzee Spice Farm offers an interactive and engaging tour of a traditional Zanzibari spice farm. Visitors can see a wide variety of spices and fruits growing in their natural environment, and the tour often includes engaging presentations and cultural performances. It\'s an authentic and educational experience.',
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/7b/06/22/bwa-mzee-spice-farm.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/36/41/48/caption.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/36/3b/5d/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.073, lng: 39.259 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.8
-  },
-  {
-    id: 'zan-29',
-    name: 'Zanzibar Spices and Heritage Centre',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Zanzibar Spices and Heritage Center is an authentic spice farm of Zanzibar where we grow traditionnally a vast range of spices and tropical plants following organic farming principles. We organize…',
-    longDescription: 'The Zanzibar Spices and Heritage Center is an authentic spice farm that grows a vast range of spices and tropical plants using traditional, organic farming principles. They organize tours and activities to help visitors discover the world of spices, providing a deep dive into Zanzibar\'s agricultural heritage.',
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/05/e5/27/zanzibar-spices-and-heritage.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/35/a3/29/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.088, lng: 39.288 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.7
-  },
-  {
-    id: 'zan-30',
-    name: 'Zanzibar Kilosas Conservation',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: "It's a small zoo where we try to show the endemic animals of the island saved in different occasions.",
-    longDescription: "Zanzibar Kilosas Conservation is a small zoo dedicated to showcasing and protecting the endemic animals of the island. Many of the animals have been rescued, and the center provides them with a sanctuary while offering an educational experience for visitors about Zanzibar's unique fauna.",
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/23/93/ca/zanzibar-kilosas-conservation.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/49/fb/81/caption.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/5b/cb/b7/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.275, lng: 39.412 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.6
-  },
-  {
-    id: 'zan-32',
-    name: 'Village Green Spice farm',
-    country: 'Zanzibar',
-    type: 'Attraction',
-    description: 'Spice farm tour through a tapestry of local flora, featuring interactive coconut tree climbing and tasting of fresh fruits and spices. Educational insights into plant cultivation.',
-    longDescription: 'The Village Green Spice Farm offers a journey through a tapestry of local flora, with interactive coconut tree climbing and tastings of fresh fruits and spices. The tour provides educational insights into plant cultivation and the importance of spices in Zanzibar\'s history and cuisine.',
-    images: [
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/ed/bc/7b/village-green-spice-farm.jpg?w=500&h=400&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6a/60/c3/caption.jpg?w=500&h=-1&s=1',
-        'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6a/60/c4/caption.jpg?w=500&h=400&s=1'
-    ],
-    location: { lat: -6.075, lng: 39.265 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.8
-  },
   // Rwanda
   {
     id: 'rw-1',
@@ -2997,7 +2539,7 @@ export const places: Place[] = [
     images: ['https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/e6/ef/63/photo0jpg.jpg?w=500&h=-1&s=1', 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/44/61/d0/fb-img-1520421381522.jpg?w=500&h=400&s=1'],
     location: { lat: -2.091, lng: 30.083 },
     contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.8
+    rating: 4.7
   },
   {
     id: 'rw-14',
@@ -3690,5 +3232,6 @@ export const places: Place[] = [
     
 
     
+
 
 
