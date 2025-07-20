@@ -260,22 +260,6 @@ export const places: Place[] = [
     rating: 4.8,
   },
   {
-    id: 'ug-22',
-    name: 'Kampala Serena Hotel',
-    country: 'Uganda',
-    type: 'Hotel',
-    description: 'Elegant hotel with African-themed rooms, spacious accommodations, and a serene ambience.',
-    longDescription: 'This member of the Leading Hotels of the World offers an oasis of elegance in central Kampala. Set in 17 acres of manicured gardens, it features spacious, African-themed rooms, a world-class spa, a health club, and a stunning outdoor pool. Its central location is ideal for business and leisure, providing a secure and luxurious base from which to explore the city.',
-    images: [
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bc/9f/40/kampala-serena-hotel.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/de/af/1c/exterior-view-and-pool.jpg?w=500&h=-1&s=1',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/62/ef/50/exterior-view-and-pool.jpg?w=500&h=-1&s=1'
-    ],
-    location: { lat: 0.315, lng: 32.588 },
-    contact: { phone: 'N/A', website: 'N/A' },
-    rating: 4.5
-  },
-  {
     id: 'ug-23',
     name: 'Le Petit Village Hotel And Spa',
     country: 'Uganda',
@@ -3706,3 +3690,4 @@ export const places: Place[] = [
     
 
     
+
