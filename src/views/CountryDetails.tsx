@@ -1,24 +1,79 @@
+
 "use client"
 
 import type { Place } from "@/lib/types"
 import { PlaceCard } from "@/components/place-card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useMemo } from "react"
+import { itineraries, Itinerary } from "@/lib/itineraries"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import Link from "next/link"
+import Image from "next/image"
+import { Clock, MapPin } from "lucide-react"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+
 
 interface CountryDetailsProps {
   country: string
   places: Place[]
 }
 
+function ItineraryCard({ itinerary }: { itinerary: Itinerary }) {
+    return (
+        <Card className="overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl">
+            <div className="grid md:grid-cols-12">
+                <div className="md:col-span-4">
+                    <Image
+                        src={itinerary.image}
+                        alt={itinerary.title}
+                        width={600}
+                        height={800}
+                        className="w-full h-full object-cover"
+                        data-ai-hint={`safari ${itinerary.country}`}
+                    />
+                </div>
+                <div className="md:col-span-8 flex flex-col">
+                    <CardHeader>
+                        <CardTitle className="font-headline text-2xl md:text-3xl">{itinerary.title}</CardTitle>
+                        <CardDescription className="flex items-center gap-4 pt-2">
+                             <span className="flex items-center gap-1.5">
+                                <MapPin className="w-4 h-4 text-primary" /> {itinerary.country}
+                            </span>
+                            <span className="flex items-center gap-1.5">
+                                <Clock className="w-4 h-4 text-primary" /> {itinerary.duration}
+                            </span>
+                        </CardDescription>
+                    </CardHeader>
+                    <CardContent className="flex-grow">
+                        <p className="text-muted-foreground mb-4">{itinerary.description}</p>
+                        <Accordion type="single" collapsible className="w-full">
+                            {itinerary.dailyBreakdown.map((day) => (
+                                <AccordionItem key={day.day} value={`day-${day.day}`}>
+                                    <AccordionTrigger className="text-left">
+                                        <span className="font-semibold">Day {day.day}:</span> {day.title}
+                                    </AccordionTrigger>
+                                    <AccordionContent>
+                                        {day.description}
+                                    </AccordionContent>
+                                </AccordionItem>
+                            ))}
+                        </Accordion>
+                    </CardContent>
+                </div>
+            </div>
+        </Card>
+    )
+}
+
 export default function CountryDetails({ country, places }: CountryDetailsProps) {
   const attractions = useMemo(() => places.filter(p => p.type === 'Attraction'), [places])
   const hotels = useMemo(() => places.filter(p => p.type === 'Hotel'), [places])
-  const restaurants = useMemo(() => places.filter(p => p.type === 'Restaurant'), [places])
+  const countryItineraries = useMemo(() => itineraries.filter(i => i.country === country), [country])
 
   const placeTypes = [
-    { name: "Attractions", data: attractions, count: attractions.length },
-    { name: "Hotels", data: hotels, count: hotels.length },
-    { name: "Restaurants", data: restaurants, count: restaurants.length },
+    { name: "Attractions", data: attractions, count: attractions.length, type: 'place' },
+    { name: "Hotels", data: hotels, count: hotels.length, type: 'place' },
+    { name: "Itineraries", data: countryItineraries, count: countryItineraries.length, type: 'itinerary' },
   ].filter(pt => pt.count > 0);
 
   if (placeTypes.length === 0) {
@@ -49,11 +104,20 @@ export default function CountryDetails({ country, places }: CountryDetailsProps)
           
           {placeTypes.map(pt => (
             <TabsContent key={pt.name} value={pt.name.toLowerCase()}>
-              <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-                {pt.data.map(place => (
-                  <PlaceCard key={place.id} place={place} />
-                ))}
-              </div>
+               {pt.type === 'place' && (
+                <div className="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+                  {(pt.data as Place[]).map(place => (
+                    <PlaceCard key={place.id} place={place} />
+                  ))}
+                </div>
+              )}
+              {pt.type === 'itinerary' && (
+                <div className="mt-8 space-y-12">
+                  {(pt.data as Itinerary[]).map(itinerary => (
+                    <ItineraryCard key={itinerary.id} itinerary={itinerary} />
+                  ))}
+                </div>
+              )}
             </TabsContent>
           ))}
         </Tabs>
