@@ -12,7 +12,7 @@ import { Award, Leaf, Map, Search, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const WhereTo = dynamic(() => import('@/components/WhereTo'));
-const ToStay = dynamic(() => import('@/components/ToStay'), { 
+const FeaturedItineraries = dynamic(() => import('@/components/FeaturedItineraries'), { 
     loading: () => <div className="py-16 lg:py-24 bg-secondary"><AttractionsListLoader count={3} /></div> 
 });
 const TravelersChoice = dynamic(() => import('@/components/TravelersChoice'));
@@ -104,7 +104,7 @@ export default function Home() {
         </div>
       </section>
       
-      <ToStay />
+      <FeaturedItineraries />
       <TravelersChoice />
       <Trending />
     </div>

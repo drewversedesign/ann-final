@@ -1,3 +1,4 @@
+
 export { default as Navbar } from './Navbar';
 export { default as WhereTo } from './WhereTo';
 export { default as ToStay } from './ToStay';
@@ -9,3 +10,4 @@ export { default as Footer } from './Footer';
 export { default as SearchResultCard } from './SearchResultCard';
 export { default as TravelersChoice } from './TravelersChoice';
 export { default as Trending } from './Trending';
+export { default as FeaturedItineraries } from './FeaturedItineraries';
