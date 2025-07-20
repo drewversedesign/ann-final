@@ -21,7 +21,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'A 5-star hotel offering a world-class experience in Kampala.',
-    longDescription: 'Nestled in the heart of Kampala, the Serena Hotel stands amidst 17 acres of beautifully manicured water gardens. The hotel features an international conference center, a roof-top terrace, and a rock-hewn pool. It provides a tranquil and secure environment for both business and leisure travelers, offering a perfect blend of luxury and Ugandan hospitality.',
+    longDescription: 'Nestled amidst 17 acres of lush water gardens and shaded by jacaranda trees, Kampala Serena Hotel is an oasis of tranquility in the heart of the city. This 5-star hotel blends pan-African style with world-class facilities, featuring an international conference center, a stunning rock-hewn swimming pool, and the Maisha Mind Body & Spirit Spa. Guests can enjoy diverse culinary experiences, from the sophisticated Pearl of Africa restaurant to the relaxed Lakes Restaurant, all while being assured of top-tier security and service.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bc/9f/40/kampala-serena-hotel.jpg?w=500&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/77/75/f9/exterior-kampala-serena.jpg?w=500&h=-1&s=1',
@@ -265,7 +265,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Elegant hotel with African-themed rooms, spacious accommodations, and a serene ambience.',
-    longDescription: 'Elegant hotel with African-themed rooms, spacious accommodations, and a serene ambience. Highlights include a spa, health club, and gym. Convenient central location near business areas. Limited dining option',
+    longDescription: 'This member of the Leading Hotels of the World offers an oasis of elegance in central Kampala. Set in 17 acres of manicured gardens, it features spacious, African-themed rooms, a world-class spa, a health club, and a stunning outdoor pool. Its central location is ideal for business and leisure, providing a secure and luxurious base from which to explore the city.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/bc/9f/40/kampala-serena-hotel.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/de/af/1c/exterior-view-and-pool.jpg?w=500&h=-1&s=1',
@@ -281,7 +281,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Boutique hotel with tranquil gardens, stylish rooms, and diverse dining options.',
-    longDescription: 'Boutique hotel with tranquil gardens, stylish rooms, and diverse dining options including Belgian and Japanese cuisine. Features a gym, spa, pool, gourmet supermarket, and spacious grounds.',
+    longDescription: 'A unique boutique hotel offering a tranquil escape with its lush gardens and stylish, African-inspired rooms. The hotel is a culinary destination in itself, featuring a Belgian restaurant, a Japanese restaurant, and a gourmet supermarket. Guests can unwind at the spa, gym, or pool, all within a beautifully landscaped and spacious compound.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/66/b7/56/hotel-le-petit-village.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/26/1a/96/hotel-le-petit-village.jpg?w=500&h=-1&s=1',
@@ -297,7 +297,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Hotel renowned for exceptional staff, spa, and sauna facilities with stunning views.',
-    longDescription: 'Hotel renowned for exceptional staff, spa, and sauna facilities with stunning views. Offers amenities like pool, gym, and complimentary foot massages. Enjoy comfortable rooms, delicious breakfast, and unique entertainment like Mongolian night at the rooftop bar.',
+    longDescription: 'K Hotels in Entebbe is renowned for its exceptional service and stunning views over Lake Victoria. It offers a luxurious experience with amenities like a pool, gym, spa, and sauna. Guests can enjoy comfortable rooms, a delicious complimentary breakfast, and unique entertainment, such as the Mongolian-themed night at the rooftop bar.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c7/65/84/lake-suite.jpg?w=500&h=300&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c7/65/8f/classic-room.jpg?w=500&h=-1&s=1',
@@ -313,7 +313,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'A unique guesthouse offering vegan and organic options, a wine shop, and a local craft shop.',
-    longDescription: 'Also, it\'s incredible that the restaurant offers vegan and organic options. Moreover, I love that there is a wine shop on the premises and a local shop offering African-made products',
+    longDescription: 'Explorers Hub is a charming and eco-conscious guesthouse in Entebbe, perfect for travelers seeking a more intimate and sustainable stay. It stands out for its restaurant offering vegan and organic options, an on-site wine shop, and a craft shop featuring locally made African products. It provides a cozy and thoughtful experience for guests.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a7/15/9e/caption.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/2b/db/f3/guest-lounge.jpg?w=500&h=-1&s=1',
@@ -329,7 +329,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Centrally located hotel in Kampala with easy access to attractions and businesses.',
-    longDescription: 'Centrally located hotel in Kampala with easy access to attractions and businesses. Features quick check-in, helpful staff, comfortable rooms, diverse breakfast options, open-air dining, and online booking.',
+    longDescription: 'One of Kampala\'s oldest hotels, Speke Hotel offers a blend of colonial charm and modern comfort. Its central location provides easy access to business centers and attractions. The hotel is known for its quick check-in, helpful staff, comfortable rooms, diverse breakfast, and multiple dining options with open-air settings.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fa/9e/40/img-20190607-104540-largejpg.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/8a/d5/76/speke-hotel.jpg?w=500&h=-1&s=1'
@@ -344,7 +344,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'A breathtaking lodge in Murchison Falls National Park with incredible wildlife views.',
-    longDescription: 'The views and wildlife are breathe taking, the staff were just wonderful and so incredibly helpful. Our room was lovely and the food was good:) We would go back if we are ever in this part of the world again!',
+    longDescription: 'Located in Murchison Falls National Park, Chobe Safari Lodge offers a five-star luxury experience with breathtaking views of the Nile River. It\'s a paradise for wildlife enthusiasts, with frequent sightings of hippos, elephants, and giraffes from the lodge itself. Guests praise the wonderful staff, lovely rooms, excellent food, and the stunning three-tiered swimming pool.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/4c/1b/a7/chobe-safari-lodge-uganda.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/4c/1c/5d/chobe-safari-lodge-uganda.jpg?w=500&h=-1&s=1'
@@ -359,7 +359,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Luxury hotel with exceptional staff, comfortable rooms, and excellent food.',
-    longDescription: 'Luxury hotel with exceptional staff, comfortable rooms, and excellent food. Features pool, spa, fitness center, and golf course views. Convenient for business travelers near airport and attractions.',
+    longDescription: 'This luxury hotel offers exceptional service and comfort with views over the Kitante Golf Course. It features a pool, spa, and fitness center, making it a great choice for both leisure and business travelers. The comfortable rooms, excellent food, and proximity to the city center ensure a pleasant and convenient stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/e9/97/bc/buiding.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/a2/46/20/mosaic-restaurant.jpg?w=500&h=-1&s=1',
@@ -375,7 +375,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Tranquil hotel with serene grounds, spacious rooms, and varied dining options.',
-    longDescription: 'Tranquil hotel with serene grounds, spacious rooms, pool, gym, sauna, and steam room. Features live music, varied dining options including Indian and Mongolian cuisine, and a well-stocked bar.',
+    longDescription: 'A tranquil retreat set in a leafy Kampala suburb, Kabira Country Club offers serene grounds, spacious rooms, and a wealth of recreational facilities including a pool, gym, sauna, and tennis courts. It\'s known for its varied dining options, from Indian to Mongolian cuisine, and a well-stocked bar, often with live music.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/35/52/3d/swimming-pool.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/35/21/ab/kabira-country-club.jpg?w=500&h=-1&s=1',
@@ -391,7 +391,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Modern hotel in Kampala near Acacia Mall, featuring spacious, well-equipped rooms.',
-    longDescription: 'Modern hotel in Kampala near Acacia Mall and restaurants, featuring spacious, well-equipped rooms with free WiFi, tea amenities, and a small fridge. Guests enjoy diverse dining options and attentive service.',
+    longDescription: 'This modern hotel is strategically located in Kampala, near the vibrant Acacia Mall and numerous restaurants. It offers spacious, well-equipped rooms with complimentary WiFi and tea/coffee amenities. Guests can enjoy attentive service and a variety of dining options, making it a convenient and comfortable choice for travelers.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/36/0a/d9/hilton-garden-inn-kampala.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/36/0b/1b/hilton-garden-inn-kampala.jpg?w=500&h=-1&s=1',
@@ -407,7 +407,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Scenic lodge on a peninsula in Queen Elizabeth National Park with stunning views.',
-    longDescription: 'Scenic lodge on a peninsula in Queen Elizabeth National Park with stunning views of Lake Edward and Kazinga Channel. Features wildlife sightings, boat tours, spacious rooms, pool, and nightly entertainment.',
+    longDescription: 'Perched on a scenic peninsula in Queen Elizabeth National Park, Mweya Safari Lodge offers unparalleled 360-degree views of the Kazinga Channel and Lake Edward. It\'s an ideal spot for wildlife sightings right from the lodge, with boat tours on the channel being a major highlight. Guests can enjoy spacious rooms, a large pool, and nightly entertainment.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/e9/8b/c5/mweya-lodge-view-from.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/e9/8b/c6/mweya-lodge-the-bar.jpg?w=500&h=-1&s=1',
@@ -423,7 +423,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'A beautiful resort with spacious rooms, great service, and a stunning landscape.',
-    longDescription: 'Spacious rooms, great service and beautiful landscape around the property! Loved that there\'s a gym, I used it plenty! I also enjoyed how spacious the room is and liked dining at the marina restaurant!',
+    longDescription: 'This beautiful resort on the shores of Lake Victoria combines the feel of a Tuscan village with the natural beauty of Uganda. It boasts a championship golf course, spacious rooms with elegant decor, a state-of-the-art spa, and a marina with a restaurant. The great service and stunning landscape make it a perfect luxury getaway.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/ab/fa/7b/caption.jpg?w=500&h=300&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/01/ce/c5/golf.jpg?w=500&h=-1&s=1',
@@ -439,7 +439,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Central hotel with well-designed rooms, lush gardens, and top-rated dining.',
-    longDescription: 'Central hotel with well-designed rooms, lush gardens, pool, gym, and top-rated dining. Close to Kampala’s key attractions, malls, and restaurants. Relaxing poolside bar and diverse Asian Fusion cuisine.',
+    longDescription: 'Centrally located yet offering a peaceful retreat, Fairway Boutique Hotel is set amidst lush, green gardens. It features well-designed rooms, a relaxing poolside bar, and top-rated dining with diverse Asian Fusion cuisine. Its proximity to Kampala\'s key attractions, malls, and restaurants makes it a convenient and enjoyable stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/a2/1a/c6/fairway-boutique-hotel.jpg?w=500&h=300&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/2a/a6/8a/fairway-boutique-hotel.jpg?w=500&h=-1&s=1',
@@ -455,7 +455,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Lakeside hotel near the airport with comfortable rooms and a waterfront restaurant.',
-    longDescription: 'Lakeside hotel near the airport with comfortable rooms, small pool, and bar. Waterfront restaurant offers great views and fresh fish. Relaxing atmosphere, ideal for pre- or post-safari stays.',
+    longDescription: 'Located on the shores of Lake Victoria and convenient to Entebbe airport, 2Friends Beach Hotel is an ideal spot for pre- or post-safari relaxation. It offers comfortable rooms, a small pool, and a bar. The waterfront restaurant is a highlight, serving great fresh fish with beautiful views of the lake.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/8d/66/21/exterior.jpg?w=500&h=300&s=1'
     ],
@@ -469,7 +469,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Peaceful hotel in Kampala with spacious rooms, Ugandan-style decor, and a tranquil atmosphere.',
-    longDescription: 'Peaceful hotel in Kampala with spacious rooms, Ugandan-style decor, and a tranquil atmosphere. Features include a pool, gym, complimentary breakfast, and convenient access to city attractions.',
+    longDescription: 'Humura Resorts provides a peaceful and tranquil atmosphere in a convenient Kampala location. The spacious rooms are decorated in a Ugandan style, and the hotel features a refreshing pool, a gym, and complimentary breakfast. It offers convenient access to city attractions while maintaining a serene environment for guests.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e9/dc/a9/view-from-lounge.jpg?w=500&h=-1&s=1'
     ],
@@ -483,7 +483,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Serene resort boasting spacious rooms, exceptional hospitality, and stunning lake views.',
-    longDescription: 'Serene resort boasting spacious rooms, exceptional hospitality, and stunning lake views. Variety of activities, including boat cruises and zip-lining. Ideal for vacations or honeymoons.',
+    longDescription: 'Situated on the beautiful Lake Bunyonyi, Nyamunyonyi Lake Resort is a serene getaway boasting spacious rooms and stunning lake views. Known for its exceptional hospitality, the resort offers a variety of activities, including boat cruises and zip-lining, making it an ideal destination for vacations or romantic honeymoons.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/75/73/6d/rooms-view-at-nyamunyonyi.jpg?w=500&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/fb/fa/75/caption.jpg?w=500&h=-1&s=1'
@@ -498,7 +498,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Serene resort offering spacious rooms with lake views.',
-    longDescription: 'Serene resort offering spacious rooms with lake views. Known for excellent service, personal attention from owner, delicious food, and affordable prices. Ideal for nature lovers and families.',
+    longDescription: 'De Rain Eco Beach Resort offers a serene lakeside experience with spacious rooms that provide beautiful views of the water. It is known for its excellent service, with personal attention from the owner, and serves delicious food at affordable prices. It\'s an ideal spot for nature lovers and families looking for a peaceful retreat.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/2c/dd/62/super-king-size-bed.jpg?w=500&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/d9/c7/10/caption.jpg?w=500&h=-1&s=1',
@@ -514,7 +514,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Well-maintained camp with warm beds and essential amenities.',
-    longDescription: 'We stayed at NRE for the Nyege Nyege festival 2023 and we were well taken care of. We stayed at the tents and were provided with a warm bed and a towel to wash off the mud and grime from the festival!',
+    longDescription: 'Situated near the banks of the Nile, Explorers River Camp is a popular base for adventure seekers in Jinja. The camp is well-maintained, offering comfortable tented accommodations with warm beds and essential amenities. It\'s a great spot for those participating in local festivals or exploring the adventure capital of East Africa.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ec/e6/66/caption.jpg?w=500&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/a5/f3/e7/caption.jpg?w=500&h=-1&s=1'
@@ -529,7 +529,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Hotel known for its warm welcome and helpful staff.',
-    longDescription: 'Leila and Bridget always give this warm welcome at the reception. Rose and Christine\'s service was on point. Daniel and Kevin are very calm, respectful fine young men who are so helpful.',
+    longDescription: 'La Grande Hotel is consistently praised for its warm, welcoming, and helpful staff who go above and beyond to ensure a pleasant stay. The service is often highlighted as a key feature, making guests feel valued and well-cared for from the moment they arrive.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/66/36/73/caption.jpg?w=500&h=300&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/e9/f9/88/la-grande-hotel.jpg?w=500&h=-1&s=1'
@@ -544,7 +544,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Hilltop hotel with serene ambiance and stunning views.',
-    longDescription: 'Hilltop hotel with serene ambiance, stunning views of Kampala and Lake Victoria. Features African-inspired decor, rooftop dining, two pools, a gym, and spacious, well-designed rooms with modern comforts.',
+    longDescription: 'This luxury boutique hotel sits on a hilltop, offering a serene ambiance and stunning panoramic views of Kampala and Lake Victoria. It boasts exceptional African-inspired decor, a rooftop bar, two swimming pools, a gym, and spacious, beautifully designed rooms. It\'s a true sanctuary of style and comfort.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/ac/ce/d8/latitude-0-degrees-hotel.jpg?w=500&h=300&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/ae/ac/94/latitude-0-degrees-hotel.jpg?w=500&h=-1&s=1',
@@ -560,7 +560,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Centrally located hotel with good food and Wi-Fi.',
-    longDescription: 'This hotel is centrally located in Kampala, off a busy street. Hotel and grounds are nice, restaurant serves good food. The rooms are very small, tiny bathrooms, good Wi-Fi.',
+    longDescription: 'Nestled in a tranquil, forested environment, Forest Cottages offers a peaceful escape while still being centrally located in Kampala. The grounds are beautiful and well-kept, and the restaurant serves good food. While the rooms are cozy, the hotel provides reliable Wi-Fi and a serene atmosphere.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/c1/63/3c/forest-cottages-front.jpg?w=500&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/c1/6b/89/forest-cottages.jpg?w=500&h=-1&s=1',
@@ -576,7 +576,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Hotel with exceptional staff and a unique revolving restaurant.',
-    longDescription: 'One of the hotel\'s standout attributes is its exceptional staff. Every member of the team embodies a genuine warmth and dedication to guest satisfaction. Try the food at revolving restaurant',
+    longDescription: 'Overlooking the Uganda Golf Club, this hotel is known for its exceptional staff who provide genuine warmth and dedication. A standout feature is its revolving restaurant on the top floor, offering panoramic views of the city. It\'s a great choice for both business and leisure travelers looking for quality service and a unique dining experience.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/86/3a/8a/golf-course-hotel.jpg?w=500&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/86/41/8b/golf-course-hotel.jpg?w=500&h=-1&s=1',
@@ -592,7 +592,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Friendly beach resort suitable for large groups.',
-    longDescription: 'The resort is located in an area near Kampala with a beach. The staff are very friendly and the resort can accommodate a big group of people. The booking process is very fast and easy.',
+    longDescription: 'Located near Kampala, Kaazi Beach Resort offers a beach-like atmosphere on the shores of Lake Victoria. The staff are known for their friendliness, and the resort is well-equipped to handle large groups. With an easy booking process, it\'s a convenient option for events or a simple getaway from the city.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/89/43/6f/kaazi-beach-hotel.jpg?w=500&h=300&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/89/35/79/kaazi-beach-hotel.jpg?w=500&h=-1&s=1',
@@ -608,7 +608,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Hotel offering spacious suites and reliable airport transfers.',
-    longDescription: 'My airport transfer was arranged by the hotel for my 2am arrival and was a safe ride to the hotel. The suite was really spacious with a great shower, a small kitchenette, iron and iron board all supplied.',
+    longDescription: 'Arcadia Suites offers a home-away-from-home experience with its very spacious suites, which include a small kitchenette. The hotel is known for its reliability, offering safe and efficient airport transfers. Guests appreciate the great showers and in-room amenities like an iron and ironing board, making it ideal for longer stays.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/ec/14/a3/arcadia-suites.jpg?w=500&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/d3/68/52/view-of-the-main-restaurant.jpg?w=500&h=-1&s=1',
@@ -624,7 +624,7 @@ export const places: Place[] = [
     country: 'Uganda',
     type: 'Hotel',
     description: 'Safari lodge known for wildlife sightings and excellent service.',
-    longDescription: 'Safari lodge in a national park with spacious cottages, exceptional service, excellent food, and an infinity pool. Known for wildlife sightings, including resident elephants.',
+    longDescription: 'Located near Queen Elizabeth National Park, Buffalo Safari Lodge offers an authentic safari experience with spacious cottages and exceptional service. The lodge is known for frequent wildlife sightings, including resident elephants. Guests can enjoy excellent food and relax by the infinity pool while taking in the sounds of the African bush.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/1d/c3/72/buffalo-safari-lodge.jpg?w=500&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/1b/21/63/this-is-our-super-deluxe.jpg?w=500&h=-1&s=1',
@@ -989,7 +989,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Tranquil boutique hotel featuring spacious, apartment-style rooms with full kitchens, lush gardens, indoor heated pool, gym, sauna, and an on-site restaurant offering fresh, varied cuisine.',
-    longDescription: 'Tranquil boutique hotel featuring spacious, apartment-style rooms with full kitchens, lush gardens, indoor heated pool, gym, sauna, and an on-site restaurant offering fresh, varied cuisine.',
+    longDescription: 'A tranquil boutique hotel in Nairobi, Palacina offers spacious, apartment-style rooms complete with full kitchens, making it ideal for both short and long stays. Set amidst lush gardens, it features an indoor heated pool, a gym, a sauna, and an on-site restaurant known for its fresh and varied cuisine. It provides a serene and luxurious home away from home.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/2f/20/d6/pool.jpg?w=500&h=300&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/2f/20/d8/meeting-room.jpg?w=500&h=-1&s=1',
@@ -1005,7 +1005,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Exceptional dining, convenient location near airport, and complimentary transfers. Renowned for hospitality and accessibility. Ideal for stopovers. Great food variety. Excellent service and staff coordination.',
-    longDescription: 'Exceptional dining, convenient location near airport, and complimentary transfers. Renowned for hospitality and accessibility. Ideal for stopovers. Great food variety. Excellent service and staff coordination.',
+    longDescription: 'Conveniently located near Jomo Kenyatta International Airport, Argyle Grand Hotel is an ideal choice for travelers. It is renowned for its exceptional dining, warm hospitality, and complimentary airport transfers. The hotel offers a great variety of food, excellent service, and is a perfect, accessible option for stopovers in Nairobi.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/da/7a/b8/caption.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/da/7a/93/caption.jpg?w=500&h=-1&s=1',
@@ -1021,7 +1021,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Modern hotel near airports and national park. Offers spacious rooms, good food variety, and professional service. Quiet despite main road location.',
-    longDescription: 'Modern hotel near airports and national park. Offers spacious rooms, good food variety, and professional service. Quiet despite main road location.',
+    longDescription: 'Eka Hotel is a modern hotel strategically located near both the international airport and Nairobi National Park. It offers spacious rooms, a good variety of food, and professional service. Despite its proximity to a main road, the hotel maintains a quiet atmosphere, making it a comfortable base for exploring Nairobi.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/1d/43/da/pool-view.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/1d/43/d6/pool-area.jpg?w=500&h=-1&s=1',
@@ -1037,7 +1037,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Centrally located hotel in Nairobi CBD with serene ambiance and excellent value. Features rooftop pool with city views, bar, and massage services. Renowned for outstanding service, conferencing facilities, and lively atmosphere. Ideal for business and leisure travelers.',
-    longDescription: 'Centrally located hotel in Nairobi CBD with serene ambiance and excellent value. Features rooftop pool with city views, bar, and massage services. Renowned for outstanding service, conferencing facilities, and lively atmosphere. Ideal for business and leisure travelers.',
+    longDescription: 'This centrally located hotel in Nairobi\'s CBD offers a serene ambiance and excellent value. A highlight is the rooftop pool with fantastic city views, a bar, and massage services. Renowned for outstanding service and good conferencing facilities, it provides a lively yet comfortable atmosphere for both business and leisure travelers.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/b3/2f/d3/lobby.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/15/3c/02/best-western-plus-meridian.jpg?w=500&h=-1&s=1',
@@ -1053,7 +1053,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Highly recommended for its breathtaking views and delicious Indian cuisine. Noteworthy for its beautiful ambience, top-notch service, and unique menu.',
-    longDescription: 'Highly recommended for its breathtaking views and delicious Indian cuisine. Noteworthy for its beautiful ambience, top-notch service, and unique menu.',
+    longDescription: 'Located in the vibrant Westlands district, Novotel is highly recommended for its breathtaking city views and beautiful ambiance. It is particularly noted for its delicious Indian cuisine and unique menu, all delivered with top-notch service. It\'s a stylish and comfortable choice for travelers looking for a modern hotel experience.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/7d/91/42/caption.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/d7/6a/ba/caption.jpg?w=500&h=-1&s=1',
@@ -1069,7 +1069,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Elegant hotel with serene views, lush gardens, and Karura Forest backdrop. Features spacious lounges, infinity pool, restaurant with scenic dining, and top-tier service. Ideal for relaxation and unwinding.',
-    longDescription: 'Elegant hotel with serene views, lush gardens, and Karura Forest backdrop. Features spacious lounges, infinity pool, restaurant with scenic dining, and top-tier service. Ideal for relaxation and unwinding.',
+    longDescription: 'An elegant and serene hotel with stunning views and a backdrop of the lush Karura Forest. Pax Manor features spacious lounges, an infinity pool, and a restaurant with scenic dining. Known for its top-tier service and tranquil atmosphere, it\'s an ideal place for relaxation and unwinding in a luxurious setting.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1b/ba/13/infinity-pool.jpg?w=500&h=300&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/00/29/f4/the-gym.jpg?w=500&h=-1&s=1',
@@ -1085,7 +1085,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Quiet hotel with warm, welcoming atmosphere and well-equipped rooms. Excellent service, fresh Indian cuisine, and vegetarian options. Convenient location with top-notch facilities and conference spaces.',
-    longDescription: 'Quiet hotel with warm, welcoming atmosphere and well-equipped rooms. Excellent service, fresh Indian cuisine, and vegetarian options. Convenient location with top-notch facilities and conference spaces.',
+    longDescription: 'This quiet hotel offers a warm and welcoming atmosphere with well-equipped rooms. It is praised for its excellent service and delicious, fresh Indian cuisine with good vegetarian options. With a convenient location and top-notch facilities, including conference spaces, it serves both leisure and business travelers well.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/a8/d4/d8/hotel-front.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/7f/fa/71/prideinn-azure-hotel.jpg?w=500&h=-1&s=1',
@@ -1101,7 +1101,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Modern hotel with a welcoming ambiance, exceptional service, and a convenient location. Highlights include a rooftop bar with stunning views, delicious food with standout breakfasts, and well-designed, clean rooms. Friendly staff go above and beyond to ensure a memorable stay.',
-    longDescription: 'Modern hotel with a welcoming ambiance, exceptional service, and a convenient location. Highlights include a rooftop bar with stunning views, delicious food with standout breakfasts, and well-designed, clean rooms. Friendly staff go above and beyond to ensure a memorable stay.',
+    longDescription: 'A modern hotel with a welcoming ambiance, exceptional service, and a convenient Westlands location. Highlights include a fantastic rooftop bar with stunning views, delicious food with standout breakfasts, and well-designed, clean rooms. The friendly staff consistently go above and beyond to ensure a memorable stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/67/06/6e/sun-downer-rear-view.jpg?w=500&h=300&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/67/10/91/relaxing-stylish-family.jpg?w=500&h=-1&s=1',
@@ -1117,7 +1117,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Beachfront hotel with traditional Swahili design, lush gardens, and ocean views. Features include dining with fresh, local cuisine, glass-bottom boat rides, a swing bar, and romantic dining options.',
-    longDescription: 'Beachfront hotel with traditional Swahili design, lush gardens, and ocean views. Features include dining with fresh, local cuisine, glass-bottom boat rides, a swing bar, and romantic dining options.',
+    longDescription: 'This beachfront hotel on the Kenyan coast features traditional Swahili design, lush tropical gardens, and beautiful ocean views. Guests can enjoy dining on fresh, local cuisine, take glass-bottom boat rides, relax at the unique swing bar, or arrange for romantic private dining experiences.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/98/21/cd/severin-sea-lodge.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/98/13/61/severin-sea-lodge.jpg?w=500&h=-1&s=1',
@@ -1133,7 +1133,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Elegant, luxurious hotel with exceptional service, a standout breakfast buffet, and modern amenities. Features spacious rooms, top-notch conference facilities, and a relaxing bar with great food and drinks. Convenient location and world-class hospitality create a memorable stay.',
-    longDescription: 'Elegant, luxurious hotel with exceptional service, a standout breakfast buffet, and modern amenities. Features spacious rooms, top-notch conference facilities, and a relaxing bar with great food and drinks. Convenient location and world-class hospitality create a memorable stay.',
+    longDescription: 'An elegant and luxurious hotel offering exceptional service, a standout breakfast buffet, and modern amenities. It features spacious rooms, top-notch conference facilities, and a relaxing bar with great food and drinks. The convenient location and world-class hospitality ensure a memorable stay for all guests.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/d1/b9/ef/villa-rosa-kempinski.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/e5/09/66/villa-rosa-kempinski.jpg?w=500&h=-1&s=1',
@@ -1149,7 +1149,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Revolving restaurant with 360° views of Nairobi, known for its exceptional service, tranquil ambiance, and top-tier dining. Features delicious, well-crafted meals, amazing desserts, and generous portions. Perfect for special occasions, offering memorable experiences and breathtaking scenery.',
-    longDescription: 'Revolving restaurant with 360° views of Nairobi, known for its exceptional service, tranquil ambiance, and top-tier dining. Features delicious, well-crafted meals, amazing desserts, and generous portions. Perfect for special occasions, offering memorable experiences and breathtaking scenery.',
+    longDescription: 'This hotel is famous for its revolving restaurant offering 360° views of Nairobi. It\'s known for exceptional service, a tranquil ambiance, and top-tier dining with delicious, well-crafted meals and generous portions. It\'s a perfect spot for special occasions, promising a memorable experience with breathtaking scenery.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/df/1c/44/caption.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/df/22/b3/meeting-room.jpg?w=500&h=-1&s=1',
@@ -1165,7 +1165,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Beachfront resort with spacious, air-conditioned rooms, large pool, and peaceful atmosphere. Offers diverse dining options, nightly entertainment, and proximity to shopping and local attractions.',
-    longDescription: 'Beachfront resort with spacious, air-conditioned rooms, large pool, and peaceful atmosphere. Offers diverse dining options, nightly entertainment, and proximity to shopping and local attractions.',
+    longDescription: 'A beachfront resort offering spacious, air-conditioned rooms, a large pool, and a peaceful atmosphere. Guests can enjoy diverse dining options, nightly entertainment, and easy access to local shopping and attractions, making it a great choice for a relaxing beach holiday.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/56/73/e6/diani-sea-resort.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/56/73/f7/diani-sea-resort.jpg?w=500&h=-1&s=1',
@@ -1181,7 +1181,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Nautical-themed resort on the Indian Ocean with luxurious rooms and beach views. Multiple pools, including a serene Relax Pool and a fun pool with activities. Exceptional Italian restaurant, Smugglers Cove dining, and Lookout Bar with stunning views. Ideal for relaxation and entertainment.',
-    longDescription: 'Nautical-themed resort on the Indian Ocean with luxurious rooms and beach views. Multiple pools, including a serene Relax Pool and a fun pool with activities. Exceptional Italian restaurant, Smugglers Cove dining, and Lookout Bar with stunning views. Ideal for relaxation and entertainment.',
+    longDescription: 'A nautical-themed resort on the Indian Ocean with luxurious rooms and beautiful beach views. It features multiple pools, including a serene "Relax Pool" and a fun pool with activities. An exceptional Italian restaurant, Smugglers Cove dining, and the Lookout Bar with stunning views make it ideal for relaxation and entertainment.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/9b/88/5c/voyager-beach-resort.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/ac/4c/89/fun-pool.jpg?w=500&h=-1&s=1',
@@ -1197,7 +1197,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Beachfront resort with multiple pools, water activities, diverse dining options including Indian cuisine, a snack bar, and an Italian restaurant. Offers all-inclusive, full board, and half board plans.',
-    longDescription: 'Beachfront resort with multiple pools, water activities, diverse dining options including Indian cuisine, a snack bar, and an Italian restaurant. Offers all-inclusive, full board, and half board plans.',
+    longDescription: 'This Diani beachfront resort features multiple pools, water activities, and diverse dining options including Indian cuisine, a snack bar, and an Italian restaurant. Guests can choose from all-inclusive, full board, and half board plans to suit their needs, all while enjoying the beautiful coastal setting.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/72/4b/14/southern-palms-beach.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/e2/05/76/southern-palms-beach.jpg?w=500&h=-1&s=1',
@@ -1213,7 +1213,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Elegant hotel in central Nairobi with African-inspired decor, spacious rooms, spa, pool, and gym. Renowned for its dining, breakfast buffet, and attentive service. Ideal for city stays or safari trips.',
-    longDescription: 'Elegant hotel in central Nairobi with African-inspired decor, spacious rooms, spa, pool, and gym. Renowned for its dining, breakfast buffet, and attentive service. Ideal for city stays or safari trips.',
+    longDescription: 'An elegant hotel in central Nairobi, this Serena property features African-inspired decor, spacious rooms, a full-service spa, a pool, and a gym. It is renowned for its excellent dining, impressive breakfast buffet, and attentive service, making it an ideal choice for city stays or as a base for safari trips.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/19/bd/3a/the-pool-area-by-night.jpg?w=500&h=300&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/19/c3/19/the-maisha-spa-hallway.jpg?w=500&h=-1&s=1',
@@ -1229,7 +1229,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Family-friendly resort with a variety of kids\' activities, a large pool, and lively evening entertainment. Features a diverse breakfast and dinner menu with healthy options. Attentive staff, excellent customer care, and a la carte dining with generous portions enhance the experience.',
-    longDescription: 'Family-friendly resort with a variety of kids\' activities, a large pool, and lively evening entertainment. Features a diverse breakfast and dinner menu with healthy options. Attentive staff, excellent customer care, and a la carte dining with generous portions enhance the experience.',
+    longDescription: 'This family-friendly resort on Diani Beach offers a variety of kids\' activities, a large pool, and lively evening entertainment. The dining is diverse, with both buffet and à la carte options, and attentive staff ensure excellent customer care. It\'s a perfect destination for a fun-filled family holiday.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/95/4b/84/diani-reef-beach-resort.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/95/4b/51/diani-reef-beach-resort.jpg?w=500&h=-1&s=1',
@@ -1245,7 +1245,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Beachfront hotel with spacious villa-style apartments, rooftop lounges, hot tubs, multiple pools, beach bar, and well-stocked kitchens. Features scenic gardens, stylish rooms, and dining options.',
-    longDescription: 'Beachfront hotel with spacious villa-style apartments, rooftop lounges, hot tubs, multiple pools, beach bar, and well-stocked kitchens. Features scenic gardens, stylish rooms, and dining options.',
+    longDescription: 'A luxurious beachfront hotel in Watamu, Medina Palms offers spacious villa-style apartments with rooftop lounges and hot tubs. Guests can enjoy multiple pools, a beach bar, and well-stocked kitchens. The resort is set in scenic gardens, providing a stylish and comfortable base for a coastal holiday.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/28/1d/dc/medina-palms.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/49/fb/c2/medina-palms-agosto-2018.jpg?w=500&h=-1&s=1',
@@ -1261,7 +1261,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Family-friendly resort with private beach, multiple pools, and ocean views. Offers kids\' activities, spa, and private pool villas. Varied dining options with buffet and à la carte menus.',
-    longDescription: 'Family-friendly resort with private beach, multiple pools, and ocean views. Offers kids\' activities, spa, and private pool villas. Varied dining options with buffet and à la carte menus.',
+    longDescription: 'This family-friendly resort on Diani Beach boasts a private beach, multiple pools, and stunning ocean views. It offers a range of activities for kids, a full-service spa, and luxurious private pool villas. The varied dining options include both buffet and à la carte menus, catering to all tastes.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/d3/4f/c5/leopard-beach-resort.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/d3/50/4d/leopard-beach-resort.jpg?w=500&h=-1&s=1',
@@ -1277,7 +1277,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Beachfront resort with ocean access, multiple dining options, a serene spa, and a kids club with diverse activities. Highlights include fresh seafood, ocean-view bars, and a welcoming, family-friendly atmosphere.',
-    longDescription: 'Beachfront resort with ocean access, multiple dining options, a serene spa, and a kids club with diverse activities. Highlights include fresh seafood, ocean-view bars, and a welcoming, family-friendly atmosphere.',
+    longDescription: 'A welcoming beachfront resort with direct ocean access, Sarova Whitesands offers multiple dining options, a serene spa, and a kids club with diverse activities. Highlights include fresh seafood, ocean-view bars, and a family-friendly atmosphere, making it a perfect coastal getaway.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/12/ad/0c/sarova-whitesands-beach.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/13/d4/70/sarova-whitesands-beach.jpg?w=500&h=-1&s=1',
@@ -1293,7 +1293,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Beachfront resort with spacious, air-conditioned rooms and family-friendly amenities. Features a snack bar, diverse dining options, and activities for all ages. Ideal base for safari excursions.',
-    longDescription: 'Beachfront resort with spacious, air-conditioned rooms and family-friendly amenities. Features a snack bar, diverse dining options, and activities for all ages. Ideal base for safari excursions.',
+    longDescription: 'This beachfront resort offers spacious, air-conditioned rooms and family-friendly amenities. It features a snack bar, diverse dining options, and a range of activities for all ages. It also serves as an ideal base for safari excursions, combining a beach holiday with wildlife adventures.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/50/a9/79/diani-sea-lodge.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/50/ac/29/diani-sea-lodge.jpg?w=500&h=-1&s=1',
@@ -1309,7 +1309,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Stylish and beautifully designed hotel with a relaxing vibe and peaceful surroundings. Exceptional service, world-class hospitality, and amazing food with diverse options. The Fire Lake restaurant offers a vibrant atmosphere with live music, though some find the band a bit loud.',
-    longDescription: 'Stylish and beautifully designed hotel with a relaxing vibe and peaceful surroundings. Exceptional service, world-class hospitality, and amazing food with diverse options. The Fire Lake restaurant offers a vibrant atmosphere with live music, though some find the band a bit loud.',
+    longDescription: 'A stylish and beautifully designed hotel with a relaxing vibe and peaceful surroundings next to the Nairobi Arboretum. It offers exceptional service, world-class hospitality, and amazing food with diverse options. The Fire Lake restaurant provides a vibrant atmosphere with live music, making for an enjoyable evening.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/4d/c4/7b/radisson-blu-hotel-residence.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/4d/b9/9a/radisson-blu-hotel-residence.jpg?w=500&h=-1&s=1',
@@ -1325,7 +1325,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Resort with stunning ocean views, a beautiful beach, and spacious rooms. Multiple pools, great dining options, and lively ambiance. Well-equipped conference facilities and various activities for relaxation.',
-    longDescription: 'Resort with stunning ocean views, a beautiful beach, and spacious rooms. Multiple pools, great dining options, and lively ambiance. Well-equipped conference facilities and various activities for relaxation.',
+    longDescription: 'This Diani resort offers stunning ocean views, a beautiful beach, and spacious rooms. Guests can enjoy multiple pools, great dining options, and a lively ambiance. With well-equipped conference facilities and various activities for relaxation, it caters to both leisure and business travelers.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/d8/39/24/leisure-lodge-beach-and.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/27/fb/e4/poolside-room.jpg?w=500&h=-1&s=1',
@@ -1341,7 +1341,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Colonial-style hotel in Nairobi with lush gardens, a large tranquil pool, multiple dining options, and a varied breakfast buffet. Relaxing oasis with excellent internet and peaceful ambiance.',
-    longDescription: 'Colonial-style hotel in Nairobi with lush gardens, a large tranquil pool, multiple dining options, and a varied breakfast buffet. Relaxing oasis with excellent internet and peaceful ambiance.',
+    longDescription: 'A colonial-style hotel in Nairobi, The Fairview is set in lush gardens, creating a relaxing oasis in the city. It features a large tranquil pool, multiple dining options, and a varied breakfast buffet. With excellent internet and a peaceful ambiance, it\'s a great choice for a comfortable stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/2b/a4/60/fairview-hotel.jpg?w=500&h=300&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/d4/6a/95/fairview-hotel.jpg?w=500&h=-1&s=1',
@@ -1357,7 +1357,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Chic hotel with a cozy ambiance, exceptional service, and outstanding dining options. Praised for its attentive housekeeping, clean and well-stocked rooms, and vibrant nightlife. Convenient yet quiet location with multiple restaurants and entertainment, perfect for a relaxing yet lively stay.',
-    longDescription: 'Chic hotel with a cozy ambiance, exceptional service, and outstanding dining options. Praised for its attentive housekeeping, clean and well-stocked rooms, and vibrant nightlife. Convenient yet quiet location with multiple restaurants and entertainment, perfect for a relaxing yet lively stay.',
+    longDescription: 'A chic hotel with a cozy ambiance, exceptional service, and outstanding dining options. It is praised for its attentive housekeeping and clean, well-stocked rooms. With a convenient yet quiet location and vibrant nightlife options, it\'s perfect for a relaxing yet lively stay in Nairobi.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/7d/3d/c7/caption.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d9/b2/e6/bigger-bedroom-37-square.jpg?w=500&h=-1&s=1',
@@ -1373,7 +1373,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Beachfront resort with Swahili-inspired decor, lush gardens, ocean-view rooms, and diverse dining options, including fresh seafood and live music. Offers poolside bar, water sports, and cultural tours.',
-    longDescription: 'Beachfront resort with Swahili-inspired decor, lush gardens, ocean-view rooms, and diverse dining options, including fresh seafood and live music. Offers poolside bar, water sports, and cultural tours.',
+    longDescription: 'This beachfront resort features beautiful Swahili-inspired decor, lush gardens, and ocean-view rooms. Guests can enjoy diverse dining options, including fresh seafood with live music, a poolside bar, water sports, and cultural tours, all within a stunning coastal setting.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/ac/26/13/caption.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/26/14/cf/hotel-grounds.jpg?w=500&h=-1&s=1',
@@ -1389,7 +1389,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Modern beachfront hotel with luxurious ocean-view suites, clean spacious rooms, gym, spa, and serene pool. Features top-notch dining, including an authentic Indian restaurant, and a welcoming lounge bar.',
-    longDescription: 'Modern beachfront hotel with luxurious ocean-view suites, clean spacious rooms, gym, spa, and serene pool. Features top-notch dining, including an authentic Indian restaurant, and a welcoming lounge bar.',
+    longDescription: 'A modern beachfront hotel offering luxurious ocean-view suites, clean spacious rooms, a gym, spa, and a serene pool. It features top-notch dining, including an authentic Indian restaurant, and a welcoming lounge bar, providing a sophisticated coastal experience in Mombasa.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/b3/36/eb/hotel-englishpoint-spa.jpg?w=500&h=300&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/d0/42/de/views-of-the-pier-from.jpg?w=500&h=-1&s=1',
@@ -1405,7 +1405,7 @@ export const places: Place[] = [
     country: 'Kenya',
     type: 'Hotel',
     description: 'Hotel with stunning views of Nairobi National Park, spacious rooms, rooftop lounge, pool, spa, and ice skating. Eco-friendly atmosphere, excellent service, family-friendly. Convenient to airport.',
-    longDescription: 'Hotel with stunning views of Nairobi National Park, spacious rooms, rooftop lounge, pool, spa, and ice skating. Eco-friendly atmosphere, excellent service, family-friendly. Convenient to airport.',
+    longDescription: 'This hotel offers stunning views of Nairobi National Park, spacious rooms, a rooftop lounge, a pool, and a spa. A unique feature is the on-site ice skating rink. With an eco-friendly atmosphere, excellent service, and family-friendly amenities, it\'s a convenient and entertaining choice near the airport.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/f5/9a/36/the-panari-hotel.jpg?w=500&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/49/f4/bd/the-panari-hotel.jpg?w=500&h=-1&s=1',
@@ -1778,7 +1778,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Exotic guesthouse steps from the beach with cozy rooms, a serene garden, shared kitchen, and fast WiFi. Features an island-inspired vibe, friendly staff, and opportunities to connect with travelers.',
-    longDescription: 'Exotic guesthouse steps from the beach with cozy rooms, a serene garden, shared kitchen, and fast WiFi. Features an island-inspired vibe, friendly staff, and opportunities to connect with travelers.',
+    longDescription: 'Just steps from Nungwi beach, Makofi Guest House offers an exotic, island-inspired vibe. It features cozy rooms, a serene garden for relaxing, a shared kitchen, and fast WiFi. The friendly staff and communal atmosphere make it a great place to connect with other travelers from around the world.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/d0/71/2e/nungwi-beach-in-the-early.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/d6/b0/98/the-king-hut-terrace.jpg?w=700&h=-1&s=1',
@@ -1794,7 +1794,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Beachfront resort with private beach, stunning sunset views, and tide pool exploration. Features all-inclusive dining, day trips to Stone Town, a swim-up pool bar, and fresh seafood at a beachside grill.',
-    longDescription: 'Beachfront resort with private beach, stunning sunset views, and tide pool exploration. Features all-inclusive dining, day trips to Stone Town, a swim-up pool bar, and fresh seafood at a beachside grill.',
+    longDescription: 'This beachfront resort offers a private beach, stunning sunset views, and tide pool exploration. It features all-inclusive dining, a swim-up pool bar, and fresh seafood at a beachside grill. The resort can also arrange day trips to Stone Town, combining relaxation with cultural exploration.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/fe/08/c9/nungwi-beach-resort-by.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/8d/59/14/restaurant-beach-side.jpg?w=700&h=-1&s=1',
@@ -1810,7 +1810,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Spacious rooms with luxury bathroom amenities, free shuttle to Kendwa beach, daily housekeeping, kids club, and oceanfront Jetty restaurant. High standard of service praised by guests.',
-    longDescription: 'Spacious rooms with luxury bathroom amenities, free shuttle to Kendwa beach, daily housekeeping, kids club, and oceanfront Jetty restaurant. High standard of service praised by guests.',
+    longDescription: 'A luxury resort known for its high standard of service, Essque Zalu Zanzibar features spacious suites and villas with luxury amenities. Guests can enjoy a free shuttle to nearby Kendwa beach, daily housekeeping, a kids club, and dining at the stunning oceanfront Jetty restaurant.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/f6/b7/17/40m-high-main-building.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/91/e0/1d/essque-zalu-zanzibar.jpg?w=700&h=-1&s=1',
@@ -1826,7 +1826,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Scenic resort with spacious rooms, ocean views, and a relaxing atmosphere. Features include a picturesque pool, on-site restaurant, water activities, and complimentary boat trips to a sandbank.',
-    longDescription: 'Scenic resort with spacious rooms, ocean views, and a relaxing atmosphere. Features include a picturesque pool, on-site restaurant, water activities, and complimentary boat trips to a sandbank.',
+    longDescription: 'This scenic resort offers spacious rooms with ocean views and a relaxing atmosphere. It features a picturesque pool, an on-site restaurant, and various water activities. A special highlight is the complimentary boat trips to a nearby sandbank, perfect for a secluded beach experience.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/78/7c/73/le-mersenne-zanzibar.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/df/ff/33/le-mersenne-beach-resort.jpg?w=700&h=-1&s=1',
@@ -1842,7 +1842,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Beachfront resort with two pools, themed nights, and live entertainment. All-inclusive options with varied dining, including Italian cuisine. Spacious rooms with balconies and ocean views.',
-    longDescription: 'Beachfront resort with two pools, themed nights, and live entertainment. All-inclusive options with varied dining, including Italian cuisine. Spacious rooms with balconies and ocean views.',
+    longDescription: 'A beachfront resort with two pools, TUI BLUE Bahari offers themed nights and live entertainment. The all-inclusive options feature varied dining, including a popular Italian restaurant. Guests can relax in spacious rooms with balconies and beautiful ocean views.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/2f/11/32/main-pool.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/65/85/c3/tui-blue-bahari-zanzibar.jpg?w=700&h=-1&s=1',
@@ -1858,7 +1858,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'breathtaking Mount Meru and Kilimanjaro views. Rooftop bar, coffee plantation tours, organic gardens, spacious rooms with balconies, poolside lounge, and top-quality food and drinks.',
-    longDescription: 'breathtaking Mount Meru and Kilimanjaro views. Rooftop bar, coffee plantation tours, organic gardens, spacious rooms with balconies, poolside lounge, and top-quality food and drinks.',
+    longDescription: 'This luxury hotel in Arusha offers breathtaking views of Mount Meru and Kilimanjaro. It features a rooftop bar, coffee plantation tours, and organic gardens. Guests can enjoy spacious rooms with balconies, a poolside lounge, and top-quality food and drinks, making it a perfect pre- or post-safari indulgence.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/4c/1d/d5/caption.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/9f/ca/bf/caption.jpg?w=700&h=-1&s=1',
@@ -1874,7 +1874,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Beachfront resort offering all-inclusive dining with fresh seafood, themed buffets, and personalized service. Features private pools, serene villas, outdoor activities, and a romantic atmosphere.',
-    longDescription: 'Beachfront resort offering all-inclusive dining with fresh seafood, themed buffets, and personalized service. Features private pools, serene villas, outdoor activities, and a romantic atmosphere.',
+    longDescription: 'This luxury beachfront resort offers all-inclusive dining with fresh seafood, themed buffets, and personalized service. It features serene villas, some with private pools, and a range of outdoor activities. The romantic atmosphere makes it a perfect choice for couples and honeymooners.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/8f/9a/09/gold-zanzibar-beach-house.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/8f/9a/06/gold-zanzibar-beach-house.jpg?w=700&h=-1&s=1',
@@ -1890,7 +1890,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Beachfront resort with vibrant full moon parties, live entertainment, and an on-site club. Features modern rooms, clean pools, a charming bar, delicious dining options, and friendly service.',
-    longDescription: 'Beachfront resort with vibrant full moon parties, live entertainment, and an on-site club. Features modern rooms, clean pools, a charming bar, delicious dining options, and friendly service.',
+    longDescription: 'Famous for its vibrant full moon parties, this beachfront resort offers live entertainment and an on-site club. It features modern rooms, clean pools, a charming bar, and delicious dining options. The friendly service and lively atmosphere make it a popular choice for those looking for fun and relaxation.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/11/42/b6/kendwarocks-bungalows.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/04/2d/5e/kendwa-rocks-beach-hotel.jpg?w=700&h=-1&s=1',
@@ -1906,7 +1906,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Ideal for honeymoons or family vacations with well-maintained pools, swim-up bar, spacious rooms with ocean views, and a restaurant offering exceptional food and vistas.',
-    longDescription: 'Ideal for honeymoons or family vacations with well-maintained pools, swim-up bar, spacious rooms with ocean views, and a restaurant offering exceptional food and vistas.',
+    longDescription: 'This resort is ideal for honeymoons or family vacations, featuring well-maintained pools with a swim-up bar. Guests can enjoy spacious rooms with ocean views and a restaurant offering exceptional food and stunning vistas. The beautiful grounds and excellent amenities ensure a royal experience.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/84/70/ec/caption.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/84/74/af/spices-restaurant.jpg?w=700&h=-1&s=1',
@@ -1922,7 +1922,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Central oceanfront location in Stone Town near attractions, shops, and restaurants. Features spacious rooms, unique architecture, seafront views, a pool, vintage decor, and organized local tours.',
-    longDescription: 'Central oceanfront location in Stone Town near attractions, shops, and restaurants. Features spacious rooms, unique architecture, seafront views, a pool, vintage decor, and organized local tours.',
+    longDescription: 'With a central oceanfront location in Stone Town, this hotel is near attractions, shops, and restaurants. It features spacious rooms, unique architecture, seafront views, a pool, and vintage decor. The hotel can also organize local tours, making it a convenient base for exploring the historic city.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/07/63/22/mizingani-seafront-hotel.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/07/64/2c/mizingani-seafront-hotel.jpg?w=700&h=-1&s=1',
@@ -1938,7 +1938,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Conveniently located near the beach, shops, and restaurants, this hotel features a large pool, rooftop terrace with beach views, spa services, water sports, delicious dining, and stylish, comfortable rooms.',
-    longDescription: 'Conveniently located near the beach, shops, and restaurants, this hotel features a large pool, rooftop terrace with beach views, spa services, water sports, delicious dining, and stylish, comfortable rooms.',
+    longDescription: 'Conveniently located near the beach, shops, and restaurants, this hotel features a large pool and a rooftop terrace with beach views. It offers spa services, water sports, delicious dining, and stylish, comfortable rooms, providing a great all-around experience in Nungwi.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/a5/d0/5e/canary-nungwi-hotel-restaurant.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/48/c5/b6/property-amenity.jpg?w=700&h=-1&s=1',
@@ -1954,7 +1954,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'Centrally located hotel with spacious rooms, stunning views of Mount Meru. Features a rooftop restaurant, gym, café, and special touches for a remarkable stay.',
-    longDescription: 'Centrally located hotel with spacious rooms, stunning views of Mount Meru. Features a rooftop restaurant, gym, café, and special touches for a remarkable stay.',
+    longDescription: 'This centrally located boutique hotel in Arusha offers spacious rooms with stunning views of Mount Meru. It features a rooftop restaurant, a gym, and a café. The hotel is known for its special touches and attention to detail, ensuring a remarkable and comfortable stay for its guests.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/37/a1/d0/caption.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/37/a1/cf/caption.jpg?w=700&h=-1&s=1',
@@ -1970,7 +1970,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'Centrally located hotel with ocean and city views, rooftop dining with diverse breakfast options, clean and spacious rooms, cozy atmosphere, and friendly staff. Close to ferry, airport, and attractions.',
-    longDescription: 'Centrally located hotel with ocean and city views, rooftop dining with diverse breakfast options, clean and spacious rooms, cozy atmosphere, and friendly staff. Close to ferry, airport, and attractions.',
+    longDescription: 'A centrally located hotel in Dar es Salaam with ocean and city views. It features rooftop dining with diverse breakfast options, clean and spacious rooms, a cozy atmosphere, and friendly staff. Its proximity to the ferry, airport, and attractions makes it a convenient choice for travelers.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/46/00/26/gtdrone.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/3a/1d/4e/reception-desk.jpg?w=700&h=-1&s=1',
@@ -1986,7 +1986,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Rooms lovely, clean and airy, staff wonderful so helpful and friendly, food amazing. It\'s directly on the beach and next door to buccaneer diving which I can also highly recommend.',
-    longDescription: 'Rooms lovely, clean and airy, staff wonderful so helpful and friendly, food amazing. It\'s directly on the beach and next door to buccaneer diving which I can also highly recommend.',
+    longDescription: 'Located directly on Paje Beach, this hotel offers lovely, clean, and airy rooms. The staff are wonderful, helpful, and friendly, and the food is amazing. It is also conveniently located next to a popular diving center, making it a great choice for beach lovers and divers alike.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/67/b1/paje-beach-apartments.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/7d/61/ce/paje-beach-apartments.jpg?w=700&h=-1&s=1',
@@ -2002,7 +2002,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Eco-friendly hotel with modern, spacious rooms, private balconies, and ocean views. Features a pool, spa, gym, massage chairs, and water sports. Serene ambiance with vibrant dining and activity options.',
-    longDescription: 'Eco-friendly hotel with modern, spacious rooms, private balconies, and ocean views. Features a pool, spa, gym, massage chairs, and water sports. Serene ambiance with vibrant dining and activity options.',
+    longDescription: 'An eco-friendly hotel with modern, spacious rooms, private balconies, and ocean views. It features a pool, spa, gym, unique massage chairs, and water sports. The resort offers a serene ambiance with vibrant dining and a variety of activity options for a complete holiday experience.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/b3/26/18/hotel-verde-zanzibar.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/c3/99/ae/hotel-verde-zanzibar.jpg?w=700&h=-1&s=1',
@@ -2019,7 +2019,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Historic 16th-century hotel in Stone Town blending traditional Zanzibari decor with modern comforts. Features a rooftop terrace, pool, museum-like ambiance, and easy access to markets and landmarks.',
-    longDescription: 'Historic 16th-century hotel in Stone Town blending traditional Zanzibari decor with modern comforts. Features a rooftop terrace, pool, museum-like ambiance, and easy access to markets and landmarks.',
+    longDescription: 'A historic hotel in a 16th-century building in Stone Town, Dhow Palace blends traditional Zanzibari decor with modern comforts. It features a rooftop terrace, a pool, and a museum-like ambiance. Its central location provides easy access to local markets and historic landmarks.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c0/78/5d/breakfast-area.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/c0/78/59/breakfast-area.jpg?w=700&h=-1&s=1',
@@ -2035,7 +2035,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Beachfront hotel on Nungwi Beach with stunning sunsets, infinity pool, lively beachfront dining with live music and dancing, nightly entertainment, ocean view suites, and a variety of beach activities.',
-    longDescription: 'Beachfront hotel on Nungwi Beach with stunning sunsets, infinity pool, lively beachfront dining with live music and dancing, nightly entertainment, ocean view suites, and a variety of beach activities.',
+    longDescription: 'This beachfront hotel on Nungwi Beach offers stunning sunsets, an infinity pool, and lively beachfront dining with live music and dancing. Guests can enjoy nightly entertainment, ocean-view suites, and a variety of beach activities, making for a fun and beautiful stay.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/78/f3/20/my-blue-hotel-by-night.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/e4/04/15/my-blue-hotel.jpg?w=700&h=-1&s=1',
@@ -2051,7 +2051,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'Convenient lodge near the airport with complimentary shuttle service, quick check-in, and relaxing ambience. Offers comfortable accommodations, attentive staff, and a great spot for pre/post-flight stays.',
-    longDescription: 'Convenient lodge near the airport with complimentary shuttle service, quick check-in, and relaxing ambience. Offers comfortable accommodations, attentive staff, and a great spot for pre/post-flight stays.',
+    longDescription: 'A convenient lodge near Kilimanjaro Airport, it offers complimentary shuttle service, quick check-in, and a relaxing ambiance. With comfortable accommodations and attentive staff, it\'s a great spot for pre- or post-flight stays, ensuring a smooth start or end to a Tanzanian adventure.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/53/69/b6/aerial-view-of-swimming.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/7d/d9/28/executive-suite.jpg?w=700&h=-1&s=1',
@@ -2068,7 +2068,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Boutique beachside resort with stylish rooms and stunning sea views. Highlights include a relaxing atmosphere, professional service, massages, and proximity to Kendwa Beach\'s charm and local experiences.',
-    longDescription: 'Boutique beachside resort with stylish rooms and stunning sea views. Highlights include a relaxing atmosphere, professional service, massages, and proximity to Kendwa Beach\'s charm and local experiences.',
+    longDescription: 'A boutique beachside resort with stylish rooms and stunning sea views. Highlights include a relaxing atmosphere, professional service, and available massages. Its location provides easy access to the charm of Kendwa Beach and local experiences.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/41/e1/e6/sansi-kendwa-beach-resort.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/52/5a/5f/sansi-kendwa-beach-resort.jpg?w=700&h=-1&s=1',
@@ -2085,7 +2085,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Elegant hotel near the sea port with seamless check-in, clean and spacious rooms, and a rooftop restaurant offering Indian and Zanzibarian cuisine with scenic views. Convenient location for travelers.',
-    longDescription: 'Elegant hotel near the sea port with seamless check-in, clean and spacious rooms, and a rooftop restaurant offering Indian and Zanzibarian cuisine with scenic views. Convenient location for travelers.',
+    longDescription: 'An elegant hotel near the sea port, it offers seamless check-in and clean, spacious rooms. The rooftop restaurant serves a mix of Indian and Zanzibarian cuisine with scenic views, providing a convenient and pleasant location for travelers arriving by ferry.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/68/79/80/gt-znz-aug-shoot.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/81/35/1d/caption.jpg?w=700&h=-1&s=1'
@@ -2100,7 +2100,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Boutique hotel with stunning Indian Ocean views, private beach, two infinity pools, spacious rooms with balconies, sea life exploration at low tide, tranquil vibe, evening activities, and dining options.',
-    longDescription: 'Boutique hotel with stunning Indian Ocean views, private beach, two infinity pools, spacious rooms with balconies, sea life exploration at low tide, tranquil vibe, evening activities, and dining options.',
+    longDescription: 'This boutique hotel offers stunning Indian Ocean views, a private beach, and two infinity pools. Guests can stay in spacious rooms with balconies, explore sea life at low tide, and enjoy the tranquil vibe with evening activities and quality dining options.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/60/87/28/caption.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/d4/7c/05/nungwi-dreams-by-mantis.jpg?w=700&h=-1&s=1',
@@ -2117,7 +2117,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Hotel with friendly staff, spacious, clean, air-conditioned rooms. Offers rooftop restaurant with ocean views, local cuisine, and convenient location.',
-    longDescription: 'Hotel with friendly staff, spacious, clean, air-conditioned rooms. Offers rooftop restaurant with ocean views, local cuisine, and convenient location.',
+    longDescription: 'Known for its friendly staff, this hotel provides spacious, clean, and air-conditioned rooms. It features a rooftop restaurant with ocean views serving local cuisine. Its convenient location makes it a great choice for exploring Zanzibar.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e4/8c/37/suite-ocean-view.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e4/8c/30/superior-ocean-view.jpg?w=700&h=-1&s=1',
@@ -2133,7 +2133,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Luxurious oceanfront resort with scenic views, multiple dining options including beachfront and poolside restaurants. Fresh seafood, tapas, and cocktails praised. Convenient buggy service and serene atmosphere.',
-    longDescription: 'Luxurious oceanfront resort with scenic views, multiple dining options including beachfront and poolside restaurants. Fresh seafood, tapas, and cocktails praised. Convenient buggy service and serene atmosphere.',
+    longDescription: 'A luxurious oceanfront resort with scenic views and multiple dining options, including beachfront and poolside restaurants. Guests praise the fresh seafood, tapas, and cocktails. A convenient buggy service and serene atmosphere make for a relaxing and high-end stay.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/84/cf/48/melia-zanzibar.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/1b/ff/a0/caption.jpg?w=700&h=-1&s=1',
@@ -2166,7 +2166,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Modern hotel with spacious, well-furnished rooms and beautiful views. Exceptional dining with varied cuisine, including standout Asian and traditional restaurants. Attentive staff and plentiful water activities. Some construction nearby, but minimal disruption for most guests.',
-    longDescription: 'Modern hotel with spacious, well-furnished rooms and beautiful views. Exceptional dining with varied cuisine, including standout Asian and traditional restaurants. Attentive staff and plentiful water activities. Some construction nearby, but minimal disruption for most guests.',
+    longDescription: 'A modern hotel with spacious, well-furnished rooms and beautiful views. It offers exceptional dining with varied cuisine, including standout Asian and traditional restaurants. Attentive staff and plentiful water activities ensure a great stay, despite some nearby construction.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/5e/c8/d3/vista-aerea-y-playa.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/fe/2d/55/hotel-riu-jambo.jpg?w=700&h=-1&s=1',
@@ -2183,7 +2183,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'Luxurious lodge in the Serengeti with panoramic views, spacious modern rooms, infinity pool, and exceptional service. Features game drives with expert guides, wildlife sightings, and stunning sunsets.',
-    longDescription: 'Luxurious lodge in the Serengeti with panoramic views, spacious modern rooms, infinity pool, and exceptional service. Features game drives with expert guides, wildlife sightings, and stunning sunsets.',
+    longDescription: 'A luxurious lodge in the heart of the Serengeti, it offers panoramic views, spacious modern rooms, an infinity pool, and exceptional service. The lodge organizes game drives with expert guides, leading to incredible wildlife sightings. The stunning sunsets from the lodge are a daily highlight.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/ac/0b/d8/caption.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/32/af/b9/caption.jpg?w=700&h=-1&s=1',
@@ -2200,7 +2200,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Lush gardens, beachfront villas, and varied activities like yoga, spa massages, and water sports. Organic farm-to-table dining, garden tours, and attentive staff create a relaxing and memorable stay.',
-    longDescription: 'Lush gardens, beachfront villas, and varied activities like yoga, spa massages, and water sports. Organic farm-to-table dining, garden tours, and attentive staff create a relaxing and memorable stay.',
+    longDescription: 'This resort is set in lush gardens with beachfront villas and offers varied activities like yoga, spa massages, and water sports. It features organic farm-to-table dining and garden tours. The attentive staff and beautiful surroundings create a relaxing and memorable stay.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/81/97/06/view-from-seafront-luxury.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/81/83/2d/royal-garden-villa.jpg?w=700&h=-1&s=1',
@@ -2217,7 +2217,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Peaceful resort with stunning views, clear sea, and distance excursions. Known for great cocktails, spacious garden villas with private pools, and a large main pool. Ideal for honeymoons.',
-    longDescription: 'Peaceful resort with stunning views, clear sea, and distance excursions. Known for great cocktails, spacious garden villas with private pools, and a large main pool. Ideal for honeymoons.',
+    longDescription: 'A peaceful resort with stunning views and clear sea, The Residence Zanzibar offers spacious garden villas with private pools. It is known for its great cocktails and a large main pool. Ideal for honeymoons and romantic getaways, it provides a luxurious and private retreat.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/71/bd/af/infinity-pool.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/c3/f0/c6/master-bedroom.jpg?w=700&h=-1&s=1',
@@ -2233,7 +2233,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Serene resort with private villas, plunge pools, and beach cabanas. Access to sister property amenities like a spa, tennis court, and lap pool. High-end dining, personalized service, and ocean views.',
-    longDescription: 'Serene resort with private villas, plunge pools, and beach cabanas. Access to sister property amenities like a spa, tennis court, and lap pool. High-end dining, personalized service, and ocean views.',
+    longDescription: 'A serene and intimate resort featuring just seven private villas, each with its own plunge pool and beach cabana. Guests have access to amenities at sister properties, including a spa and tennis court. The high-end dining, personalized service, and beautiful ocean views make for an exclusive and luxurious stay.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1a/99/73/caption.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/e8/1e/50/palms-infinity-pool.jpg?w=700&h=-1&s=1',
@@ -2249,7 +2249,7 @@ export const places: Place[] = [
     country: 'Zanzibar',
     type: 'Hotel',
     description: 'Luxury oceanfront resort with private villas featuring plunge pools, spacious interiors, and serene day beds. Stunning beach, reef walks, exceptional dining, and attentive service for special occasions.',
-    longDescription: 'Luxury oceanfront resort with private villas featuring plunge pools, spacious interiors, and serene day beds. Stunning beach, reef walks, exceptional dining, and attentive service for special occasions.',
+    longDescription: 'A luxury oceanfront resort with private villas featuring plunge pools, spacious interiors, and serene day beds. It\'s set on a stunning beach, perfect for reef walks. The exceptional dining and attentive service make it an ideal choice for special occasions and a truly memorable holiday.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1a/93/66/caption.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1a/93/61/frangipani-spa-at-baraza.jpg?w=700&h=-1&s=1',
@@ -2266,7 +2266,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'Coastal hotel with ocean-view rooms, private beach, and waterfront dining. Spacious, modern rooms with balconies. Ideal for business or leisure, offering stunning sunsets and a relaxing ambiance.',
-    longDescription: 'Coastal hotel with ocean-view rooms, private beach, and waterfront dining. Spacious, modern rooms with balconies. Ideal for business or leisure, offering stunning sunsets and a relaxing ambiance.',
+    longDescription: 'This coastal hotel in Dar es Salaam offers ocean-view rooms, a private beach area, and waterfront dining. The rooms are spacious and modern, with balconies to enjoy the view. Ideal for both business and leisure, it provides stunning sunsets and a relaxing ambiance by the sea.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e3/bc/5f/make-a-tranquil-escape.jpg?w=700&h=400&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/19/0e/d0/heritage-wing-and-tower.jpg?w=700&h=-1&s=1',
@@ -2283,7 +2283,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'Great for safari base, offering an authentic Tanzanian experience. Conveniently located with friendly staff, comfortable beds, and clean rooms. Organizes safaris efficiently.',
-    longDescription: 'Great for safari base, offering an authentic Tanzanian experience. Conveniently located with friendly staff, comfortable beds, and clean rooms. Organizes safaris efficiently.',
+    longDescription: 'Mvuli Hotel is a great base for safaris, offering an authentic Tanzanian experience. It\'s conveniently located with friendly staff, comfortable beds, and clean rooms. The hotel is also efficient at organizing safari trips, making it a hassle-free choice for adventurers.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/38/5e/2d/mvuli-hotels-arusha.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/38/5d/23/entrance.jpg?w=700&h=-1&s=1',
@@ -2299,7 +2299,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'Resort in Arusha offering day trips to national parks and waterfalls. Features a peaceful setting, Ayurvedic spa, water park, family-friendly activities, spacious rooms, diverse dining, and helpful staff.',
-    longDescription: 'Resort in Arusha offering day trips to national parks and waterfalls. Features a peaceful setting, Ayurvedic spa, water park, family-friendly activities, spacious rooms, diverse dining, and helpful staff.',
+    longDescription: 'This resort in Arusha offers day trips to nearby national parks and waterfalls. It features a peaceful setting, an Ayurvedic spa, a water park, and family-friendly activities. With spacious rooms, diverse dining options, and helpful staff, it\'s a great choice for a fun and relaxing family holiday.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/25/f7/a1/fun-retreat.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/25/f4/d3/tree-top.jpg?w=700&h=-1&s=1',
@@ -2316,7 +2316,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'Centrally located hotel in Arusha with clean, spacious rooms and excellent housekeeping. Offers delicious Indian cuisine, diverse breakfast options, and attentive staff. Great for business and leisure travelers.',
-    longDescription: 'Centrally located hotel in Arusha with clean, spacious rooms and excellent housekeeping. Offers delicious Indian cuisine, diverse breakfast options, and attentive staff. Great for business and leisure travelers.',
+    longDescription: 'A centrally located hotel in Arusha with clean, spacious rooms and excellent housekeeping. It offers delicious Indian cuisine, diverse breakfast options, and attentive staff, making it a great choice for both business and leisure travelers looking for comfort and convenience.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/5b/2a/41/lobby.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/41/2a/09/venus-premier-hotel.jpg?w=700&h=-1&s=1',
@@ -2332,7 +2332,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'Ideal for safari stopovers, this boutique hotel offers large rooms, friendly staff, and good food. It boasts a cozy pool and bar area, and a central location. Unique mix of modern and traditional decor.',
-    longDescription: 'Ideal for safari stopovers, this boutique hotel offers large rooms, friendly staff, and good food. It boasts a cozy pool and bar area, and a central location. Unique mix of modern and traditional decor.',
+    longDescription: 'Ideal for safari stopovers, this boutique hotel offers large rooms, friendly staff, and good food. It boasts a cozy pool and bar area, and a central location in Arusha. The unique mix of modern and traditional decor gives it a special charm, perfect for starting or ending a safari adventure.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/1d/31/56/spacious-rooms.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/24/96/30/the-african-tulip.jpg?w=700&h=-1&s=1',
@@ -2348,7 +2348,7 @@ export const places: Place[] = [
     country: 'Tanzania',
     type: 'Hotel',
     description: 'The beds and mattresses are a real asset at the lodge. Rooms rather small but sufficient. We stayed in the lodge to meet our partner NGOs in the area of Arusha. We can just recommend and will stay there next time',
-    longDescription: 'The beds and mattresses are a real asset at the lodge. Rooms rather small but sufficient. We stayed in the lodge to meet our partner NGOs in the area of Arusha. We can just recommend and will stay there next time',
+    longDescription: 'This lodge is praised for its comfortable beds and mattresses, ensuring a good night\'s sleep. While the rooms are cozy, they are sufficient for a comfortable stay. It\'s a recommended base for those working with local NGOs or exploring the Arusha area, offering good value and a pleasant atmosphere.',
     images: [
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/9e/5f/92/heart-of-africa-lodge.jpg?w=700&h=-1&s=1',
         'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/98/f3/87/caption.jpg?w=700&h=-1&s=1'
@@ -2466,7 +2466,7 @@ export const places: Place[] = [
     name: 'Jambiani Beach',
     country: 'Zanzibar',
     type: 'Attraction',
-    description: 'Sunrise is the best here and super amazing. It was fun seeing locals collecting seaweeds.',
+    description: 'Idyllic beach known for its white sand, turquoise waters, and seaweed farming. It offers a glimpse into local life with a laid-back atmosphere.',
     longDescription: 'Jambiani is a traditional fishing village on the southeast coast of Zanzibar, offering a more authentic and laid-back beach experience. The stunning white sand beach is perfect for long walks, and at low tide, you can see local women farming seaweed. It\'s a great place to experience local life and enjoy the tranquil beauty of the Indian Ocean.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/67/cf/ab/caption.jpg?w=500&h=-1&s=1',
@@ -3261,7 +3261,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Peaceful hotel near downtown Kigali with spacious rooms, friendly staff, beautiful patios, and a relaxing pool. Features include two restaurants, banana beer classes, and proximity to local attractions.',
-    longDescription: 'Peaceful hotel near downtown Kigali with spacious rooms, friendly staff, beautiful patios, and a relaxing pool. Features include two restaurants, banana beer classes, and proximity to local attractions.',
+    longDescription: 'A peaceful boutique hotel near downtown Kigali, Heaven offers spacious rooms, friendly staff, beautiful patios, and a relaxing pool. It features two on-site restaurants, offers cultural experiences like banana beer making classes, and is conveniently located near local attractions.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/a3/c7/62/heaven-restaurant-boutique.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/15/52/fe/our-open-air-gym-is-equipped.jpg?w=700&h=-1&s=1',
@@ -3277,7 +3277,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Centrally located hotel in Kigali with historical significance, stunning outdoor spaces, pool area with exceptional views, and first-class dining. Known for excellent service and a relaxing atmosphere.',
-    longDescription: 'Centrally located hotel in Kigali with historical significance, stunning outdoor spaces, pool area with exceptional views, and first-class dining. Known for excellent service and a relaxing atmosphere.',
+    longDescription: 'Famous for its role in the film "Hotel Rwanda," this centrally located hotel has historical significance. It features stunning outdoor spaces, a pool area with exceptional views, and first-class dining. Known for its excellent service and relaxing atmosphere, it remains an iconic Kigali landmark.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/bc/70/dc/swimming-pool-facade.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/40/23/df/la-piscine.jpg?w=700&h=-1&s=1',
@@ -3293,7 +3293,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Convenient hotel near Kigali Airport with free reliable shuttle service, clean and comfortable rooms, 24-hour dining, mosquito nets, and friendly staff. Quiet location with city views and great value.',
-    longDescription: 'Convenient hotel near Kigali Airport with free reliable shuttle service, clean and comfortable rooms, 24-hour dining, mosquito nets, and friendly staff. Quiet location with city views and great value.',
+    longDescription: 'A convenient hotel near Kigali Airport, Five To Five offers a free reliable shuttle service. It provides clean and comfortable rooms, 24-hour dining, and friendly staff. Its quiet location with city views offers great value for travelers.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/8a/27/06/five-to-five-hotel.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/fe/a4/6d/hotel-main-builiding.jpg?w=700&h=-1&s=1',
@@ -3309,7 +3309,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Serene hotel with spacious, clean rooms and stunning views. Offers delicious food, delightful ambiance, and convenient location. Features excellent service, well-maintained amenities, and room service.',
-    longDescription: 'Serene hotel with spacious, clean rooms and stunning views. Offers delicious food, delightful ambiance, and convenient location. Features excellent service, well-maintained amenities, and room service.',
+    longDescription: 'M Hotel is a serene and modern hotel with spacious, clean rooms and stunning views. It offers delicious food, a delightful ambiance, and a convenient location. Guests appreciate the excellent service, well-maintained amenities, and the availability of room service.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/33/4d/bb/swimming-pool.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cc/f2/cb/m-hotel-kigali-is-located.jpg?w=700&h=-1&s=1',
@@ -3325,7 +3325,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Modern hotel with clean rooms, well-maintained pool and gym, and diverse dining options. Features a popular breakfast buffet, business-friendly amenities, reliable internet, and friendly, attentive staff.',
-    longDescription: 'Modern hotel with clean rooms, well-maintained pool and gym, and diverse dining options. Features a popular breakfast buffet, business-friendly amenities, reliable internet, and friendly, attentive staff.',
+    longDescription: 'A modern hotel offering clean rooms, a well-maintained pool and gym, and diverse dining options. It features a popular breakfast buffet, business-friendly amenities, and reliable internet. The friendly and attentive staff ensure a comfortable and pleasant stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c5/aa/66/park-inn-by-radisson.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c5/a3/91/park-inn-by-radisson.jpg?w=700&h=-1&s=1',
@@ -3341,7 +3341,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Modern, clean hotel with spacious, tastefully decorated rooms and modern amenities. Features a Brew Pub, pool bar, and outstanding dining. Convenient location, ideal for business and leisure travelers.',
-    longDescription: 'Modern, clean hotel with spacious, tastefully decorated rooms and modern amenities. Features a Brew Pub, pool bar, and outstanding dining. Convenient location, ideal for business and leisure travelers.',
+    longDescription: 'A modern and clean hotel with spacious, tastefully decorated rooms and up-to-date amenities. It features a unique Brew Pub, a relaxing pool bar, and outstanding dining. Its convenient location makes it ideal for both business and leisure travelers looking for a high-quality stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/3f/71/19/hotel-exterior-daytime.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/55/eb/87/loft.jpg?w=700&h=-1&s=1',
@@ -3357,7 +3357,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'The breakfast that was included with my room was plenty & delicious, with eggs, toast, fresh fruits, fresh coffee, & juice. They have a good menu selection so I ended up having lunch & dinner here on my first day.',
-    longDescription: 'The breakfast that was included with my room was plenty & delicious, with eggs, toast, fresh fruits, fresh coffee, & juice. They have a good menu selection so I ended up having lunch & dinner here on my first day.',
+    longDescription: 'Guests at Step Town Hotel enjoy a delicious and plentiful breakfast, which includes eggs, toast, fresh fruits, coffee, and juice. The hotel also offers a good menu selection for lunch and dinner, making it a convenient and tasty option for meals throughout the day.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6f/72/f3/step-town-hotel.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/7b/ba/5e/eating-area-at-the-fron.jpg?w=600&h=-1&s=1',
@@ -3373,7 +3373,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Modern hotel with stylish decor and picturesque views. Spacious, clean rooms, serene ambiance, and well-equipped facilities. Professional, hospitable staff and convenient for business travelers.',
-    longDescription: 'Modern hotel with stylish decor and picturesque views. Spacious, clean rooms, serene ambiance, and well-equipped facilities. Professional, hospitable staff and convenient for business travelers.',
+    longDescription: 'A modern hotel with stylish decor and picturesque views. It offers spacious, clean rooms, a serene ambiance, and well-equipped facilities. The professional and hospitable staff make it a convenient and comfortable choice for business travelers.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/16/5e/94/pool-deck.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/16/5e/a8/bathroom.jpg?w=700&h=-1&s=1',
@@ -3389,7 +3389,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Breakfast buffet is rich, everything is available. It is right in the center, so you can easily walk to some of the museums, the German restaurant, cheap massage place, etc. I liked it here, good and safe base.',
-    longDescription: 'Breakfast buffet is rich, everything is available. It is right in the center, so you can easily walk to some of the museums, the German restaurant, cheap massage place, etc. I liked it here, good and safe base.',
+    longDescription: 'This hotel offers a rich breakfast buffet with a wide selection. Its central location allows easy walking access to museums, restaurants, and other services. It provides a good and safe base for exploring Kigali on foot.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/79/6b/b6/2000-hotel.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d1/09/81/2000.jpg?w=700&h=-1&s=1',
@@ -3405,7 +3405,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Elegant hotel with stunning Kigali views, spacious rooms, pool, sauna, restaurant, and bar. Quiet location near the airport and city center. Diverse menu with Indian and Italian cuisine.',
-    longDescription: 'Elegant hotel with stunning Kigali views, spacious rooms, pool, sauna, restaurant, and bar. Quiet location near the airport and city center. Diverse menu with Indian and Italian cuisine.',
+    longDescription: 'An elegant hotel offering stunning views of Kigali. It features spacious rooms, a pool, sauna, restaurant, and bar. Its quiet location is convenient to both the airport and the city center, and the diverse menu includes popular Indian and Italian cuisine.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c4/ad/84/hotel-grounds.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c4/9a/c6/deluxe-double-room.jpg?w=700&h=-1&s=1',
@@ -3421,7 +3421,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Lakeside retreat with lush grounds, large pool, and serene atmosphere. Features exceptional dining, a well-stocked gift shop, and attentive service. Ideal for relaxation, families, or business stays.',
-    longDescription: 'Lakeside retreat with lush grounds, large pool, and serene atmosphere. Features exceptional dining, a well-stocked gift shop, and attentive service. Ideal for relaxation, families, or business stays.',
+    longDescription: 'A beautiful lakeside retreat with lush grounds, a large pool, and a serene atmosphere. It features exceptional dining, a well-stocked gift shop, and attentive service, making it an ideal choice for relaxation, family holidays, or business stays on the shores of Lake Kivu.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/4a/2b/c7/jet-skiing-on-lake-kivu.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/62/ef/94/aerial-exterior-view.jpg?w=600&h=400&s=1',
@@ -3437,7 +3437,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Excellent reception conditions, with very comfortable, clean rooms with excellent views. The staff is very friendly and professional, always available to make your stay as pleasant as possible.',
-    longDescription: 'Excellent reception conditions, with very comfortable, clean rooms with excellent views. The staff is very friendly and professional, always available to make your stay as pleasant as possible.',
+    longDescription: 'Gloria Hotel provides excellent reception conditions, with very comfortable, clean rooms offering excellent views. The staff is consistently described as friendly and professional, always available to make every guest\'s stay as pleasant as possible.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/b5/3a/66/restaurant-area-also.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/77/a3/80/gloria-hotel.jpg?w=700&h=-1&s=1',
@@ -3453,7 +3453,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Hilltop hotel with stunning views of Lake Kivu and Nyungwe Forest. Spacious cottages with fireplaces, dining with a scenic terrace, and access to Nyungwe National Park\'s canopy walks and chimpanzee trekking.',
-    longDescription: 'Hilltop hotel with stunning views of Lake Kivu and Nyungwe Forest. Spacious cottages with fireplaces, dining with a scenic terrace, and access to Nyungwe National Park\'s canopy walks and chimpanzee trekking.',
+    longDescription: 'This hilltop hotel offers stunning views of Lake Kivu and Nyungwe Forest. It features spacious cottages with fireplaces, dining with a scenic terrace, and provides easy access to Nyungwe National Park\'s activities like the canopy walk and chimpanzee trekking.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/06/45/27/the-main-lodge-building.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/cd/9d/4e/photo3jpg.jpg?w=700&h=-1&s=1',
@@ -3485,7 +3485,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Nobilis apartment was A haven in Kigali during our stay.The staff i repeat was quite helpful and maintained a happy smile everytime. Ambient rooms, quite some pretty outdoors though I had trouble with the water...',
-    longDescription: 'Nobilis apartment was A haven in Kigali during our stay.The staff i repeat was quite helpful and maintained a happy smile everytime. Ambient rooms, quite some pretty outdoors though I had trouble with the water...',
+    longDescription: 'Nobilis Hotel & Apartments provides a haven in Kigali with ambient rooms and pretty outdoor spaces. The staff are consistently praised for being helpful and maintaining a happy demeanor, contributing to a pleasant stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/8e/a6/2a/caption.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/8e/a6/21/caption.jpg?w=700&h=-1&s=1',
@@ -3501,7 +3501,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Boutique hotel with spacious rooms, balconies, city views, serene pool, fitness center, and rooftop dining. Stunning decor blends modern and traditional styles. Known for great food and attentive service.',
-    longDescription: 'Boutique hotel with spacious rooms, balconies, city views, serene pool, fitness center, and rooftop dining. Stunning decor blends modern and traditional styles. Known for great food and attentive service.',
+    longDescription: 'This boutique hotel features spacious rooms with balconies and city views. It has a serene pool, fitness center, and rooftop dining. The stunning decor blends modern and traditional styles, and the hotel is known for its great food and attentive service.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/97/60/6e/mythos-boutique-hotel.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/97/60/cd/mythos-boutique-hotel.jpg?w=700&h=-1&s=1',
@@ -3517,7 +3517,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'This is a great place to relax, have some tasty food while the kids play. Esper did a great job attending to us and following up on our requests.',
-    longDescription: 'This is a great place to relax, have some tasty food while the kids play. Esper did a great job attending to us and following up on our requests.',
+    longDescription: 'Nature Kigali is a great place for families to relax, offering tasty food and a play area for children. The attentive staff ensure a pleasant experience, making it a comfortable and enjoyable spot for a meal or a stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/36/04/e7/nature-kigali.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/35/a8/e6/nature-kigali.jpg?w=700&h=-1&s=1',
@@ -3533,7 +3533,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'The outdoor seating areas was really nice. There was fast, reliable wifi and staff were very friendly and helpful. Breakfast was included in the price of the hotel, I really enjoyed the fresh fruits and pancakes.',
-    longDescription: 'The outdoor seating areas was really nice. There was fast, reliable wifi and staff were very friendly and helpful. Breakfast was included in the price of the hotel, I really enjoyed the fresh fruits and pancakes.',
+    longDescription: 'The Nest offers nice outdoor seating areas, fast and reliable WiFi, and very friendly and helpful staff. The included breakfast, with fresh fruits and pancakes, is a highlight for many guests, providing a cozy and welcoming stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7b/77/30/caption.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/7b/77/22/caption.jpg?w=700&h=-1&s=1',
@@ -3549,7 +3549,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Calm atmosphere except for some music from neighbouring bars at the weekend. You will find everything you need at Inzu Lodge for a relaxing stay: great food, excellent cocktails and a beautiful souvenir shop.',
-    longDescription: 'Calm atmosphere except for some music from neighbouring bars at the weekend. You will find everything you need at Inzu Lodge for a relaxing stay: great food, excellent cocktails and a beautiful souvenir shop.',
+    longDescription: 'INZU Lodge offers a calm atmosphere for a relaxing stay, with great food, excellent cocktails, and a beautiful souvenir shop. While there can be some music from neighboring bars on weekends, it provides everything needed for a comfortable and enjoyable visit.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/3b/9a/e6/inzu-lodge-restaurant.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/3b/9b/49/inzu-lodge.jpg?w=700&h=-1&s=1',
@@ -3581,7 +3581,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'The relative lack of accommodation options near Nyungwe is a blessing and a curse. A blessing since the area is not overrun with tourists, but a curse since there are only a few accommodation options, and if you.',
-    longDescription: 'The relative lack of accommodation options near Nyungwe is a blessing and a curse. A blessing since the area is not overrun with tourists, but a curse since there are only a few accommodation options, and if you.',
+    longDescription: 'As one of the few accommodation options near Nyungwe National Park, this ecolodge offers a unique experience. While options are limited, this means the area is not overrun with tourists, allowing for a more authentic and peaceful stay close to nature.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/31/b0/22/outdoor-leisure-world.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/cb/3f/83/begin-november-2022-we.jpg?w=700&h=-1&s=1',
@@ -3612,7 +3612,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'I was quite pleased with my stay here for a number of reasons. The hotel is set in the central business area so it was rather easy to go out for a walk and to do some shopping. A few shops near by sell the...',
-    longDescription: 'I was quite pleased with my stay here for a number of reasons. The hotel is set in the central business area so it was rather easy to go out for a walk and to do some shopping. A few shops near by sell the...',
+    longDescription: 'Set in the central business area, Virunga Hotel allows for easy exploration on foot, with shopping and local amenities nearby. It offers a convenient and pleasant base for both business and leisure travelers in Musanze.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/36/92/c3/virunga-hotel.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/36/90/62/conference-room.jpg?w=700&h=-1&s=1',
@@ -3628,7 +3628,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'There is also a pool with a cafe which makes for a great common area for meetings.',
-    longDescription: 'There is also a pool with a cafe which makes for a great common area for meetings.',
+    longDescription: 'Grazia Apartments offers comfortable lodging with the added benefit of a pool and an on-site cafe. This creates a great common area for relaxing or holding informal meetings, adding value to the stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f2/44/fd/such-a-lovely-place-to.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/77/a7/b8/grazia-aparments-ltd.jpg?w=700&h=-1&s=1'
@@ -3643,7 +3643,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Sophisticated hotel offering comfort for both business and leisure travelers. Features a business lounge with excellent food and beverage selection. Standout service throughout, including a highly praised dining experience. Modern decor, comfortable seating areas, and lounge bar with extraordinary service. On-site restaurant and bar highly recommended for food quality and variety.',
-    longDescription: 'Sophisticated hotel offering comfort for both business and leisure travelers. Features a business lounge with excellent food and beverage selection. Standout service throughout, including a highly praised dining experience. Modern decor, comfortable seating areas, and lounge bar with extraordinary service. On-site restaurant and bar highly recommended for food quality and variety.',
+    longDescription: 'A sophisticated hotel that offers comfort for both business and leisure travelers. It features a business lounge with an excellent food and beverage selection, modern decor, and comfortable seating. The standout service, including extraordinary service at the lounge bar, and high-quality dining make it a top choice in Kigali.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/bf/0e/3d/radisson-blu-hotel-convention.jpg?w=700&h=400&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/bf/0d/c2/filini-italian-restaurant.jpg?w=700&h=-1&s=1',
@@ -3659,7 +3659,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Modern hotel in a central location with spacious, clean rooms and excellent dining options. Features an inviting pool, well-equipped gym, Executive Lounge, and relaxing ambiance. Ideal for business or leisure.',
-    longDescription: 'Modern hotel in a central location with spacious, clean rooms and excellent dining options. Features an inviting pool, well-equipped gym, Executive Lounge, and relaxing ambiance. Ideal for business or leisure.',
+    longDescription: 'This modern hotel in a central Kigali location offers spacious, clean rooms and excellent dining options. It features an inviting pool, a well-equipped gym, and an Executive Lounge. The relaxing ambiance makes it an ideal choice for both business and leisure travelers seeking comfort and convenience.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/16/09/65/hotel-exterior.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/ac/1c/e9/malaika-garden-rounds.jpg?w=700&h=-1&s=1',
@@ -3675,7 +3675,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Luxurious lodge near Volcanoes National Park, ideal for gorilla trekking. Offers modern amenities, stunning volcano views, colorful gardens, spa services, fireplaces, outdoor showers, and exceptional service.',
-    longDescription: 'Luxurious lodge near Volcanoes National Park, ideal for gorilla trekking. Offers modern amenities, stunning volcano views, colorful gardens, spa services, fireplaces, outdoor showers, and exceptional service.',
+    longDescription: 'A luxurious lodge near Volcanoes National Park, this resort is ideal for gorilla trekkers. It offers modern amenities, stunning volcano views from its colorful gardens, spa services, and rooms with fireplaces and outdoor showers. The exceptional service ensures a comfortable and memorable stay.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/17/b0/be/newest-modern-elegant.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/17/b0/bb/newest-modern-elegant.jpg?w=700&h=-1&s=1',
@@ -3691,7 +3691,7 @@ export const places: Place[] = [
     country: 'Rwanda',
     type: 'Hotel',
     description: 'Rustic lodge near Volcanoes National Park, ideal for gorilla trekking. Cozy rooms with fireplaces, delicious food, and friendly staff. Unique touches include boot cleaning, foot massages, and visits from wildlife.',
-    longDescription: 'Rustic lodge near Volcanoes National Park, ideal for gorilla trekking. Cozy rooms with fireplaces, delicious food, and friendly staff. Unique touches include boot cleaning, foot massages, and visits from wildlife.',
+    longDescription: 'A rustic lodge near Volcanoes National Park, Da Vinci is ideal for gorilla trekkers. It offers cozy rooms with fireplaces, delicious food, and friendly staff. Unique touches like complimentary boot cleaning and foot massages, along with visits from local wildlife, make for a special and authentic experience.',
     images: [
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/66/1b/4a/da-vinci-lodge.jpg?w=700&h=-1&s=1',
       'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/b4/03/11/dinner-upstairs-in-the.jpg?w=700&h=-1&s=1',
