@@ -9,7 +9,8 @@ type Props = {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const countryName = COUNTRIES.find(c => c.toLowerCase() === params.name);
+  const awaitedParams = await params;
+  const countryName = COUNTRIES.find(c => c.toLowerCase() === awaitedParams.name);
 
   if (!countryName) {
     return {
