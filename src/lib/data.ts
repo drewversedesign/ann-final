@@ -1457,7 +1457,7 @@ export const places: Place[] = [
   {
     id: 'tz-5',
     name: 'Nakupenda Beach Nature Reserve',
-    country: 'Tanzania',
+    country: 'Zanzibar',
     type: 'Attraction',
     description: 'White sand beach and clear waters ideal for snorkeling with vibrant marine life. Enjoy fresh seafood and visit historical sites for cultural shopping.',
     longDescription: 'Nakupenda Beach, which means \'I love you\' in Swahili, is a stunning sandbank that appears during low tide. It offers pristine white sands and crystal-clear waters perfect for snorkeling and swimming. A day trip here often includes a delicious fresh seafood barbecue, making it a truly idyllic escape.',
@@ -3690,4 +3690,5 @@ export const places: Place[] = [
     
 
     
+
 
