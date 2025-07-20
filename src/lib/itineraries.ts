@@ -1,3 +1,4 @@
+
 import type { Place } from './types';
 
 export interface Itinerary {
@@ -105,6 +106,69 @@ export const itineraries: Itinerary[] = [
             { day: 6, title: 'Gorilla Tracking in Volcanoes NP', description: 'The highlight of your trip: trek through the bamboo forest to spend an unforgettable hour with a mountain gorilla family.' },
             { day: 7, title: 'Golden Monkey Tracking or Dian Fossey Hike', description: 'Choose between tracking the playful golden monkeys or hiking to the Dian Fossey Gorilla Fund Research Center and her gravesite. Return to Kigali in the afternoon.' },
             { day: 8, title: 'Departure from Kigali', description: 'Enjoy a final Rwandan coffee. Depending on your flight, do some last-minute shopping for local crafts before heading to the airport for your departure.' }
+        ]
+    },
+    {
+        id: 'kenya-big-five-safari',
+        title: 'Kenya: The Big Five Safari',
+        country: 'Kenya',
+        duration: '7 Days / 6 Nights',
+        image: 'https://images.unsplash.com/photo-1557053503-391ce1245029?q=80&w=2070&auto=format&fit=crop',
+        description: 'A focused adventure to spot the legendary "Big Five" (Lion, Leopard, Elephant, Rhino, and Buffalo) in some of Kenya\'s most prestigious wildlife reserves, including the Maasai Mara and Lake Nakuru.',
+        dailyBreakdown: [
+            { day: 1, title: 'Arrival in Nairobi & Transfer to Ol Pejeta', description: 'Arrive in Nairobi, meet your guide, and drive to Ol Pejeta Conservancy, a prime location for rhinos. Afternoon game drive and visit to the chimpanzee sanctuary.' },
+            { day: 2, title: 'Full Day in Ol Pejeta', description: 'Spend the day exploring Ol Pejeta. With a high rhino population and other members of the Big Five, it\'s an excellent start to your quest. Visit the Northern White Rhino enclosure.' },
+            { day: 3, title: 'Lake Nakuru National Park', description: 'Drive to Lake Nakuru National Park, a rhino sanctuary famous for its flamingoes. Afternoon game drive to spot both black and white rhinos, as well as leopards.' },
+            { day: 4, title: 'Journey to the Maasai Mara', description: 'After a morning game drive, travel to the iconic Maasai Mara National Reserve. Settle into your camp and enjoy the sounds of the African bush.' },
+            { day: 5, title: 'In Search of the Big Cats', description: 'Full day of game drives in the Maasai Mara, focusing on finding the large lion prides and elusive leopards that inhabit the reserve.' },
+            { day: 6, title: 'Mara River and Buffalo Herds', description: 'Explore the Mara River area, looking for large herds of buffalo and elephants. Enjoy a picnic lunch in the wild. Evening relaxation at the lodge.' },
+            { day: 7, title: 'Final Game Drive & Departure', description: 'One last morning game drive to tick off any remaining Big Five sightings. After breakfast, drive back to Nairobi for your departure flight.' }
+        ]
+    },
+    {
+        id: 'uganda-primates-wildlife',
+        title: 'Uganda: Primates and Wildlife',
+        country: 'Uganda',
+        duration: '12 Days / 11 Nights',
+        image: 'https://images.unsplash.com/photo-1648510398515-c4a7bda2d544?q=80&w=2070&auto=format&fit=crop',
+        description: 'An in-depth journey focusing on Uganda\'s incredible primate diversity, including gorilla and chimp tracking, complemented by classic savannah safaris to see lions, elephants, and more.',
+        dailyBreakdown: [
+            { day: 1, title: 'Arrival in Entebbe', description: 'Welcome to Uganda! Arrive at Entebbe International Airport and transfer to your hotel. Relax by Lake Victoria.' },
+            { day: 2, title: 'To Murchison Falls NP', description: 'Drive north to Murchison Falls National Park. Stop at the Ziwa Rhino Sanctuary en route to track white rhinos on foot.' },
+            { day: 3, title: 'Murchison Falls Game & Boat Safari', description: 'Morning game drive to see savannah wildlife. Afternoon boat cruise on the Nile to the base of the powerful Murchison Falls.' },
+            { day: 4, title: 'Drive to Kibale Forest', description: 'A scenic drive to Kibale Forest National Park, the primate capital of the world. Settle into your lodge nestled in the forest.' },
+            { day: 5, title: 'Chimpanzee Tracking in Kibale', description: 'An exciting morning tracking chimpanzees. Afternoon visit to the Bigodi Wetland Sanctuary for more primate and bird watching.' },
+            { day: 6, title: 'Queen Elizabeth National Park', description: 'Transfer to Queen Elizabeth National Park. Enjoy an evening game drive with views of the Rwenzori Mountains.' },
+            { day: 7, title: 'Kazinga Channel & Game Drive', description: 'Morning game drive in search of lions and leopards. Afternoon boat safari on the Kazinga Channel, home to thousands of hippos and birds.' },
+            { day: 8, title: 'Ishasha\'s Tree-Climbing Lions', description: 'Drive south to the Ishasha sector of Queen Elizabeth NP, renowned for its tree-climbing lions. Game drive to find them lounging in fig trees.' },
+            { day: 9, title: 'To Bwindi Impenetrable Forest', description: 'Journey to the misty hills of Bwindi Impenetrable National Park. Relax and prepare for the ultimate primate encounter.' },
+            { day: 10, title: 'Mountain Gorilla Tracking', description: 'The highlight of your trip! A guided trek into the forest to spend an awe-inspiring hour with a mountain gorilla family.' },
+            { day: 11, title: 'Lake Bunyonyi Relaxation', description: 'Drive to the stunning Lake Bunyonyi, the "place of little birds." Relax, swim, or take a canoe trip on this beautiful, tranquil lake.' },
+            { day: 12, title: 'Departure', description: 'After a final breakfast overlooking the lake, drive back to Entebbe or Kigali for your international flight.' }
+        ]
+    },
+    {
+        id: 'kenya-tanzania-migration-spectacular',
+        title: 'Kenya & Tanzania: The Migration Spectacular',
+        country: 'Kenya',
+        duration: '14 Days / 13 Nights',
+        image: 'https://images.unsplash.com/photo-1534577482862-4f87453de298?q=80&w=1974&auto=format&fit=crop',
+        description: 'The ultimate East African safari, combining the best of Kenya and Tanzania. Follow the Great Migration from the Maasai Mara to the Serengeti and explore the magnificent Ngorongoro Crater.',
+        dailyBreakdown: [
+            { day: 1, title: 'Arrival in Nairobi, Kenya', description: 'Arrive at Jomo Kenyatta Airport, Nairobi. Transfer to your hotel for an overnight stay.' },
+            { day: 2, title: 'Amboseli National Park', description: 'Drive to Amboseli National Park, famous for its elephant herds against the backdrop of Mt. Kilimanjaro. Afternoon game drive.' },
+            { day: 3, title: 'To Tanzania - Arusha', description: 'Morning game drive, then cross the border into Tanzania at Namanga. Drive to Arusha to relax before your Tanzanian safari leg.' },
+            { day: 4, title: 'Tarangire National Park', description: 'Drive to Tarangire National Park for a full day of game viewing. Known for its baobab trees and large elephant population.' },
+            { day: 5, title: 'Into the Serengeti', description: 'Journey to the vast plains of Serengeti National Park. Game drive en route to your camp in the central Seronera area.' },
+            { day: 6, title: 'Central Serengeti Exploration', description: 'Full day exploring the Seronera Valley, a wildlife hotspot with a high density of big cats and resident game.' },
+            { day: 7, title: 'Following the Migration North', description: 'Travel towards the northern Serengeti, tracking the Great Wildebeest Migration herds. This area is famous for dramatic Mara River crossings (seasonal).' },
+            { day: 8, title: 'Ngorongoro Crater Rim', description: 'After a final morning game drive in the Serengeti, drive to the rim of the Ngorongoro Crater, a UNESCO World Heritage Site.' },
+            { day: 9, title: 'Ngorongoro Crater Floor', description: 'Descend 600m into the crater for a spectacular day of game viewing. The crater is a natural enclosure for a dense population of wildlife.' },
+            { day: 10, title: 'Back to Kenya - The Maasai Mara', description: 'Drive back to Arusha for a short flight to the Maasai Mara in Kenya, landing you right in the heart of the action.' },
+            { day: 11, title: 'Full Day in Maasai Mara', description: 'Explore the Maasai Mara, the Kenyan side of the Serengeti ecosystem. Enjoy full-day game drives in search of the Big Five and migration action.' },
+            { day: 12, title: 'Mara River & Maasai Culture', description: 'Another day exploring the Mara, focusing on the Mara River. In the evening, visit a local Maasai village to learn about their traditional lifestyle.' },
+            { day: 13, title: 'Return to Nairobi', description: 'Enjoy a final game drive before flying from the Mara back to Nairobi. Enjoy a farewell dinner at a famous city restaurant.' },
+            { day: 14, title: 'Departure', description: 'Transfer to Jomo Kenyatta International Airport for your flight home, carrying memories of an epic East African adventure.' }
         ]
     }
 ];
