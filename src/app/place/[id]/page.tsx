@@ -16,21 +16,37 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
   }
 
+  const keywords = [place.name, place.type, place.country, 'Ann Tours and Travel', 'African safari'];
+  if (place.type === 'Hotel') keywords.push('accommodation', 'booking');
+  if (place.type === 'Restaurant') keywords.push('dining', 'food');
+  if (place.type === 'Attraction') keywords.push('tourism', 'sightseeing');
+
+
   return {
-    title: place.name,
-    description: `Details about ${place.name}, a ${place.type} in ${place.country}. ${place.description}`,
+    title: `${place.name} | ${place.country}`,
+    description: `Explore ${place.name}, a premier ${place.type.toLowerCase()} in ${place.country}. Get details, see photos, and plan your visit with Ann Tours and Travel. ${place.description}`,
+    keywords: keywords,
     openGraph: {
-      title: place.name,
-      description: place.description,
+      title: `${place.name} | Ann Tours and Travel`,
+      description: `Explore ${place.name}, a premier ${place.type.toLowerCase()} in ${place.country}.`,
+      url: `/place/${place.id}`,
       images: [
         {
           url: place.images[0],
           width: 800,
           height: 600,
-          alt: place.name,
+          alt: `A stunning view of ${place.name}`,
         },
       ],
+      type: 'article',
+      siteName: 'Ann Tours and Travel',
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${place.name} | Ann Tours and Travel`,
+      description: `Explore ${place.name}, a premier ${place.type.toLowerCase()} in ${place.country}.`,
+      images: [place.images[0]],
+    }
   }
 }
 
