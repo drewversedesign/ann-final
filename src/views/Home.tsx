@@ -49,7 +49,7 @@ export default function Home() {
   
   return (
     <div className="flex flex-col min-h-dvh">
-      <section className="relative h-[80vh] md:h-[90vh] flex items-center justify-center text-center text-white">
+      <section className="relative min-h-[100vh] md:min-h-[110vh] flex items-center justify-center text-center text-white py-20 md:py-32">
         <Image
           src="https://raw.githubusercontent.com/drewversedesign/ann-pics/main/Explore%20East%20Africa%20with%20Ann%20Tours%20.png"
           alt="Safari animals collage"
@@ -59,20 +59,27 @@ export default function Home() {
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20 z-10" />
-        <div className="relative z-20 container mx-auto px-4 flex flex-col items-center">
-          <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4 animate-fade-in-down">
-            Unforgettable
-          </h1>
-          <form onSubmit={handleSearch} className="w-full max-w-2xl bg-white/90 backdrop-blur-sm rounded-full p-2 shadow-2xl flex items-center gap-2 animate-zoom-in mt-8">
+        <div className="relative z-20 container mx-auto px-4 flex flex-col items-center space-y-12 md:space-y-16">
+          <div className="text-center space-y-6 md:space-y-8">
+            <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight animate-fade-in-down leading-tight">
+              Discover Your Next
+              <span className="block text-primary">Adventure</span>
+            </h1>
+            <p className="text-xl md:text-2xl lg:text-3xl font-light leading-relaxed max-w-4xl mx-auto opacity-90">
+              Ann Tours and Travel offers curated safari experiences across the heart of Africa.
+              <span className="block mt-2">Unforgettable journeys await.</span>
+            </p>
+          </div>
+          <form onSubmit={handleSearch} className="w-full max-w-3xl bg-white/95 backdrop-blur-sm rounded-full p-4 shadow-2xl flex items-center gap-4 animate-zoom-in">
             <Search className="h-6 w-6 text-muted-foreground ml-4" />
             <Input
               type="search"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Where to next? Search for destinations..."
-              className="bg-transparent border-none focus-visible:ring-0 text-foreground h-12 text-base w-full"
+              placeholder="Search destinations, hotels, or attractions..."
+              className="bg-transparent border-none focus-visible:ring-0 text-foreground h-14 text-lg w-full placeholder:text-muted-foreground/70"
             />
-            <Button type="submit" size="lg" className="rounded-full font-bold px-8 h-12 text-base shrink-0">
+            <Button type="submit" size="lg" className="rounded-full font-bold px-10 h-14 text-lg shrink-0 shadow-lg hover:shadow-xl transition-all duration-300">
               Search
             </Button>
           </form>
