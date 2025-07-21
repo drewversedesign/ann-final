@@ -61,12 +61,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20 z-10" />
         <div className="relative z-20 container mx-auto px-4 flex flex-col items-center">
           <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-4 animate-fade-in-down">
-            Unforgettable African Journeys
+            Unforgettable
           </h1>
-          <p className="text-lg md:text-xl max-w-3xl mx-auto mb-8 leading-relaxed animate-fade-in-up">
-            Crafting bespoke safari adventures across the heart of Africa. Your story begins here.
-          </p>
-          <form onSubmit={handleSearch} className="w-full max-w-2xl bg-white/90 backdrop-blur-sm rounded-full p-2 shadow-2xl flex items-center gap-2 animate-zoom-in">
+          <form onSubmit={handleSearch} className="w-full max-w-2xl bg-white/90 backdrop-blur-sm rounded-full p-2 shadow-2xl flex items-center gap-2 animate-zoom-in mt-8">
             <Search className="h-6 w-6 text-muted-foreground ml-4" />
             <Input
               type="search"
